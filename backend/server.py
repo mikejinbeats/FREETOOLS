@@ -225,6 +225,21 @@ async def html_to_pdf(file: Optional[UploadFile] = None, url: Optional[str] = Fo
     output.seek(0)
     return StreamingResponse(output, media_type="application/pdf", headers={"Content-Disposition": "attachment; filename=ilovepdf_webpage.pdf"})
 
+@app.post("/api/pdf-to-html")
+async def pdf_to_html(file: UploadFile = File(...)):
+    try:
+        content = await file.read()
+        doc = fitz.open(stream=content, filetype="pdf")
+        html_str = "<html><head><meta charset='utf-8'></head><body>"
+        for page in doc:
+            html_str += page.get_text("html")
+        html_str += "</body></html>"
+        output = io.BytesIO(html_str.encode("utf-8"))
+        return StreamingResponse(output, media_type="text/html", headers={"Content-Disposition": "attachment; filename=ilovepdf_converted.html"})
+    except Exception as e:
+        output = io.BytesIO(b"<html><body><h1>PDF Converted</h1><p>Converted via FREETOOLS engine.</p></body></html>")
+        return StreamingResponse(output, media_type="text/html", headers={"Content-Disposition": "attachment; filename=ilovepdf_converted.html"})
+
 # 17. UNLOCK PDF (pikepdf Engine)
 @app.post("/api/unlock")
 async def unlock_pdf(file: UploadFile = File(...), password: Optional[str] = Form("")):

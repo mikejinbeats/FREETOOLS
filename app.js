@@ -242,6 +242,34 @@ const TOOLS_DB = {
         accept: 'image/png',
         endpoint: '/api/image/png-to-svg'
     },
+    'jpg-to-svg': {
+        title: 'JPG to SVG',
+        subtitle: 'Vectorize JPG photos into scalable SVG vector graphics.',
+        multiple: true,
+        accept: 'image/jpeg,image/jpg',
+        endpoint: '/api/image/png-to-svg'
+    },
+    'jpg_to_svg': {
+        title: 'JPG to SVG',
+        subtitle: 'Vectorize JPG photos into scalable SVG vector graphics.',
+        multiple: true,
+        accept: 'image/jpeg,image/jpg',
+        endpoint: '/api/image/png-to-svg'
+    },
+    'webp-to-svg': {
+        title: 'WEBP to SVG',
+        subtitle: 'Vectorize WEBP images into scalable SVG vector graphics.',
+        multiple: true,
+        accept: 'image/webp',
+        endpoint: '/api/image/png-to-svg'
+    },
+    'webp_to_svg': {
+        title: 'WEBP to SVG',
+        subtitle: 'Vectorize WEBP images into scalable SVG vector graphics.',
+        multiple: true,
+        accept: 'image/webp',
+        endpoint: '/api/image/png-to-svg'
+    },
     'heic-to-jpg': {
         title: 'HEIC to JPG',
         subtitle: 'Convert Apple iPhone HEIC/HEIF photos to universal JPG.',
@@ -520,6 +548,10 @@ const TOOLS_DB = {
     'split-pdf': { title: 'Split PDF file', subtitle: 'Separate one page or a whole set for easy conversion into independent PDF files.', btnText: 'Select PDF file', dropText: 'or drop PDF here', actionBtnText: 'Split PDF', multiple: false, accept: '.pdf' },
     'compress_pdf': { title: 'Compress PDF file', subtitle: 'Reduce file size while optimizing for maximal PDF quality.', btnText: 'Select PDF file', dropText: 'or drop PDF here', actionBtnText: 'Compress PDF', multiple: false, accept: '.pdf' },
     'compress-pdf': { title: 'Compress PDF file', subtitle: 'Reduce file size while optimizing for maximal PDF quality.', btnText: 'Select PDF file', dropText: 'or drop PDF here', actionBtnText: 'Compress PDF', multiple: false, accept: '.pdf' },
+    'pdf-to-html': { title: 'Convert PDF to HTML', subtitle: 'Convert PDF document pages into clean, web-ready HTML code.', btnText: 'Select PDF file', dropText: 'or drop PDF here', actionBtnText: 'Convert to HTML', multiple: false, accept: '.pdf', endpoint: '/api/pdf-to-html' },
+    'pdf_to_html': { title: 'Convert PDF to HTML', subtitle: 'Convert PDF document pages into clean, web-ready HTML code.', btnText: 'Select PDF file', dropText: 'or drop PDF here', actionBtnText: 'Convert to HTML', multiple: false, accept: '.pdf', endpoint: '/api/pdf-to-html' },
+    'gif-to-webm': { title: 'Convert GIF to WEBM', subtitle: 'Convert animated GIF files into high compression WEBM video.', btnText: 'Select GIF files', dropText: 'or drop GIF files here', actionBtnText: 'Convert to WEBM', multiple: true, accept: 'image/gif,.gif', endpoint: '/api/gif/gif-to-mp4' },
+    'gif_to_webm': { title: 'Convert GIF to WEBM', subtitle: 'Convert animated GIF files into high compression WEBM video.', btnText: 'Select GIF files', dropText: 'or drop GIF files here', actionBtnText: 'Convert to WEBM', multiple: true, accept: 'image/gif,.gif', endpoint: '/api/gif/gif-to-mp4' },
     'pdf_to_word': { title: 'Convert PDF to WORD', subtitle: 'Easily convert your PDF files into easy to edit DOC and DOCX documents.', btnText: 'Select PDF file', dropText: 'or drop PDF here', actionBtnText: 'Convert to WORD', multiple: false, accept: '.pdf' },
     'pdf-to-word': { title: 'Convert PDF to WORD', subtitle: 'Easily convert your PDF files into easy to edit DOC and DOCX documents.', btnText: 'Select PDF file', dropText: 'or drop PDF here', actionBtnText: 'Convert to WORD', multiple: false, accept: '.pdf' },
     'pdf_to_powerpoint': { title: 'Convert PDF to POWERPOINT', subtitle: 'Turn your PDF files into easy to edit PPT and PPTX slideshows.', btnText: 'Select PDF file', dropText: 'or drop PDF here', actionBtnText: 'Convert to POWERPOINT', multiple: false, accept: '.pdf' },
@@ -608,6 +640,7 @@ document.addEventListener('DOMContentLoaded', () => {
 function initCategoryFilter() {
     const filterTags = document.querySelectorAll('.tools__filter .tag');
     const toolItems = document.querySelectorAll('.tools__item');
+    const sections = document.querySelectorAll('.category-section');
 
     filterTags.forEach(tag => {
         tag.addEventListener('click', () => {
@@ -616,9 +649,20 @@ function initCategoryFilter() {
 
             const filter = tag.getAttribute('data-filter');
 
+            // Show section ONLY if filter is 'all' or section-id matches filter
+            sections.forEach(sec => {
+                const secId = sec.getAttribute('data-section-id');
+                if (filter === 'all' || secId === filter) {
+                    sec.style.display = 'block';
+                } else {
+                    sec.style.display = 'none';
+                }
+            });
+
+            // Ensure items inside visible sections are shown
             toolItems.forEach(item => {
-                const category = item.getAttribute('data-category');
-                if (filter === 'all' || category === filter || (filter === 'workflows' && (category === 'organize' || category === 'convert'))) {
+                const sec = item.closest('.category-section');
+                if (sec && sec.style.display !== 'none') {
                     item.classList.remove('hidden-card');
                 } else {
                     item.classList.add('hidden-card');
@@ -636,6 +680,7 @@ function initSearchFilter() {
     searchInput.addEventListener('input', (e) => {
         const query = e.target.value.toLowerCase().trim();
         const toolItems = document.querySelectorAll('.tools__item');
+        const sections = document.querySelectorAll('.category-section');
 
         toolItems.forEach(item => {
             const text = item.textContent.toLowerCase();
@@ -643,6 +688,15 @@ function initSearchFilter() {
                 item.classList.remove('hidden-card');
             } else {
                 item.classList.add('hidden-card');
+            }
+        });
+
+        sections.forEach(sec => {
+            const visibleCards = sec.querySelectorAll('.tools__item:not(.hidden-card)');
+            if (visibleCards.length > 0) {
+                sec.style.display = 'block';
+            } else {
+                sec.style.display = 'none';
             }
         });
     });
@@ -1982,3 +2036,47 @@ function initQrCodeBuilderLogic() {
     // Initial Render
     renderQR();
 }
+
+// Nav Dropdown & Mobile Hamburger Toggle Logic
+document.addEventListener('DOMContentLoaded', () => {
+    // Close dropdowns on outside click
+    document.addEventListener('click', (e) => {
+        const isNavClick = e.target.closest('.nav-has-dropdown') || e.target.closest('.menu--sm');
+        if (!isNavClick) {
+            document.querySelectorAll('.nav-has-dropdown.active').forEach(el => el.classList.remove('active'));
+        }
+    });
+
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+            document.querySelectorAll('.nav-has-dropdown.active').forEach(el => el.classList.remove('active'));
+        }
+    });
+
+    // Mobile Hamburger button toggle
+    const hamburger = document.querySelector('.menu--sm');
+    if (hamburger) {
+        hamburger.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const mainNav = document.querySelector('.menu__main');
+            if (mainNav) {
+                mainNav.classList.toggle('active');
+            }
+        });
+    }
+
+    // Toggle dropdown on click/tap for touch users
+    document.querySelectorAll('.nav-has-dropdown > span').forEach(span => {
+        span.addEventListener('click', (e) => {
+            const parent = span.closest('.nav-has-dropdown');
+            if (parent) {
+                const isActive = parent.classList.contains('active');
+                document.querySelectorAll('.nav-has-dropdown.active').forEach(el => el.classList.remove('active'));
+                if (!isActive) {
+                    parent.classList.add('active');
+                }
+            }
+        });
+    });
+});
+
