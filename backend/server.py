@@ -1439,3 +1439,109 @@ async def api_translate_document(
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=5000)
+
+
+# ============================================================
+# PHASE 2 - MEDIA DOWNLOADERS & SCREENSHOT ENDPOINTS
+# ============================================================
+
+# 32. TWITTER / X DOWNLOADER
+@app.post("/api/twitter-download")
+async def twitter_download(url: str = Form(...)):
+    if not url: raise HTTPException(status_code=400, detail="URL is required")
+    try:
+        import subprocess, json
+        cmd = ["yt-dlp", "-j", "--no-warnings", url]
+        res = subprocess.run(cmd, capture_output=True, text=True, timeout=30)
+        if res.returncode == 0 and res.stdout:
+            data = json.loads(res.stdout)
+            video_url = data.get("url") or (data.get("formats")[-1]["url"] if data.get("formats") else None)
+            title = data.get("title", "twitter_video")
+            return {"status": "success", "title": title, "download_url": video_url, "thumbnail": data.get("thumbnail")}
+    except Exception as e:
+        pass
+    
+    # Fallback to gallery-dl for Twitter images/gifs
+    try:
+        cmd2 = ["gallery-dl", "-j", url]
+        res2 = subprocess.run(cmd2, capture_output=True, text=True, timeout=30)
+        if res2.returncode == 0 and res2.stdout:
+            import json
+            items = json.loads(res2.stdout)
+            media_urls = [item[2] for item in items if len(item) > 2 and isinstance(item[2], str)]
+            if media_urls:
+                return {"status": "success", "title": "Twitter Media", "download_url": media_urls[0], "media_urls": media_urls}
+    except Exception as e:
+        pass
+        
+    raise HTTPException(status_code=500, detail="Could not extract Twitter/X media from URL")
+
+# 33. FACEBOOK VIDEO DOWNLOADER
+@app.post("/api/facebook-download")
+async def facebook_download(url: str = Form(...)):
+    if not url: raise HTTPException(status_code=400, detail="URL is required")
+    try:
+        import subprocess, json
+        cmd = ["yt-dlp", "-j", "--no-warnings", url]
+        res = subprocess.run(cmd, capture_output=True, text=True, timeout=30)
+        if res.returncode == 0 and res.stdout:
+            data = json.loads(res.stdout)
+            video_url = data.get("url") or (data.get("formats")[-1]["url"] if data.get("formats") else None)
+            title = data.get("title", "facebook_video")
+            return {"status": "success", "title": title, "download_url": video_url, "thumbnail": data.get("thumbnail")}
+    except Exception as e:
+        pass
+    raise HTTPException(status_code=500, detail="Could not extract Facebook video from URL")
+
+# 34. PINTEREST DOWNLOADER
+@app.post("/api/pinterest-download")
+async def pinterest_download(url: str = Form(...)):
+    if not url: raise HTTPException(status_code=400, detail="URL is required")
+    try:
+        import subprocess, json
+        cmd = ["gallery-dl", "-j", url]
+        res = subprocess.run(cmd, capture_output=True, text=True, timeout=30)
+        if res.returncode == 0 and res.stdout:
+            items = json.loads(res.stdout)
+            media_urls = [item[2] for item in items if len(item) > 2 and isinstance(item[2], str)]
+            if media_urls:
+                return {"status": "success", "title": "Pinterest Media", "download_url": media_urls[0], "media_urls": media_urls}
+    except Exception as e:
+        pass
+    
+    # Fallback to yt-dlp
+    try:
+        cmd2 = ["yt-dlp", "-j", "--no-warnings", url]
+        res2 = subprocess.run(cmd2, capture_output=True, text=True, timeout=30)
+        if res2.returncode == 0 and res2.stdout:
+            data = json.loads(res2.stdout)
+            video_url = data.get("url") or (data.get("formats")[-1]["url"] if data.get("formats") else None)
+            return {"status": "success", "title": data.get("title", "pinterest_pin"), "download_url": video_url}
+    except Exception as e:
+        pass
+        
+    raise HTTPException(status_code=500, detail="Could not extract Pinterest media from URL")
+
+# 35. SCREENSHOT WEBSITE
+@app.post("/api/screenshot")
+async def screenshot_website(url: str = Form(...)):
+    if not url: raise HTTPException(status_code=400, detail="URL is required")
+    if not url.startswith(("http://", "https://")):
+        url = "https://" + url
+    
+    try:
+        from playwright.async_api import async_playwright
+        async with async_playwright() as p:
+            browser = await p.chromium.launch(headless=True)
+            page = await browser.new_page(viewport={"width": 1280, "height": 800})
+            await page.goto(url, wait_until="networkidle", timeout=20000)
+            screenshot_bytes = await page.screenshot(full_page=True)
+            await browser.close()
+            
+            return StreamingResponse(
+                io.BytesIO(screenshot_bytes),
+                media_type="image/png",
+                headers={"Content-Disposition": "attachment; filename=website_screenshot.png"}
+            )
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Screenshot failed: {str(e)}")
