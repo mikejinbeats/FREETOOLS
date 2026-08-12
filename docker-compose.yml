@@ -1,0 +1,52 @@
+version: '3.8'
+
+services:
+  # 1. Stirling-PDF (All-in-one PDF Tools Engine)
+  stirling-pdf:
+    image: frooodle/s-pdf:latest
+    container_name: stirling-pdf
+    ports:
+      - "8080:8080"
+    environment:
+      - DOCKER_ENABLE_SECURITY=false
+      - SYSTEM_DEFAULT_LOCALE=en-US
+    volumes:
+      - ./backend/stirling/trainingData:/usr/share/tessdata
+      - ./backend/stirling/extraConfigs:/configs
+    restart: unless-stopped
+
+  # 2. Gotenberg (Office, HTML, Markdown to PDF Engine)
+  gotenberg:
+    image: gotenberg/gotenberg:8
+    container_name: gotenberg
+    ports:
+      - "3000:3000"
+    command:
+      - "gotenberg"
+      - "--chromium-disable-javascript=false"
+    restart: unless-stopped
+
+  # 3. Redis (Queue & Caching for Async Tasks)
+  redis:
+    image: redis:alpine
+    container_name: pdf-redis
+    ports:
+      - "6379:6379"
+    restart: unless-stopped
+
+  # 4. Python FastAPI API Proxy (Connects Frontend UI to Engine Containers)
+  api-backend:
+    build:
+      context: ./backend
+    container_name: pdf-api-backend
+    ports:
+      - "5000:5000"
+    environment:
+      - STIRLING_URL=http://stirling-pdf:8080
+      - GOTENBERG_URL=http://gotenberg:3000
+      - REDIS_URL=redis://redis:6379
+    depends_on:
+      - stirling-pdf
+      - gotenberg
+      - redis
+    restart: unless-stopped
