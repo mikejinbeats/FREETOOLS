@@ -225,18 +225,34 @@ async def html_to_pdf(file: Optional[UploadFile] = None, url: Optional[str] = Fo
     output.seek(0)
     return StreamingResponse(output, media_type="application/pdf", headers={"Content-Disposition": "attachment; filename=ilovepdf_webpage.pdf"})
 
-# 17. UNLOCK PDF
+# 17. UNLOCK PDF (pikepdf Engine)
 @app.post("/api/unlock")
 async def unlock_pdf(file: UploadFile = File(...), password: Optional[str] = Form("")):
-    content = await file.read()
-    reader = pypdf.PdfReader(io.BytesIO(content))
-    if reader.is_encrypted: reader.decrypt(password or "")
-    writer = pypdf.PdfWriter()
-    for page in reader.pages: writer.add_page(page)
-    output = io.BytesIO()
-    writer.write(output)
-    output.seek(0)
-    return StreamingResponse(output, media_type="application/pdf", headers={"Content-Disposition": "attachment; filename=ilovepdf_unlocked.pdf"})
+    try:
+        content = await file.read()
+        try:
+            import pikepdf
+            # pikepdf opens encrypted files and removes permission/user passwords
+            pdf = pikepdf.open(io.BytesIO(content), password=password or "")
+            out_buf = io.BytesIO()
+            pdf.save(out_buf)
+            out_buf.seek(0)
+            return StreamingResponse(out_buf, media_type="application/pdf", headers={"Content-Disposition": "attachment; filename=unlocked.pdf"})
+        except Exception:
+            reader = pypdf.PdfReader(io.BytesIO(content))
+            if reader.is_encrypted:
+                try:
+                    reader.decrypt(password or "")
+                except Exception:
+                    pass
+            writer = pypdf.PdfWriter()
+            for page in reader.pages: writer.add_page(page)
+            output = io.BytesIO()
+            writer.write(output)
+            output.seek(0)
+            return StreamingResponse(output, media_type="application/pdf", headers={"Content-Disposition": "attachment; filename=unlocked.pdf"})
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Unlock PDF error: {str(e)}")
 
 # 18. PROTECT PDF
 @app.post("/api/protect")

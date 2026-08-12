@@ -590,6 +590,22 @@ function initSearchFilter() {
 
 // Navigation & Routing Setup
 function initLinksAndRouting() {
+    // Header Dropdown Toggle (.nav-has-dropdown 9-dots & All PDF tools)
+    const dropdownTriggers = document.querySelectorAll('.nav-has-dropdown');
+    dropdownTriggers.forEach(dropdown => {
+        dropdown.addEventListener('click', (e) => {
+            if (e.target.closest('a')) return;
+            e.stopPropagation();
+            const isActive = dropdown.classList.contains('active');
+            dropdownTriggers.forEach(d => d.classList.remove('active'));
+            if (!isActive) dropdown.classList.add('active');
+        });
+    });
+
+    document.addEventListener('click', () => {
+        dropdownTriggers.forEach(d => d.classList.remove('active'));
+    });
+
     // Intercept clicks on links that point to ilovepdf tools or internal routes
     document.addEventListener('click', (e) => {
         const link = e.target.closest('a');

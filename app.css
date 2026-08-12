@@ -588,3 +588,91 @@ body.toolpage-active .footer-main {
 .yt-quality-select:focus {
     border-color: #e5322d;
 }
+
+/* Header Dropdown Menus (All PDF Tools & 9-Dots Company Menu) */
+.nav-has-dropdown {
+    position: relative;
+    cursor: pointer;
+}
+
+.nav-has-dropdown .nav-dropdown {
+    display: none !important;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18);
+    border: 1px solid #e2e2e8;
+    z-index: 99999;
+    padding: 24px;
+    min-width: 320px;
+}
+
+.nav-has-dropdown:hover .nav-dropdown,
+.nav-has-dropdown.active .nav-dropdown {
+    display: block !important;
+}
+
+.nav-dropdown--company {
+    right: 0;
+    left: auto;
+    width: 360px;
+}
+
+.nav-dropdown--full {
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    right: auto !important;
+    width: 90vw !important;
+    max-width: 1100px !important;
+}
+
+.menu-comp {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-comp li {
+    margin-bottom: 10px;
+}
+
+.menu-comp a, .navbar__item a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    color: #33333b;
+    font-weight: 500;
+    padding: 10px 14px;
+    border-radius: 10px;
+    transition: background 0.2s ease;
+}
+
+.menu-comp a:hover, .navbar__item a:hover {
+    background: #f4f4f7;
+    color: #e5322d;
+}
+
+.navbar__item__title {
+    font-size: 15px;
+    font-weight: 700;
+    color: #161616;
+}
+
+.navbar__item__description {
+    font-size: 13px;
+    color: #707078;
+}
+
+/* Buy Me A Coffee Header Button Hover */
+.bmc-header-btn {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.bmc-header-btn img:hover {
+    transform: scale(1.05);
+}
