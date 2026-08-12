@@ -589,7 +589,7 @@ body.toolpage-active .footer-main {
     border-color: #e5322d;
 }
 
-/* Header Dropdown Menus (All PDF Tools & 9-Dots Company Menu) */
+/* Header Dropdown Menus - Bulletproof Viewport Bounds Protection */
 .nav-has-dropdown {
     position: relative;
     cursor: pointer;
@@ -597,16 +597,22 @@ body.toolpage-active .footer-main {
 
 .nav-has-dropdown .nav-dropdown {
     display: none !important;
-    position: absolute;
-    top: 100%;
-    right: 0;
-    background: #ffffff;
-    border-radius: 16px;
-    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18);
-    border: 1px solid #e2e2e8;
-    z-index: 99999;
-    padding: 24px;
-    min-width: 320px;
+    position: fixed !important;
+    top: 60px !important;
+    left: 20px !important;
+    right: 20px !important;
+    width: auto !important;
+    max-width: 1140px !important;
+    margin: 0 auto !important;
+    background: #ffffff !important;
+    border-radius: 16px !important;
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.22) !important;
+    border: 1px solid #e2e2e8 !important;
+    z-index: 999999 !important;
+    padding: 24px 28px !important;
+    max-height: calc(90vh - 60px) !important;
+    overflow-y: auto !important;
+    box-sizing: border-box !important;
 }
 
 .nav-has-dropdown:hover .nav-dropdown,
@@ -614,45 +620,75 @@ body.toolpage-active .footer-main {
     display: block !important;
 }
 
-.nav-dropdown--company {
-    right: 0;
-    left: auto;
-    width: 360px;
+.nav-dropdown > ul {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 24px !important;
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
-.nav-dropdown--full {
-    left: 50% !important;
-    transform: translateX(-50%) !important;
-    right: auto !important;
-    width: 90vw !important;
-    max-width: 1100px !important;
+.nav-dropdown--full > ul {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) !important;
+    gap: 20px 24px !important;
+    width: 100% !important;
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
-.menu-comp {
+.nav-dropdown ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.menu-comp li {
-    margin-bottom: 10px;
+.nav-dropdown li {
+    margin: 0;
 }
 
-.menu-comp a, .navbar__item a {
+.nav-dropdown .nav__title {
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: #e5322d;
+    margin-bottom: 10px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #fce8e6;
+}
+
+.nav-dropdown a {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 8px;
     text-decoration: none;
-    color: #33333b;
-    font-weight: 500;
-    padding: 10px 14px;
-    border-radius: 10px;
-    transition: background 0.2s ease;
+    color: #2c2c34;
+    font-weight: 600;
+    font-size: 13.5px;
+    padding: 6px 10px;
+    border-radius: 8px;
+    transition: all 0.18s ease;
+    white-space: nowrap;
 }
 
-.menu-comp a:hover, .navbar__item a:hover {
-    background: #f4f4f7;
+.nav-dropdown a:hover {
+    background: #fdeaea;
     color: #e5322d;
+    transform: translateX(3px);
+}
+
+.nav-svg-icon {
+    flex-shrink: 0;
+    width: 18px;
+    height: 18px;
+    transition: transform 0.18s ease;
+}
+
+.nav-dropdown a:hover .nav-svg-icon {
+    transform: scale(1.15);
 }
 
 .navbar__item__title {
@@ -675,4 +711,76 @@ body.toolpage-active .footer-main {
 
 .bmc-header-btn img:hover {
     transform: scale(1.05);
+}
+
+/* --- Uniform Main Page Tool Cards CSS Fix --- */
+.tools__container {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)) !important;
+    gap: 28px 24px !important;
+    max-width: 1200px !important;
+    margin: 30px auto !important;
+    padding: 0 16px !important;
+}
+
+.tools__item {
+    background: #ffffff !important;
+    border-radius: 16px !important;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05) !important;
+    border: 1px solid #e8e8ee !important;
+    padding: 24px 20px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+    min-height: 220px !important;
+    box-sizing: border-box !important;
+    position: relative !important;
+    overflow: hidden !important;
+    transition: all 0.25s ease !important;
+}
+
+.tools__item:hover {
+    transform: translateY(-4px) !important;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12) !important;
+    border-color: #e5322d !important;
+}
+
+.tools__item a {
+    display: flex !important;
+    flex-direction: column !important;
+    height: 100% !important;
+    text-decoration: none !important;
+    color: inherit !important;
+    box-sizing: border-box !important;
+}
+
+.tools__item__icon {
+    margin-bottom: 14px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    height: 48px !important;
+}
+
+.tools__item h3 {
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    color: #161616 !important;
+    margin: 0 0 8px 0 !important;
+    line-height: 1.3 !important;
+}
+
+.tools__item__content {
+    flex-grow: 1 !important;
+}
+
+.tools__item__content p {
+    font-size: 13.5px !important;
+    color: #606068 !important;
+    margin: 0 !important;
+    line-height: 1.45 !important;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 3 !important;
+    -webkit-box-orient: vertical !important;
+    overflow: hidden !important;
 }
