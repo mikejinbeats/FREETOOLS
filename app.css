@@ -1162,6 +1162,42 @@ body.toolpage-active .footer-main {
     right: 0 !important;
 }
 
+/* Obliterate Google Translate Top Banner iframe & Margin Offset */
+.goog-te-banner-frame,
+iframe.goog-te-banner-frame,
+.goog-te-banner-frame.skiptranslate,
+iframe.skiptranslate,
+.VIpgJd-yA165e-VIpgJd-m52k8e-haAclf,
+div.VIpgJd-yA165e-VIpgJd-m52k8e-haAclf {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    height: 0 !important;
+    width: 0 !important;
+    position: absolute !important;
+    top: -9999px !important;
+    left: -9999px !important;
+    pointer-events: none !important;
+}
+
+body {
+    top: 0px !important;
+    position: static !important;
+}
+
+.goog-te-gadget-icon,
+.goog-te-gadget-simple,
+#goog-gt-tt,
+.goog-te-balloon-frame,
+#goog-gt-vt {
+    display: none !important;
+}
+
+.goog-text-highlight {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
 /* ============================================================
    HERO SEARCH BAR STYLING (POSITIONED BETWEEN SUBTITLE & FILTERS)
    ============================================================ */

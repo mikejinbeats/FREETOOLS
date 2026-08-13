@@ -545,6 +545,8 @@ const TOOLS_DB = {
     'resize_image': { title: 'Resize Image', subtitle: 'Resize JPG, PNG, and WEBP images by defining dimensions or percentages.', btnText: 'Select Images', dropText: 'or drop images here', actionBtnText: 'Resize Image', multiple: true, accept: 'image/*', isImage: true, isResize: true },
 
     // 1. PDF Tools (Supporting both hyphen and underscore IDs)
+    'remove-pages': { title: 'Remove PDF Pages', subtitle: 'Remove unwanted pages from your PDF document.', btnText: 'Select PDF file', dropText: 'or drop PDF here', actionBtnText: 'Remove Pages', multiple: false, accept: '.PDF' },
+    'remove_pages': { title: 'Remove PDF Pages', subtitle: 'Remove unwanted pages from your PDF document.', btnText: 'Select PDF file', dropText: 'or drop PDF here', actionBtnText: 'Remove Pages', multiple: false, accept: '.PDF' },
     'merge_pdf': { title: 'Merge PDF files', subtitle: 'Combine PDFs in the order you want with the easiest PDF merger available.', btnText: 'Select PDF files', dropText: 'or drop PDFs here', actionBtnText: 'Merge PDF', multiple: true, accept: '.PDF' },
     'merge-PDF': { title: 'Merge PDF files', subtitle: 'Combine PDFs in the order you want with the easiest PDF merger available.', btnText: 'Select PDF files', dropText: 'or drop PDFs here', actionBtnText: 'Merge PDF', multiple: true, accept: '.PDF' },
     'split_pdf': { title: 'Split PDF file', subtitle: 'Separate one page or a whole set for easy conversion into independent PDF files.', btnText: 'Select PDF file', dropText: 'or drop PDF here', actionBtnText: 'Split PDF', multiple: false, accept: '.PDF' },
@@ -6175,6 +6177,52 @@ function initSearchFilter() {
     });
 }
 
+function resolveToolId(raw) {
+    if (!raw) return null;
+    const clean = raw.replace('#', '').split('#')[0].trim();
+    if (TOOLS_DB[clean]) return clean;
+
+    const aliasMap = {
+        'youtube-to-mp4': 'youtube_downloader',
+        'youtube_to_mp4': 'youtube_downloader',
+        'youtube-to-mp3': 'youtube_to_mp3',
+        'soundcloud-to-mp3': 'soundcloud_to_mp3',
+        'spotify-to-mp3': 'spotify_downloader',
+        'spotify-downloader': 'spotify_downloader',
+        'convert-pdf-to-pdfa': 'pdf_to_pdfa',
+        'edit-pdf': 'edit_pdf',
+        'html-to-pdf': 'html_to_pdf',
+        'ocr-pdf': 'ocr_pdf',
+        'organize-pdf': 'organize_pdf',
+        'pdf-summarize': 'pdf_summarizer',
+        'pdf_summarize': 'pdf_summarizer',
+        'protect-pdf': 'protect_pdf',
+        'remove-pages': 'remove_pdf_pages',
+        'remove_pages': 'remove_pdf_pages',
+        'repair-pdf': 'repair_pdf',
+        'scan-pdf': 'scan_to_pdf'
+    };
+
+    if (aliasMap[clean] && TOOLS_DB[aliasMap[clean]]) {
+        return aliasMap[clean];
+    }
+
+    const alt1 = clean.replace(/-/g, '_');
+    if (TOOLS_DB[alt1]) return alt1;
+
+    const alt2 = clean.replace(/_/g, '-');
+    if (TOOLS_DB[alt2]) return alt2;
+
+    const lower = clean.toLowerCase();
+    for (const key in TOOLS_DB) {
+        if (key.toLowerCase() === lower || key.toLowerCase() === alt1.toLowerCase() || key.toLowerCase() === alt2.toLowerCase()) {
+            return key;
+        }
+    }
+
+    return null;
+}
+
 // Navigation & Routing Setup
 function initLinksAndRouting() {
     // Header Dropdown Toggle (.nav-has-dropdown 9-dots & All PDF tools)
@@ -6217,35 +6265,35 @@ function initLinksAndRouting() {
             }
 
             const legalTypes = ['privacy-policy', 'terms-of-service', 'dmca-disclaimer', 'contact-us'];
+
             if (legalTypes.includes(cleanHref)) {
                 e.preventDefault();
                 openLegalView(cleanHref);
                 return;
             }
 
-            // Check matching tools
-            for (const toolId in TOOLS_DB) {
-                const alt1 = toolId.replace(/_/g, '-');
-                const alt2 = toolId.replace(/-/g, '_');
-                if (cleanHref === toolId || cleanHref === alt1 || cleanHref === alt2 || href.includes(toolId) || href.includes(alt1) || href.includes(alt2)) {
-                    e.preventDefault();
-                    openToolView(toolId);
-                    return;
-                }
+            // Check matching tools via resolveToolId
+            const resolved = resolveToolId(cleanHref);
+            if (resolved) {
+                e.preventDefault();
+                openToolView(resolved);
+                return;
             }
         }
     });
 
     // Listen for browser hash changes
     window.addEventListener('hashchange', () => {
-        const hash = window.location.hash.replace('#', '');
+        const hash = window.location.hash.replace('#', '').trim();
         const legalTypes = ['privacy-policy', 'terms-of-service', 'dmca-disclaimer', 'contact-us'];
+        const resolved = resolveToolId(hash);
+
         if (hash === 'blog') {
             openBlogView();
         } else if (legalTypes.includes(hash)) {
             openLegalView(hash);
-        } else if (hash && TOOLS_DB[hash]) {
-            openToolView(hash);
+        } else if (resolved) {
+            openToolView(resolved);
         } else if (!hash) {
             showHomePage();
         }
@@ -6255,15 +6303,17 @@ function initLinksAndRouting() {
     const pageTool = document.body.getAttribute('data-tool');
     const hash = window.location.hash.replace('#', '').trim();
     const legalTypes = ['privacy-policy', 'terms-of-service', 'dmca-disclaimer', 'contact-us'];
+    const resolvedHash = resolveToolId(hash);
+    const resolvedPage = resolveToolId(pageTool);
 
     if (hash === 'blog') {
         openBlogView();
     } else if (legalTypes.includes(hash)) {
         openLegalView(hash);
-    } else if (pageTool && TOOLS_DB[pageTool]) {
-        openToolView(pageTool);
-    } else if (hash && TOOLS_DB[hash]) {
-        openToolView(hash);
+    } else if (resolvedPage) {
+        openToolView(resolvedPage);
+    } else if (resolvedHash) {
+        openToolView(resolvedHash);
     } else {
         showHomePage();
     }
@@ -6799,6 +6849,49 @@ const UI_TRANSLATIONS = {
     }
 };
 
+function triggerGoogleTranslate(langCode) {
+    const gtMap = {
+        'zh': 'zh-CN',
+        'en': 'en',
+        'es': 'es',
+        'fr': 'fr',
+        'ar': 'ar',
+        'pt': 'pt',
+        'ru': 'ru',
+        'id': 'id',
+        'de': 'de',
+        'it': 'it',
+        'vi': 'vi',
+        'ja': 'ja',
+        'ko': 'ko'
+    };
+    const target = gtMap[langCode] || langCode;
+    const gtCombo = document.querySelector('.goog-te-combo');
+    if (gtCombo) {
+        gtCombo.value = target;
+        gtCombo.dispatchEvent(new Event('change'));
+    }
+}
+
+// MutationObserver to permanently block Google Translate top banner iframe and body margin shifting
+if (typeof window !== 'undefined' && window.MutationObserver) {
+    const observer = new MutationObserver(() => {
+        if (document.body && document.body.style.top !== '0px' && document.body.style.top !== '') {
+            document.body.style.top = '0px';
+        }
+        const frames = document.querySelectorAll('iframe.skiptranslate, .goog-te-banner-frame, .VIpgJd-yA165e-VIpgJd-m52k8e-haAclf');
+        frames.forEach(f => {
+            f.style.display = 'none';
+            f.style.visibility = 'hidden';
+        });
+    });
+    document.addEventListener('DOMContentLoaded', () => {
+        if (document.body) {
+            observer.observe(document.body, { attributes: true, attributeFilter: ['style'] });
+        }
+    });
+}
+
 function selectLanguage(code) {
     const langCode = (code || 'en').toLowerCase();
 
@@ -6813,6 +6906,9 @@ function selectLanguage(code) {
 
     // Apply fast native UI translation
     applyUITranslation(langCode);
+
+    // Trigger Google Translate engine
+    triggerGoogleTranslate(langCode);
 }
 window.selectLanguage = selectLanguage;
 
@@ -7101,9 +7197,11 @@ function showHomePage() {
 }
 
 // Open Specific Tool View Page (Matching Screenshot 1)
-function openToolView(toolId) {
+function openToolView(rawToolId) {
+    const toolId = resolveToolId(rawToolId);
+    if (!toolId || !TOOLS_DB[toolId]) return;
+
     const toolConfig = TOOLS_DB[toolId];
-    if (!toolConfig) return;
 
     currentState.activeTool = toolId;
     currentState.files = [];
