@@ -191,9 +191,9 @@
         <div class="menu">
             <span class="menu--sm"><i class="ico ico--hamburger"></i></span>
             <ul class="menu__main">
-                <!-- Menu 1: PDF Tools -->
+                <!-- Menu 1: PDF & DOCs -->
                 <li class="nav-has-dropdown">
-                    <span>PDF Tools <i class="ico ico--down"></i></span>
+                    <span>PDF & DOCs <i class="ico ico--down"></i></span>
                     <div class="nav-dropdown nav-dropdown--full">
                         <ul>
                             <li>
@@ -250,6 +250,15 @@
                                     <li><a href="#protect-pdf"><svg class="nav-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#E5322D" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>Protect PDF</a></li>
                                     <li><a href="#unlock_pdf"><svg class="nav-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#E5322D" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 9.9-1"/></svg>Unlock PDF</a></li>
                                     <li><a href="#pdf-summarize"><svg class="nav-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#E5322D" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>AI Summarizer</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li><div class="nav__title" style="color: #E5322D;">Documents & Ebooks</div></li>
+                                    <li><a href="#document-converter"><svg class="nav-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#E5322D" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>Document Converter</a></li>
+                                    <li><a href="#ebook-converter"><svg class="nav-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#E5322D" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>Ebook Converter</a></li>
+                                    <li><a href="#translate-document"><svg class="nav-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#E5322D" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/></svg>Translate Document</a></li>
+                                    <li><a href="#translate-word"><svg class="nav-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#E5322D" stroke-width="2"><path d="m5 8 6 6"/><path d="m4 14 6-6 2-3"/><path d="M2 5h12"/></svg>Translate Word</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -399,15 +408,6 @@
                         <ul>
                             <li>
                                 <ul>
-                                    <li><div class="nav__title" style="color: #059669;">Documents & Ebooks</div></li>
-                                    <li><a href="#document-converter"><svg class="nav-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>Document Converter</a></li>
-                                    <li><a href="#ebook-converter"><svg class="nav-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>Ebook Converter</a></li>
-                                    <li><a href="#translate-document"><svg class="nav-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/></svg>Translate Document</a></li>
-                                    <li><a href="#translate-word"><svg class="nav-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2"><path d="m5 8 6 6"/><path d="m4 14 6-6 2-3"/><path d="M2 5h12"/></svg>Translate Word</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <ul>
                                     <li><div class="nav__title" style="color: #059669;">Code Formatters</div></li>
                                     <li><a href="#json-formatter"><svg class="nav-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>JSON Formatter</a></li>
                                     <li><a href="#xml-formatter"><svg class="nav-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>XML Formatter</a></li>
@@ -445,7 +445,10 @@
                     <option value="id">🌐 Bahasa</option>
                     <option value="de">🌐 Deutsch</option>
                     <option value="it">🌐 Italiano</option>
-                    <option value="vi">🌐 Tiếng Việt</option>
+                                        <option value="vi">🌐 Tiếng Việt</option>
+                    <option value="zh">🌐 中文 (Chinese)</option>
+                    <option value="ja">🌐 日本語 (Japanese)</option>
+                    <option value="ko">🌐 한국어 (Korean)</option>
                 </select>
             </div>
         </div>
@@ -462,11 +465,10 @@
             <input type="text" id="tool-search-input" placeholder="Search 85+ tools (e.g. compress video, PDF to word, remove background, youtube)...">
         </div>
     </div>
-</div>
 <div class="tools">
     <div class="tools__filter">
         <div class="tag active" data-filter="all">All Tools</div>
-        <div class="tag" data-filter="pdf">📄 PDF Tools</div>
+        <div class="tag" data-filter="pdf">📄 PDF & DOCs</div>
         <div class="tag" data-filter="image">🖼️ Image & AI</div>
         <div class="tag" data-filter="media">🎬 Video & Audio</div>
         <div class="tag" data-filter="gif">🎞️ GIF Tools</div>
@@ -474,7 +476,7 @@
     </div>
 
     <!-- Search Results Header (Displayed only during active search) -->
-    <div id="search-results-info" style="display: none; width: 100%; margin: 12px 0 24px 0; padding: 14px 20px; background: #f8fafc; border: 1.5px solid #e2e8f0; border-radius: 12px; font-weight: 700; color: #0f172a; font-size: 15px; box-sizing: border-box;">
+    <div id="search-results-info" style="display: none; max-width: 1200px; width: calc(100% - 32px); margin: 20px auto 24px auto; padding: 14px 20px; background: #f8fafc; border: 1.5px solid #e2e8f0; border-radius: 12px; font-weight: 700; color: #0f172a; font-size: 15px; box-sizing: border-box;">
         <span id="search-results-count">🔍 Search Results (0 tools found)</span>
     </div>
 
@@ -487,12 +489,13 @@
             </div>
             <span class="category-section__badge" style="background: #FFF1F0; color: #E5322D;">Top Picked</span>
         </div>
+
         <div class="category-section__grid">
             <div class="tools__item popular-card" data-category="convert">
                 <span class="popular-tag-badge">Popular</span>
                 <a href="#pdf_to_word" title="PDF to WORD">
                     <div class="tools__item__icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#E5322D" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><path d="M8 13h8M8 17h8"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="#E5322D" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><path d="M8 13h8M8 17h8"/></svg>
                     </div>
                     <h3>PDF to WORD</h3>
                     <div class="tools__item__content">
@@ -505,7 +508,7 @@
                 <span class="popular-tag-badge">Popular</span>
                 <a href="#word_to_pdf" title="WORD to PDF">
                     <div class="tools__item__icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#E5322D" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><path d="M8 13h8M8 17h8"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="#E5322D" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><path d="M8 13h8M8 17h8"/></svg>
                     </div>
                     <h3>WORD to PDF</h3>
                     <div class="tools__item__content">
@@ -518,24 +521,76 @@
                 <span class="popular-tag-badge">Popular</span>
                 <a href="#youtube-to-mp3" title="YouTube to MP3">
                     <div class="tools__item__icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#EF4444" stroke-width="2"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="#EF4444" stroke-width="2"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
                     </div>
                     <h3>YouTube to MP3</h3>
                     <div class="tools__item__content">
-                        <p>Convert and download high bitrate 320kbps MP3 audio from any YouTube video.</p>
+                        <p>Convert and download high bitrate 320kbps MP3 audio from YouTube.</p>
                     </div>
                 </a>
             </div>
 
             <div class="tools__item popular-card" data-category="media">
                 <span class="popular-tag-badge">Popular</span>
-                <a href="#youtube-downloader" title="YouTube Downloader">
+                <a href="#youtube-to-mp4" title="YouTube to MP4">
                     <div class="tools__item__icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#EF4444" stroke-width="2"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="#EF4444" stroke-width="2"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg>
                     </div>
-                    <h3>YouTube Downloader</h3>
+                    <h3>YouTube to MP4</h3>
                     <div class="tools__item__content">
-                        <p>Download YouTube videos in MP4 HD 1080p, 4K, or extract audio tracks instantly.</p>
+                        <p>Download YouTube videos in MP4 HD 1080p and 4K quality for offline watching.</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="tools__item popular-card" data-category="organize">
+                <span class="popular-tag-badge">Popular</span>
+                <a href="#merge_pdf" title="Merge PDF">
+                    <div class="tools__item__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="#E5322D" stroke-width="2"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>
+                    </div>
+                    <h3>Merge PDF</h3>
+                    <div class="tools__item__content">
+                        <p>Combine multiple PDF files into a single organized document easily.</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="tools__item popular-card" data-category="optimize">
+                <span class="popular-tag-badge">Popular</span>
+                <a href="#compress_pdf" title="Compress PDF">
+                    <div class="tools__item__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="#E5322D" stroke-width="2"><path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"/><path d="M12 12v9"/><path d="m8 17 4 4 4-4"/></svg>
+                    </div>
+                    <h3>Compress PDF</h3>
+                    <div class="tools__item__content">
+                        <p>Reduce PDF file size significantly while retaining crisp text quality.</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="tools__item popular-card" data-category="image">
+                <span class="popular-tag-badge">Popular</span>
+                <a href="#remove-bg" title="Remove Image Background">
+                    <div class="tools__item__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                    </div>
+                    <h3>Remove Image Background</h3>
+                    <div class="tools__item__content">
+                        <p>Remove image backgrounds automatically in seconds using AI transparent output.</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="tools__item popular-card" data-category="media">
+                <span class="popular-tag-badge">Popular</span>
+                <a href="#tiktok-downloader" title="TikTok Downloader">
+                    <div class="tools__item__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg>
+                    </div>
+                    <h3>TikTok Downloader</h3>
+                    <div class="tools__item__content">
+                        <p>Download TikTok videos without watermark in HD MP4 format instantly.</p>
                     </div>
                 </a>
             </div>
@@ -546,7 +601,7 @@
     <div class="category-section" data-section-id="pdf">
         <div class="category-section__header">
             <div class="category-section__title-wrap">
-                <h2 class="category-section__title">📄 PDF Tools & Document Suite</h2>
+                <h2 class="category-section__title">📄 PDF & Document Tools</h2>
                 <p class="category-section__subtitle">Organize, compress, convert to and from PDF, edit, protect, and extract insights from documents.</p>
             </div>
             <span class="category-section__badge" style="background: #FFF1F0; color: #E5322D;">PDF Suite</span>
@@ -794,6 +849,39 @@
                     <div class="tools__item__icon"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#E5322D" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div>
                     <h3>PDF to PDF/A</h3>
                     <div class="tools__item__content"><p>Convert PDF documents to ISO-compliant PDF/A format for long-term archiving.</p></div>
+                </a>
+            </div>
+
+            <!-- 📚 Bloco: General Document & Ebook Suite -->
+            <div class="tools__item" data-category="convert">
+                <a href="#document-converter" title="Document Converter">
+                    <div class="tools__item__icon"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#E5322D" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div>
+                    <h3>Document Converter</h3>
+                    <div class="tools__item__content"><p>Convert DOCX, XLSX, PPTX, HTML, and text files to PDF.</p></div>
+                </a>
+            </div>
+
+            <div class="tools__item" data-category="convert">
+                <a href="#ebook-converter" title="Ebook Converter">
+                    <div class="tools__item__icon"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#E5322D" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></div>
+                    <h3>Ebook Converter</h3>
+                    <div class="tools__item__content"><p>Convert EPUB, MOBI, and AZW ebook formats to PDF easily.</p></div>
+                </a>
+            </div>
+
+            <div class="tools__item" data-category="convert">
+                <a href="#translate-document" title="Translate Document">
+                    <div class="tools__item__icon"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#E5322D" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/></svg></div>
+                    <h3>Translate Document</h3>
+                    <div class="tools__item__content"><p>Translate PDF, DOCX, XLSX, and text documents into 100+ languages for FREE.</p></div>
+                </a>
+            </div>
+
+            <div class="tools__item" data-category="convert">
+                <a href="#translate-word" title="Translate Word">
+                    <div class="tools__item__icon"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#E5322D" stroke-width="2"><path d="m5 8 6 6"/><path d="m4 14 6-6 2-3"/><path d="M2 5h12"/></svg></div>
+                    <h3>Translate Word</h3>
+                    <div class="tools__item__content"><p>Translate DOCX Word documents into any language while preserving formatting.</p></div>
                 </a>
             </div>
         </div>
@@ -1287,44 +1375,12 @@
     <div class="category-section" data-section-id="dev">
         <div class="category-section__header">
             <div class="category-section__title-wrap">
-                <h2 class="category-section__title">🛠️ Dev, Ebooks & Utilities</h2>
-                <p class="category-section__subtitle">Document/Ebook converters, code formatters, security generators, and web utilities.</p>
+                <h2 class="category-section__title">🛠️ Dev & Utilities</h2>
+                <p class="category-section__subtitle">Code formatters, security generators, text-to-speech, and web utilities.</p>
             </div>
             <span class="category-section__badge" style="background: #ECFDF5; color: #059669;">Dev Tools</span>
         </div>
         <div class="category-section__grid">
-            <div class="tools__item" data-category="dev">
-                <a href="#document-converter" title="Document Converter">
-                    <div class="tools__item__icon"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div>
-                    <h3>Document Converter</h3>
-                    <div class="tools__item__content"><p>Convert DOCX, XLSX, PPTX, HTML, and text files to PDF.</p></div>
-                </a>
-            </div>
-
-            <div class="tools__item" data-category="dev">
-                <a href="#ebook-converter" title="Ebook Converter">
-                    <div class="tools__item__icon"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></div>
-                    <h3>Ebook Converter</h3>
-                    <div class="tools__item__content"><p>Convert EPUB, MOBI, and AZW ebook formats to PDF easily.</p></div>
-                </a>
-            </div>
-
-            <div class="tools__item" data-category="dev">
-                <a href="#translate-document" title="Translate Document">
-                    <div class="tools__item__icon"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/></svg></div>
-                    <h3>Translate Document</h3>
-                    <div class="tools__item__content"><p>Translate PDF, DOCX, XLSX, and text documents into 100+ languages for FREE.</p></div>
-                </a>
-            </div>
-
-            <div class="tools__item" data-category="dev">
-                <a href="#translate-word" title="Translate Word">
-                    <div class="tools__item__icon"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2"><path d="m5 8 6 6"/><path d="m4 14 6-6 2-3"/><path d="M2 5h12"/></svg></div>
-                    <h3>Translate Word</h3>
-                    <div class="tools__item__content"><p>Translate DOCX Word documents into any language while preserving formatting.</p></div>
-                </a>
-            </div>
-
             <div class="tools__item" data-category="dev">
                 <a href="#json-formatter" title="JSON Formatter">
                     <div class="tools__item__icon"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
@@ -1414,6 +1470,7 @@
             </div>
         </div>
     </div>
+</div>
 </div>
 </div>
 

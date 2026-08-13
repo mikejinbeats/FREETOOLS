@@ -659,95 +659,95 @@ const TOOL_TRANSLATIONS = {
     "pt": {
         "pdf-to-word": {
             "title": "PDF para WORD",
-            "desc": "Ferramenta gratuita para PDF para word de forma rápida e simples."
+            "desc": "Converta documentos PDF em ficheiros editáveis DOC e DOCX instantaneamente mantendo todo o formato original."
         },
         "word-to-pdf": {
             "title": "WORD para PDF",
-            "desc": "Ferramenta gratuita para word para PDF de forma rápida e simples."
+            "desc": "Transforme ficheiros Microsoft Word DOC e DOCX em documentos PDF profissionais prontos para partilhar."
         },
         "youtube-to-mp3": {
             "title": "YouTube para MP3",
-            "desc": "Ferramenta gratuita para youtube para MP3 de forma rápida e simples."
+            "desc": "Converta vídeos do YouTube em ficheiros de áudio MP3 de alta fidelidade a 320kbps com som cristalino."
         },
         "youtube-downloader": {
             "title": "YouTube Descarregador",
-            "desc": "Ferramenta gratuita para youtube descarregador de forma rápida e simples."
+            "desc": "Descarregue vídeos do YouTube em MP4 Full HD 1080p, 4K ou extraia faixas de áudio instantaneamente."
         },
         "merge-pdf": {
             "title": "Juntar PDF",
-            "desc": "Ferramenta gratuita para juntar PDF de forma rápida e simples."
+            "desc": "Junte múltiplos ficheiros PDF num único documento organizado na ordem exata que preferir."
         },
         "compress-pdf": {
             "title": "Comprimir PDF",
-            "desc": "Ferramenta gratuita para comprimir PDF de forma rápida e simples."
+            "desc": "Reduza o tamanho do ficheiro PDF mantendo texto nítido e elevada qualidade de imagem para envio rápido."
         },
         "pdf-to-jpg": {
             "title": "PDF para JPG",
-            "desc": "Ferramenta gratuita para PDF para JPG de forma rápida e simples."
+            "desc": "Converta todas as páginas do seu documento PDF em imagens JPG de alta resolução com excelente nitidez."
         },
         "jpg-to-pdf": {
             "title": "JPG para PDF",
-            "desc": "Ferramenta gratuita para JPG para PDF de forma rápida e simples."
+            "desc": "Converta imagens JPG, PNG e WebP num documento PDF limpo e padronizado com margens personalizadas."
         },
         "excel-to-pdf": {
             "title": "EXCEL para PDF",
-            "desc": "Ferramenta gratuita para excel para PDF de forma rápida e simples."
+            "desc": "Converta folhas de cálculo Excel XLS e XLSX em ficheiros PDF formatados mantendo a estrutura de tabelas."
         },
         "pdf-to-excel": {
             "title": "PDF para EXCEL",
-            "desc": "Ferramenta gratuita para PDF para excel de forma rápida e simples."
+            "desc": "Extraia tabelas e dados de documentos PDF para folhas de cálculo Excel XLSX editáveis de forma simples."
         },
         "powerpoint-to-pdf": {
             "title": "POWERPOINT para PDF",
-            "desc": "Ferramenta gratuita para powerpoint para PDF de forma rápida e simples."
+            "desc": "Converta diapositivos de apresentações PowerPoint PPT e PPTX em documentos PDF universais."
         },
         "pdf-to-powerpoint": {
             "title": "PDF para POWERPOINT",
-            "desc": "Ferramenta gratuita para PDF para powerpoint de forma rápida e simples."
+            "desc": "Converta apresentações PDF em diapositivos editáveis PowerPoint PPTX para fácil edição."
         },
         "edit-pdf": {
             "title": "Editar PDF",
-            "desc": "Ferramenta gratuita para editar PDF de forma rápida e simples."
+            "desc": "Adicione texto, formas, anotações, imagens e desenhos livres diretamente nas páginas do seu PDF."
         },
         "split-pdf": {
             "title": "Dividir PDF",
-            "desc": "Ferramenta gratuita para dividir PDF de forma rápida e simples."
+            "desc": "Extraia páginas individuais ou divida PDFs grandes em documentos separados com intervalos personalizados."
         },
         "organize-pdf": {
             "title": "Organize PDF",
-            "desc": "Ferramenta gratuita para organize PDF de forma rápida e simples."
+            "desc": "Reordene, elimine, rode e reorganize páginas dentro do seu PDF com um editor visual interativo."
         },
         "remove-pages": {
             "title": "Remover Páginas de PDF",
-            "desc": "Remova páginas indesejadas do seu ficheiro PDF de forma simples."
+            "desc": "Remova páginas indesejadas ou em branco dos seus documentos PDF facilmente com um clique."
         },
         "rotate-pdf": {
             "title": "Rotate PDF",
-            "desc": "Ferramenta gratuita para rotate PDF de forma rápida e simples."
+            "desc": "Rode páginas específicas ou todas as páginas de um documento PDF em 90, 180 ou 270 graus."
         },
         "add-pdf-page-number": {
             "title": "Add PDF Page Number",
-            "desc": "Ferramenta gratuita para add PDF page number de forma rápida e simples."
+            "desc": "Insira números de página personalizados, cabeçalhos e rodapés com contagem nas páginas PDF."
         },
         "pdf-add-watermark": {
             "title": "PDF Add Watermark",
-            "desc": "Ferramenta gratuita para PDF add watermark de forma rápida e simples."
+            "desc": "Adicione marcas d'água de texto ou imagem nas páginas do seu PDF para proteger os seus direitos."
         },
         "protect-pdf": {
             "title": "Protect PDF",
-            "desc": "Ferramenta gratuita para protect PDF de forma rápida e simples."
+            "desc": "Encripte ficheiros PDF com palavra-passe forte e evite leituras ou cópias não autorizadas."
         },
         "unlock-pdf": {
             "title": "Unlock PDF",
-            "desc": "Ferramenta gratuita para unlock PDF de forma rápida e simples."
+            "desc": "Remova a proteção por palavra-passe e restrições de permissão de ficheiros PDF para os abrir livremente."
         },
         "ocr-pdf": {
             "title": "OCR PDF",
-            "desc": "Ferramenta gratuita para OCR PDF de forma rápida e simples."
+            "desc": "Reconheça texto em documentos digitalizados com OCR para tornar o PDF pesquisável e selecionável."
         },
         "pdf-summarize": {
             "title": "PDF Summarize",
-            "desc": "Ferramenta gratuita para PDF summarize de forma rápida e simples."
+            "desc": "Resuma relatórios e livros PDF extensos com IA para extrair pontos-chave e resumos executivos."
         },
         "scan-pdf": {
             "title": "Scan PDF",
@@ -755,139 +755,139 @@ const TOOL_TRANSLATIONS = {
         },
         "repair-pdf": {
             "title": "Repair PDF",
-            "desc": "Ferramenta gratuita para repair PDF de forma rápida e simples."
+            "desc": "Recupere dados de ficheiros PDF corrompidos ou danificados e restaure-os para um estado legível."
         },
         "html-to-pdf": {
             "title": "HTML para PDF",
-            "desc": "Ferramenta gratuita para HTML para PDF de forma rápida e simples."
+            "desc": "Converta páginas web e códigos HTML em ficheiros PDF de alta qualidade com estilos CSS completos."
         },
         "pdf-to-html": {
             "title": "PDF para HTML",
-            "desc": "Ferramenta gratuita para PDF para HTML de forma rápida e simples."
+            "desc": "Converta documentos PDF em páginas web HTML responsivas e limpas prontas para publicação."
         },
         "epub-to-pdf": {
             "title": "EPUB para PDF",
-            "desc": "Ferramenta gratuita para EPUB para PDF de forma rápida e simples."
+            "desc": "Converta e-books EPUB em documentos PDF prontos para impressão com tipografia personalizada."
         },
         "pdf-to-epub": {
             "title": "PDF para EPUB",
-            "desc": "Ferramenta gratuita para PDF para EPUB de forma rápida e simples."
+            "desc": "Converta livros PDF e manuais no formato ajustável EPUB para uma leitura confortável em e-readers."
         },
         "heic-to-pdf": {
             "title": "HEIC para PDF",
-            "desc": "Ferramenta gratuita para HEIC para PDF de forma rápida e simples."
+            "desc": "Converta fotos HEIC diretamente em documentos PDF prontos para impressão com layouts limpos."
         },
         "pdf-to-heic": {
             "title": "PDF para HEIC",
-            "desc": "Ferramenta gratuita para PDF para HEIC de forma rápida e simples."
+            "desc": "Converta documentos PDF em ficheiros de imagem HEIC de alta eficiência para otimizar o armazenamento."
         },
         "convert-pdf-to-pdfa": {
             "title": "CONVERT-PDF para PDFA",
-            "desc": "Ferramenta gratuita para convert-PDF para pdfa de forma rápida e simples."
+            "desc": "Converta PDFs padrão no formato padronizado ISO PDF/A para arquivamento digital de longo prazo."
         },
         "remove-bg": {
             "title": "Remover Fundo de Imagem",
-            "desc": "Remova automaticamente o fundo de qualquer imagem em segundos com saída transparente."
+            "desc": "Remova o fundo de imagens automaticamente em segundos com IA para obter PNGs transparentes e limpos."
         },
         "upscale-image": {
             "title": "Upscale Image",
-            "desc": "Ferramenta gratuita para upscale image de forma rápida e simples."
+            "desc": "Amplie e melhore imagens de baixa resolução até 4x mais nitidez com super-resolução por IA."
         },
         "remove-watermark": {
             "title": "Remover Marca d'Água",
-            "desc": "Remova marcas d'água de imagens e documentos de forma rápida."
+            "desc": "Remova marcas d'água, logótipos, textos e carimbos indesejados de fotografias com IA."
         },
         "crop-image": {
             "title": "Crop Image",
-            "desc": "Ferramenta gratuita para crop image de forma rápida e simples."
+            "desc": "Corte bordas de fotos, ajuste proporções e remova margens indesejadas com uma ferramenta visual."
         },
         "resize-image": {
             "title": "Resize Image",
-            "desc": "Ferramenta gratuita para resize image de forma rápida e simples."
+            "desc": "Altere as dimensões da imagem por pixéis exatos ou percentagem mantendo a proporção correta."
         },
         "rotate-image": {
             "title": "Rotate Image",
-            "desc": "Ferramenta gratuita para rotate image de forma rápida e simples."
+            "desc": "Rode imagens no sentido dos ponteiros do relógio ou invista fotografias na horizontal e vertical."
         },
         "compress-image": {
             "title": "Comprimir IMAGE",
-            "desc": "Ferramenta gratuita para comprimir image de forma rápida e simples."
+            "desc": "Comprima imagens JPG, PNG e WebP até 80% sem perder a qualidade visual da fotografia."
         },
         "jpg-to-png": {
             "title": "JPG para PNG",
-            "desc": "Ferramenta gratuita para JPG para PNG de forma rápida e simples."
+            "desc": "Converta imagens JPG para formato PNG com suporte total a transparência e compressão sem perdas."
         },
         "png-to-jpg": {
             "title": "PNG para JPG",
-            "desc": "Ferramenta gratuita para PNG para JPG de forma rápida e simples."
+            "desc": "Converta fotografias PNG para formato JPG com fundo de cor personalizada e ajuste de qualidade."
         },
         "heic-to-jpg": {
             "title": "HEIC para JPG",
-            "desc": "Ferramenta gratuita para HEIC para JPG de forma rápida e simples."
+            "desc": "Converta fotos HEIC do iPhone para o formato JPG compatível com Windows, Android e Web."
         },
         "jpg-to-heic": {
             "title": "JPG para HEIC",
-            "desc": "Ferramenta gratuita para JPG para HEIC de forma rápida e simples."
+            "desc": "Converta imagens JPG no formato HEIC de alta eficiência para poupar espaço nos dispositivos Apple."
         },
         "heic-to-png": {
             "title": "HEIC para PNG",
-            "desc": "Ferramenta gratuita para HEIC para PNG de forma rápida e simples."
+            "desc": "Converta fotos HEIC da Apple para o formato PNG com suporte total a fundo transparente."
         },
         "png-to-heic": {
             "title": "PNG para HEIC",
-            "desc": "Ferramenta gratuita para PNG para HEIC de forma rápida e simples."
+            "desc": "Converta imagens PNG no formato HEIC de alta eficiência mantendo excelente fidelidade de imagem."
         },
         "jpg-to-webp": {
             "title": "JPG para WebP",
-            "desc": "Ferramenta gratuita para JPG para webp de forma rápida e simples."
+            "desc": "Converta fotos JPG para o formato moderno WebP para reduzir drasticamente o tempo de carregamento."
         },
         "webp-to-jpg": {
             "title": "WebP para JPG",
-            "desc": "Ferramenta gratuita para webp para JPG de forma rápida e simples."
+            "desc": "Converta imagens WebP modernas para o formato JPG amplamente compatível com programas antigos."
         },
         "png-to-webp": {
             "title": "PNG para WebP",
-            "desc": "Ferramenta gratuita para PNG para webp de forma rápida e simples."
+            "desc": "Converta gráficos PNG em imagens WebP otimizadas para a web mantendo a transparência alfa."
         },
         "webp-to-png": {
             "title": "WebP para PNG",
-            "desc": "Ferramenta gratuita para webp para PNG de forma rápida e simples."
+            "desc": "Converta imagens WebP para formato PNG transparente para fácil edição em programas de design."
         },
         "png-to-svg": {
             "title": "PNG para SVG",
-            "desc": "Ferramenta gratuita para PNG para SVG de forma rápida e simples."
+            "desc": "Converta gráficos PNG no formato vetorial SVG com traçado de linhas nítido e editável."
         },
         "jpg-to-svg": {
             "title": "JPG para SVG",
-            "desc": "Ferramenta gratuita para JPG para SVG de forma rápida e simples."
+            "desc": "Vetorize imagens JPG em gráficos vetoriais SVG escaláveis ideais para logótipos e ilustrações."
         },
         "webp-to-svg": {
             "title": "WebP para SVG",
-            "desc": "Ferramenta gratuita para webp para SVG de forma rápida e simples."
+            "desc": "Transforme imagens WebP em ficheiros vetoriais SVG independentes de resolução para design web."
         },
         "youtube-to-wav": {
             "title": "YouTube para WAV",
-            "desc": "Ferramenta gratuita para youtube para WAV de forma rápida e simples."
+            "desc": "Extraia áudio WAV não comprimido com qualidade de estúdio de vídeos do YouTube para edição."
         },
         "youtube-to-mp4": {
             "title": "YouTube para MP4",
-            "desc": "Ferramenta gratuita para youtube para MP4 de forma rápida e simples."
+            "desc": "Descarregue vídeos do YouTube no formato MP4 de alta definição para assistir sem internet."
         },
         "tiktok-downloader": {
             "title": "TikTok Descarregador",
-            "desc": "Ferramenta gratuita para tiktok descarregador de forma rápida e simples."
+            "desc": "Descarregue vídeos do TikTok sem marca d'água em formato MP4 HD para partilhar e editar."
         },
         "instagram-reels-downloader": {
             "title": "Instagram Reels Descarregador",
-            "desc": "Ferramenta gratuita para instagram reels descarregador de forma rápida e simples."
+            "desc": "Descarregue vídeos Instagram Reels em qualidade MP4 Full HD sem marca d'água."
         },
         "instagram-photo-downloader": {
             "title": "Instagram Photo Descarregador",
-            "desc": "Ferramenta gratuita para instagram photo descarregador de forma rápida e simples."
+            "desc": "Descarregue fotos originais do Instagram e publicações múltiplas com facilidade."
         },
         "instagram-video-downloader": {
             "title": "Instagram Video Descarregador",
-            "desc": "Ferramenta gratuita para instagram video descarregador de forma rápida e simples."
+            "desc": "Garde vídeos do feed do Instagram e clipes do IGTV diretamente como ficheiros MP4."
         },
         "instagram-story-downloader": {
             "title": "Instagram Story Descarregador",
@@ -895,265 +895,265 @@ const TOOL_TRANSLATIONS = {
         },
         "instagram-profile-downloader": {
             "title": "Instagram Profile Descarregador",
-            "desc": "Ferramenta gratuita para instagram profile descarregador de forma rápida e simples."
+            "desc": "Descarregue fotos de perfil do Instagram em tamanho completo e resolução original."
         },
         "instagram-audio-downloader": {
             "title": "Instagram Audio Descarregador",
-            "desc": "Ferramenta gratuita para instagram audio descarregador de forma rápida e simples."
+            "desc": "Extraia o áudio de fundo e músicas populares dos Instagram Reels no formato MP3."
         },
         "spotify-to-mp3": {
             "title": "Spotify para MP3",
-            "desc": "Ferramenta gratuita para spotify para MP3 de forma rápida e simples."
+            "desc": "Converta faixas de música e listas de reprodução do Spotify em ficheiros MP3 a 320kbps offline."
         },
         "soundcloud-to-mp3": {
             "title": "SoundCloud para MP3",
-            "desc": "Ferramenta gratuita para soundcloud para MP3 de forma rápida e simples."
+            "desc": "Descarregue faixas de áudio do SoundCloud no formato MP3 de alta qualidade para ouvir offline."
         },
         "wav-to-mp3": {
             "title": "WAV para MP3",
-            "desc": "Ferramenta gratuita para WAV para MP3 de forma rápida e simples."
+            "desc": "Comprima ficheiros de áudio WAV grandes no formato leve MP3 a 320kbps para poupar espaço."
         },
         "mp3-to-wav": {
             "title": "MP3 para WAV",
-            "desc": "Ferramenta gratuita para MP3 para WAV de forma rápida e simples."
+            "desc": "Converta ficheiros de áudio MP3 em formato estúdio WAV de 16-bit 44.1kHz não comprimido."
         },
         "wav-to-mp4": {
             "title": "WAV para MP4",
-            "desc": "Ferramenta gratuita para WAV para MP4 de forma rápida e simples."
+            "desc": "Converta ficheiros de áudio WAV no formato de vídeo MP4 com capa personalizada para o YouTube."
         },
         "mp4-to-wav": {
             "title": "MP4 para WAV",
-            "desc": "Ferramenta gratuita para MP4 para WAV de forma rápida e simples."
+            "desc": "Extraia áudio WAV não comprimido de vídeos MP4 para edição de som profissional."
         },
         "compress-video": {
             "title": "Comprimir VIDEO",
-            "desc": "Ferramenta gratuita para comprimir video de forma rápida e simples."
+            "desc": "Comprima vídeos MP4, MOV e AVI até 80% de redução de tamanho mantendo excelente qualidade."
         },
         "video-trimmer": {
             "title": "Video Trimmer",
-            "desc": "Ferramenta gratuita para video trimmer de forma rápida e simples."
+            "desc": "Corte segmentos de vídeo indesejados, ajuste pontos de início e fim e recorte clipes rapidamente."
         },
         "video-merger": {
             "title": "Juntar MERGER",
-            "desc": "Ferramenta gratuita para juntar merger de forma rápida e simples."
+            "desc": "Combine múltiplos clipes de vídeo num único ficheiro contínuo com transições personalizadas."
         },
         "mp4-to-mp3": {
             "title": "MP4 para MP3",
-            "desc": "Ferramenta gratuita para MP4 para MP3 de forma rápida e simples."
+            "desc": "Extraia a banda sonora MP3 de alta qualidade de ficheiros de vídeo MP4 em escassos segundos."
         },
         "mp3-to-mp4": {
             "title": "MP3 para MP4",
-            "desc": "Ferramenta gratuita para MP3 para MP4 de forma rápida e simples."
+            "desc": "Junte faixas de áudio MP3 com uma imagem de fundo estática ou visualizador para criar vídeos MP4."
         },
         "mp3-compressor": {
             "title": "MP3 Compressor",
-            "desc": "Ferramenta gratuita para MP3 compressor de forma rápida e simples."
+            "desc": "Reduza o tamanho de ficheiros de áudio MP3 mantendo voz límpida e fidelidade musical."
         },
         "audio-converter": {
             "title": "Conversor Audio",
-            "desc": "Ferramenta gratuita para conversor audio de forma rápida e simples."
+            "desc": "Converta ficheiros de áudio entre os formatos MP3, WAV, AAC, FLAC, OGG e M4A sem esforço."
         },
         "speech-to-text": {
             "title": "SPEECH para TEXT",
-            "desc": "Ferramenta gratuita para speech para text de forma rápida e simples."
+            "desc": "Transcreva gravações de voz e fala do microfone em texto escrito preciso em tempo real."
         },
         "text-to-speech": {
             "title": "TEXT para SPEECH",
-            "desc": "Ferramenta gratuita para text para speech de forma rápida e simples."
+            "desc": "Converta texto escrito em voz humana natural com múltiplas vozes, idiomas e sotaques."
         },
         "screen-recorder": {
             "title": "Screen Recorder",
-            "desc": "Ferramenta gratuita para screen recorder de forma rápida e simples."
+            "desc": "Grave o ecrã do computador, câmara web e áudio do microfone diretamente no browser sem instalar nada."
         },
         "video-to-gif": {
             "title": "VIDEO para GIF",
-            "desc": "Ferramenta gratuita para video para GIF de forma rápida e simples."
+            "desc": "Converta clipes de vídeo MP4, MOV e WebM em GIFs animados com taxa de fotogramas e repetição."
         },
         "mp4-to-gif": {
             "title": "MP4 para GIF",
-            "desc": "Ferramenta gratuita para MP4 para GIF de forma rápida e simples."
+            "desc": "Transforme vídeos MP4 em GIFs animados leves para redes sociais e aplicações de mensagens."
         },
         "webm-to-gif": {
             "title": "WEBM para GIF",
-            "desc": "Ferramenta gratuita para webm para GIF de forma rápida e simples."
+            "desc": "Converta clipes de vídeo WebM no formato GIF animado para compatibilidade universal na web."
         },
         "apng-to-gif": {
             "title": "APNG para GIF",
-            "desc": "Ferramenta gratuita para apng para GIF de forma rápida e simples."
+            "desc": "Converta ficheiros Animated PNG (APNG) no formato universalmente suportado de GIF animado."
         },
         "image-to-gif": {
             "title": "IMAGE para GIF",
-            "desc": "Ferramenta gratuita para image para GIF de forma rápida e simples."
+            "desc": "Crie GIFs animados a partir de uma sequência de fotos JPG, PNG ou WebP com tempo personalizável."
         },
         "gif-to-mp4": {
             "title": "GIF para MP4",
-            "desc": "Ferramenta gratuita para GIF para MP4 de forma rápida e simples."
+            "desc": "Converta GIFs animados em vídeos MP4 suaves para reduzir o tamanho e permitir som."
         },
         "gif-to-webm": {
             "title": "GIF para WEBM",
-            "desc": "Ferramenta gratuita para GIF para webm de forma rápida e simples."
+            "desc": "Converta GIFs animados em ficheiros de vídeo leves WebM para carregamento rápido em sites."
         },
         "gif-to-apng": {
             "title": "GIF para APNG",
-            "desc": "Ferramenta gratuita para GIF para apng de forma rápida e simples."
+            "desc": "Converta GIFs animados no formato nítido Animated PNG (APNG) com suporte a cor de 24-bit."
         },
         "gif-compressor": {
             "title": "GIF Compressor",
-            "desc": "Ferramenta gratuita para GIF compressor de forma rápida e simples."
+            "desc": "Comprima ficheiros GIF animados para reduzir o tamanho e permitir um carregamento rápido na web."
         },
         "document-converter": {
             "title": "Conversor Document",
-            "desc": "Ferramenta gratuita para conversor document de forma rápida e simples."
+            "desc": "Converta documentos entre os formatos Word, PDF, TXT, RTF, HTML e ODT sem perdas."
         },
         "ebook-converter": {
             "title": "Conversor Ebook",
-            "desc": "Ferramenta gratuita para conversor ebook de forma rápida e simples."
+            "desc": "Converta e-books entre os formatos EPUB, MOBI, AZW3, PDF e TXT para Kindle e Kobo."
         },
         "translate-document": {
             "title": "Translate Document",
-            "desc": "Ferramenta gratuita para translate document de forma rápida e simples."
+            "desc": "Traduza documentos do Word, Excel e texto para mais de 100 idiomas com formatação intata."
         },
         "translate-word": {
             "title": "Translate Word",
-            "desc": "Ferramenta gratuita para translate word de forma rápida e simples."
+            "desc": "Traduza ficheiros Microsoft Word DOCX para qualquer idioma mantendo o layout original."
         },
         "json-formatter": {
             "title": "Formatador JSON",
-            "desc": "Ferramenta gratuita para formatador JSON de forma rápida e simples."
+            "desc": "Formate, valide, embeleze e minifique estruturas de dados JSON com realce de sintaxe."
         },
         "xml-formatter": {
             "title": "Formatador XML",
-            "desc": "Ferramenta gratuita para formatador XML de forma rápida e simples."
+            "desc": "Formate e organize documentos XML com indentação correta e validação de sintaxe."
         },
         "csv-formatter": {
             "title": "Formatador CSV",
-            "desc": "Ferramenta gratuita para formatador CSV de forma rápida e simples."
+            "desc": "Formate, limpe e converta ficheiros de dados CSV em tabelas estruturadas, JSON ou TSV."
         },
         "base64-tool": {
             "title": "Base64 Tool",
-            "desc": "Ferramenta gratuita para base64 tool de forma rápida e simples."
+            "desc": "Codifique texto e ficheiros em cadeias Base64, ou descodifique dados Base64 para o formato original."
         },
         "hash-generator": {
             "title": "Gerador Hash",
-            "desc": "Ferramenta gratuita para gerador hash de forma rápida e simples."
+            "desc": "Gere hashes criptográficos MD5, SHA-1, SHA-256 e SHA-512 para verificação de integridade."
         },
         "password-generator": {
             "title": "Gerador Password",
-            "desc": "Ferramenta gratuita para gerador password de forma rápida e simples."
+            "desc": "Gere palavras-passe fortes, seguras e inquebráveis com comprimento e símbolos personalizados."
         },
         "color-picker": {
             "title": "Color Picker",
-            "desc": "Ferramenta gratuita para color picker de forma rápida e simples."
+            "desc": "Extraia cores de imagens, converta valores HEX para RGB/HSL e gere paletas de cores harmoniosas."
         },
         "qr-code-generator": {
             "title": "Gerador QR",
-            "desc": "Ferramenta gratuita para gerador QR de forma rápida e simples."
+            "desc": "Crie códigos QR personalizáveis para URLs de sites, redes Wi-Fi, cartões vCard e texto."
         },
         "favicon-generator": {
             "title": "Gerador Favicon",
-            "desc": "Ferramenta gratuita para gerador favicon de forma rápida e simples."
+            "desc": "Gere ícones favicon ICO, PNG e Apple Touch em todas as dimensões necessárias a partir de um logótipo."
         },
         "lorem-ipsum": {
             "title": "Lorem Ipsum",
-            "desc": "Ferramenta gratuita para lorem ipsum de forma rápida e simples."
+            "desc": "Gere texto de preenchimento Lorem Ipsum personalizado por parágrafos, frases ou palavras."
         },
         "screenshot-website": {
             "title": "Screenshot Website",
-            "desc": "Ferramenta gratuita para screenshot website de forma rápida e simples."
+            "desc": "Capture capturas de ecrã completas e perfeitas de qualquer site público em PNG ou PDF."
         }
     },
     "en": {
         "pdf-to-word": {
             "title": "PDF to WORD",
-            "desc": "Free tool for PDF to word fast and easy."
+            "desc": "Convert PDF documents into editable DOC and DOCX files instantly while preserving all text layout and formatting."
         },
         "word-to-pdf": {
             "title": "WORD to PDF",
-            "desc": "Free tool for word to PDF fast and easy."
+            "desc": "Transform Microsoft Word DOC and DOCX files into professional PDF documents ready for sharing and printing."
         },
         "youtube-to-mp3": {
             "title": "YouTube to MP3",
-            "desc": "Free tool for youtube to MP3 fast and easy."
+            "desc": "Convert YouTube videos into high bitrate 320kbps MP3 audio files with clean sound quality."
         },
         "youtube-downloader": {
             "title": "YouTube Downloader",
-            "desc": "Free tool for youtube downloader fast and easy."
+            "desc": "Download YouTube videos in MP4 1080p Full HD, 4K, or extract audio tracks instantly."
         },
         "merge-pdf": {
             "title": "Merge PDF",
-            "desc": "Free tool for merge PDF fast and easy."
+            "desc": "Combine multiple PDF files into a single organized document in your exact preferred page order."
         },
         "compress-pdf": {
             "title": "Compress PDF",
-            "desc": "Free tool for compress PDF fast and easy."
+            "desc": "Reduce PDF file size significantly while retaining crisp text and high image quality for fast email sharing."
         },
         "pdf-to-jpg": {
             "title": "PDF to JPG",
-            "desc": "Free tool for PDF to JPG fast and easy."
+            "desc": "Convert every page of your PDF document into high-resolution JPG images with pristine visual quality."
         },
         "jpg-to-pdf": {
             "title": "JPG to PDF",
-            "desc": "Free tool for JPG to PDF fast and easy."
+            "desc": "Convert JPG, PNG, and WebP images into a clean standardized PDF document with custom page margins."
         },
         "excel-to-pdf": {
             "title": "EXCEL to PDF",
-            "desc": "Free tool for excel to PDF fast and easy."
+            "desc": "Convert Excel spreadsheets XLS and XLSX into clean formatted PDF files with full table structure intact."
         },
         "pdf-to-excel": {
             "title": "PDF to EXCEL",
-            "desc": "Free tool for PDF to excel fast and easy."
+            "desc": "Extract tables and data from PDF documents into editable Excel XLSX spreadsheets for easy analysis."
         },
         "powerpoint-to-pdf": {
             "title": "POWERPOINT to PDF",
-            "desc": "Free tool for powerpoint to PDF fast and easy."
+            "desc": "Convert PowerPoint presentation slides PPT and PPTX into universally viewable PDF documents."
         },
         "pdf-to-powerpoint": {
             "title": "PDF to POWERPOINT",
-            "desc": "Free tool for PDF to powerpoint fast and easy."
+            "desc": "Convert PDF presentations into editable PowerPoint PPTX slides for easy presentation editing."
         },
         "edit-pdf": {
             "title": "Edit PDF",
-            "desc": "Free tool for edit PDF fast and easy."
+            "desc": "Add text, shapes, annotations, images, and freehand drawings directly onto your PDF pages."
         },
         "split-pdf": {
             "title": "Split PDF",
-            "desc": "Free tool for split PDF fast and easy."
+            "desc": "Extract individual pages or split large PDF files into separate smaller documents with custom page ranges."
         },
         "organize-pdf": {
             "title": "Organize PDF",
-            "desc": "Free tool for organize PDF fast and easy."
+            "desc": "Reorder, delete, rotate, and rearrange pages within your PDF file using a visual drag-and-drop editor."
         },
         "remove-pages": {
             "title": "Remove PDF Pages",
-            "desc": "Remove unwanted pages from your PDF file easily."
+            "desc": "Remove unwanted or blank pages from your PDF documents easily with one click."
         },
         "rotate-pdf": {
             "title": "Rotate PDF",
-            "desc": "Free tool for rotate PDF fast and easy."
+            "desc": "Rotate specific pages or all pages inside a PDF document by 90, 180, or 270 degrees."
         },
         "add-pdf-page-number": {
             "title": "Add PDF Page Number",
-            "desc": "Free tool for add PDF page number fast and easy."
+            "desc": "Insert customizable page numbers, headers, and footers with page counts onto your PDF pages."
         },
         "pdf-add-watermark": {
             "title": "PDF Add Watermark",
-            "desc": "Free tool for PDF add watermark fast and easy."
+            "desc": "Add text or image watermarks across your PDF pages to protect intellectual property."
         },
         "protect-pdf": {
             "title": "Protect PDF",
-            "desc": "Free tool for protect PDF fast and easy."
+            "desc": "Encrypt PDF files with strong password security and prevent unauthorized reading or copying."
         },
         "unlock-pdf": {
             "title": "Unlock PDF",
-            "desc": "Free tool for unlock PDF fast and easy."
+            "desc": "Remove password protection and permissions security from PDF files to open and edit them freely."
         },
         "ocr-pdf": {
             "title": "OCR PDF",
-            "desc": "Free tool for OCR PDF fast and easy."
+            "desc": "Recognize scanned document text using optical character recognition to make PDFs searchable and selectable."
         },
         "pdf-summarize": {
             "title": "PDF Summarize",
-            "desc": "Free tool for PDF summarize fast and easy."
+            "desc": "Summarize lengthy PDF reports and books using AI to extract key insights and bulleted executive summaries."
         },
         "scan-pdf": {
             "title": "Scan PDF",
@@ -1161,139 +1161,139 @@ const TOOL_TRANSLATIONS = {
         },
         "repair-pdf": {
             "title": "Repair PDF",
-            "desc": "Free tool for repair PDF fast and easy."
+            "desc": "Recover data from corrupted or damaged PDF files and restore them to a readable state."
         },
         "html-to-pdf": {
             "title": "HTML to PDF",
-            "desc": "Free tool for HTML to PDF fast and easy."
+            "desc": "Convert web pages and HTML code snippets into high-quality PDF files with complete CSS styling."
         },
         "pdf-to-html": {
             "title": "PDF to HTML",
-            "desc": "Free tool for PDF to HTML fast and easy."
+            "desc": "Convert PDF documents into clean, responsive HTML web pages ready for web publishing."
         },
         "epub-to-pdf": {
             "title": "EPUB to PDF",
-            "desc": "Free tool for EPUB to PDF fast and easy."
+            "desc": "Convert EPUB e-books into printable PDF documents with custom typography and page layouts."
         },
         "pdf-to-epub": {
             "title": "PDF to EPUB",
-            "desc": "Free tool for PDF to EPUB fast and easy."
+            "desc": "Convert PDF eBooks and manuals into reflowable EPUB format for comfortable reading on e-readers."
         },
         "heic-to-pdf": {
             "title": "HEIC to PDF",
-            "desc": "Free tool for HEIC to PDF fast and easy."
+            "desc": "Convert HEIC photos directly into printable PDF documents with custom page layouts."
         },
         "pdf-to-heic": {
             "title": "PDF to HEIC",
-            "desc": "Free tool for PDF to HEIC fast and easy."
+            "desc": "Convert PDF documents into high-efficiency HEIC image files for mobile storage optimization."
         },
         "convert-pdf-to-pdfa": {
             "title": "CONVERT-PDF to PDFA",
-            "desc": "Free tool for convert-PDF to pdfa fast and easy."
+            "desc": "Convert standard PDFs into ISO-compliant PDF/A format for long-term digital archiving."
         },
         "remove-bg": {
             "title": "Remove Image Background",
-            "desc": "Automatically remove image background using AI with clean transparent output."
+            "desc": "Remove image backgrounds automatically in seconds using AI for clean transparent PNG cutouts."
         },
         "upscale-image": {
             "title": "Upscale Image",
-            "desc": "Free tool for upscale image fast and easy."
+            "desc": "Enlarge and enhance low-resolution images up to 4x clarity using AI deep learning super-resolution."
         },
         "remove-watermark": {
             "title": "Remove Watermark",
-            "desc": "Remove watermarks from images and documents fast and easy."
+            "desc": "Remove unwanted watermarks, logos, text overlays, and stamps from photos using AI inpainting."
         },
         "crop-image": {
             "title": "Crop Image",
-            "desc": "Free tool for crop image fast and easy."
+            "desc": "Crop photo borders, adjust aspect ratios, and trim unwanted edges with a visual cropping tool."
         },
         "resize-image": {
             "title": "Resize Image",
-            "desc": "Free tool for resize image fast and easy."
+            "desc": "Change image dimensions by exact pixels or percentages with aspect ratio locking."
         },
         "rotate-image": {
             "title": "Rotate Image",
-            "desc": "Free tool for rotate image fast and easy."
+            "desc": "Rotate images clockwise or counter-clockwise and flip pictures horizontally or vertically."
         },
         "compress-image": {
             "title": "Compress IMAGE",
-            "desc": "Free tool for compress image fast and easy."
+            "desc": "Compress JPG, PNG, and WebP images up to 80% without losing visible picture quality."
         },
         "jpg-to-png": {
             "title": "JPG to PNG",
-            "desc": "Free tool for JPG to PNG fast and easy."
+            "desc": "Convert JPG images into PNG format with full transparency support and lossless compression."
         },
         "png-to-jpg": {
             "title": "PNG to JPG",
-            "desc": "Free tool for PNG to JPG fast and easy."
+            "desc": "Convert PNG pictures to JPG format with custom background color fill and quality sliders."
         },
         "heic-to-jpg": {
             "title": "HEIC to JPG",
-            "desc": "Free tool for HEIC to JPG fast and easy."
+            "desc": "Convert iPhone HEIC photos into widely compatible JPG format for Windows and Web."
         },
         "jpg-to-heic": {
             "title": "JPG to HEIC",
-            "desc": "Free tool for JPG to HEIC fast and easy."
+            "desc": "Convert JPG images into high-efficiency HEIC format to save storage space on Apple devices."
         },
         "heic-to-png": {
             "title": "HEIC to PNG",
-            "desc": "Free tool for HEIC to PNG fast and easy."
+            "desc": "Convert Apple HEIC pictures into PNG format with full transparent background support."
         },
         "png-to-heic": {
             "title": "PNG to HEIC",
-            "desc": "Free tool for PNG to HEIC fast and easy."
+            "desc": "Convert PNG images into high-efficiency HEIC format while maintaining high image fidelity."
         },
         "jpg-to-webp": {
             "title": "JPG to WebP",
-            "desc": "Free tool for JPG to webp fast and easy."
+            "desc": "Convert JPG photos into modern WebP format to reduce web image load times."
         },
         "webp-to-jpg": {
             "title": "WebP to JPG",
-            "desc": "Free tool for webp to JPG fast and easy."
+            "desc": "Convert modern WebP images into universally compatible JPG format for older software."
         },
         "png-to-webp": {
             "title": "PNG to WebP",
-            "desc": "Free tool for PNG to webp fast and easy."
+            "desc": "Convert PNG graphics into web-optimized WebP images with alpha channel transparency intact."
         },
         "webp-to-png": {
             "title": "WebP to PNG",
-            "desc": "Free tool for webp to PNG fast and easy."
+            "desc": "Convert WebP images into transparent PNG format for easy graphics editing in Photoshop."
         },
         "png-to-svg": {
             "title": "PNG to SVG",
-            "desc": "Free tool for PNG to SVG fast and easy."
+            "desc": "Convert PNG graphics into crisp vector SVG format with customizable path tracing."
         },
         "jpg-to-svg": {
             "title": "JPG to SVG",
-            "desc": "Free tool for JPG to SVG fast and easy."
+            "desc": "Vectorize raster JPG images into scalable SVG vector graphics for logos and illustrations."
         },
         "webp-to-svg": {
             "title": "WebP to SVG",
-            "desc": "Free tool for webp to SVG fast and easy."
+            "desc": "Transform WebP images into resolution-independent SVG vector files for web design."
         },
         "youtube-to-wav": {
             "title": "YouTube to WAV",
-            "desc": "Free tool for youtube to WAV fast and easy."
+            "desc": "Extract uncompressed studio quality WAV audio from YouTube videos for music editing."
         },
         "youtube-to-mp4": {
             "title": "YouTube to MP4",
-            "desc": "Free tool for youtube to MP4 fast and easy."
+            "desc": "Download YouTube videos in high definition MP4 format for offline viewing on any device."
         },
         "tiktok-downloader": {
             "title": "TikTok Downloader",
-            "desc": "Free tool for tiktok downloader fast and easy."
+            "desc": "Download TikTok videos without watermark in HD MP4 format for reposting and editing."
         },
         "instagram-reels-downloader": {
             "title": "Instagram Reels Downloader",
-            "desc": "Free tool for instagram reels downloader fast and easy."
+            "desc": "Download Instagram Reels videos in full HD MP4 quality without watermark."
         },
         "instagram-photo-downloader": {
             "title": "Instagram Photo Downloader",
-            "desc": "Free tool for instagram photo downloader fast and easy."
+            "desc": "Download original quality Instagram photos and multi-photo posts effortlessly."
         },
         "instagram-video-downloader": {
             "title": "Instagram Video Downloader",
-            "desc": "Free tool for instagram video downloader fast and easy."
+            "desc": "Save Instagram feed videos and IGTV clips directly as MP4 files to your device."
         },
         "instagram-story-downloader": {
             "title": "Instagram Story Downloader",
@@ -1301,233 +1301,233 @@ const TOOL_TRANSLATIONS = {
         },
         "instagram-profile-downloader": {
             "title": "Instagram Profile Downloader",
-            "desc": "Free tool for instagram profile downloader fast and easy."
+            "desc": "Download full-size Instagram profile picture photos in original high resolution."
         },
         "instagram-audio-downloader": {
             "title": "Instagram Audio Downloader",
-            "desc": "Free tool for instagram audio downloader fast and easy."
+            "desc": "Extract background audio and trending music from Instagram Reels into MP3 format."
         },
         "spotify-to-mp3": {
             "title": "Spotify to MP3",
-            "desc": "Free tool for spotify to MP3 fast and easy."
+            "desc": "Convert Spotify music tracks and playlists into offline 320kbps MP3 audio files."
         },
         "soundcloud-to-mp3": {
             "title": "SoundCloud to MP3",
-            "desc": "Free tool for soundcloud to MP3 fast and easy."
+            "desc": "Download audio tracks from SoundCloud in high quality MP3 format for offline listening."
         },
         "wav-to-mp3": {
             "title": "WAV to MP3",
-            "desc": "Free tool for WAV to MP3 fast and easy."
+            "desc": "Compress large WAV audio files into lightweight 320kbps MP3 format to save storage."
         },
         "mp3-to-wav": {
             "title": "MP3 to WAV",
-            "desc": "Free tool for MP3 to WAV fast and easy."
+            "desc": "Convert compressed MP3 audio files into uncompressed 16-bit 44.1kHz WAV studio audio."
         },
         "wav-to-mp4": {
             "title": "WAV to MP4",
-            "desc": "Free tool for WAV to MP4 fast and easy."
+            "desc": "Convert WAV audio files into MP4 video format with custom cover art for uploading to YouTube."
         },
         "mp4-to-wav": {
             "title": "MP4 to WAV",
-            "desc": "Free tool for MP4 to WAV fast and easy."
+            "desc": "Extract uncompressed WAV audio from MP4 videos for professional audio editing."
         },
         "compress-video": {
             "title": "Compress VIDEO",
-            "desc": "Free tool for compress video fast and easy."
+            "desc": "Compress MP4, MOV, and AVI videos up to 80% size reduction with minimal quality loss."
         },
         "video-trimmer": {
             "title": "Video Trimmer",
-            "desc": "Free tool for video trimmer fast and easy."
+            "desc": "Trim unwanted video segments, cut start and end points, and clip videos quickly."
         },
         "video-merger": {
             "title": "Merge MERGER",
-            "desc": "Free tool for merge merger fast and easy."
+            "desc": "Combine multiple video clips into a single seamless video file with custom transitions."
         },
         "mp4-to-mp3": {
             "title": "MP4 to MP3",
-            "desc": "Free tool for MP4 to MP3 fast and easy."
+            "desc": "Extract high quality MP3 soundtrack audio from MP4 video files in seconds."
         },
         "mp3-to-mp4": {
             "title": "MP3 to MP4",
-            "desc": "Free tool for MP3 to MP4 fast and easy."
+            "desc": "Combine MP3 audio tracks with a static background image or visualizer to create MP4 videos."
         },
         "mp3-compressor": {
             "title": "MP3 Compressor",
-            "desc": "Free tool for MP3 compressor fast and easy."
+            "desc": "Reduce MP3 audio file size while preserving clear voice and musical instrument fidelity."
         },
         "audio-converter": {
             "title": "Converter Audio",
-            "desc": "Free tool for converter audio fast and easy."
+            "desc": "Convert audio files between MP3, WAV, AAC, FLAC, OGG, and M4A formats effortlessly."
         },
         "speech-to-text": {
             "title": "SPEECH to TEXT",
-            "desc": "Free tool for speech to text fast and easy."
+            "desc": "Transcribe voice recordings and microphone speech into accurate written text in real time."
         },
         "text-to-speech": {
             "title": "TEXT to SPEECH",
-            "desc": "Free tool for text to speech fast and easy."
+            "desc": "Convert written text into natural-sounding human speech audio with multiple voices and accents."
         },
         "screen-recorder": {
             "title": "Screen Recorder",
-            "desc": "Free tool for screen recorder fast and easy."
+            "desc": "Record your computer screen, webcam, and microphone audio directly in your browser without software."
         },
         "video-to-gif": {
             "title": "VIDEO to GIF",
-            "desc": "Free tool for video to GIF fast and easy."
+            "desc": "Convert MP4, MOV, and WebM video clips into animated GIFs with custom frame rate and loop settings."
         },
         "mp4-to-gif": {
             "title": "MP4 to GIF",
-            "desc": "Free tool for MP4 to GIF fast and easy."
+            "desc": "Turn MP4 video clips into lightweight animated GIFs for social media and messaging apps."
         },
         "webm-to-gif": {
             "title": "WEBM to GIF",
-            "desc": "Free tool for webm to GIF fast and easy."
+            "desc": "Convert WebM video clips into animated GIF format for universal web compatibility."
         },
         "apng-to-gif": {
             "title": "APNG to GIF",
-            "desc": "Free tool for apng to GIF fast and easy."
+            "desc": "Convert Animated PNG (APNG) files into widely supported animated GIF format."
         },
         "image-to-gif": {
             "title": "IMAGE to GIF",
-            "desc": "Free tool for image to GIF fast and easy."
+            "desc": "Create animated GIFs from a sequence of static JPG, PNG, or WebP photos with custom frame delay."
         },
         "gif-to-mp4": {
             "title": "GIF to MP4",
-            "desc": "Free tool for GIF to MP4 fast and easy."
+            "desc": "Convert animated GIFs into smooth MP4 videos to reduce file size and enable audio playback."
         },
         "gif-to-webm": {
             "title": "GIF to WEBM",
-            "desc": "Free tool for GIF to webm fast and easy."
+            "desc": "Convert animated GIFs into lightweight WebM video files for fast web animation loading."
         },
         "gif-to-apng": {
             "title": "GIF to APNG",
-            "desc": "Free tool for GIF to apng fast and easy."
+            "desc": "Convert animated GIFs into crisp Animated PNG (APNG) format with full 24-bit color support."
         },
         "gif-compressor": {
             "title": "GIF Compressor",
-            "desc": "Free tool for GIF compressor fast and easy."
+            "desc": "Compress animated GIF files to reduce file size for fast messaging and web loading."
         },
         "document-converter": {
             "title": "Converter Document",
-            "desc": "Free tool for converter document fast and easy."
+            "desc": "Convert documents between Word, PDF, TXT, RTF, HTML, and ODT formats."
         },
         "ebook-converter": {
             "title": "Converter Ebook",
-            "desc": "Free tool for converter ebook fast and easy."
+            "desc": "Convert eBooks between EPUB, MOBI, AZW3, PDF, and TXT formats for Kindle and Kobo."
         },
         "translate-document": {
             "title": "Translate Document",
-            "desc": "Free tool for translate document fast and easy."
+            "desc": "Translate Word, Excel, and text documents into over 100 languages with formatting intact."
         },
         "translate-word": {
             "title": "Translate Word",
-            "desc": "Free tool for translate word fast and easy."
+            "desc": "Translate Microsoft Word DOCX files into any language while preserving original document layout."
         },
         "json-formatter": {
             "title": "Formatter JSON",
-            "desc": "Free tool for formatter JSON fast and easy."
+            "desc": "Format, validate, beautify, and minify JSON data structures with syntax highlighting and error checking."
         },
         "xml-formatter": {
             "title": "Formatter XML",
-            "desc": "Free tool for formatter XML fast and easy."
+            "desc": "Format and prettify XML documents with proper indentation and syntax validation."
         },
         "csv-formatter": {
             "title": "Formatter CSV",
-            "desc": "Free tool for formatter CSV fast and easy."
+            "desc": "Format, clean, and convert CSV data files into structured tables, JSON, or TSV format."
         },
         "base64-tool": {
             "title": "Base64 Tool",
-            "desc": "Free tool for base64 tool fast and easy."
+            "desc": "Encode text and files into Base64 strings, or decode Base64 data back into original format."
         },
         "hash-generator": {
             "title": "Generator Hash",
-            "desc": "Free tool for generator hash fast and easy."
+            "desc": "Generate MD5, SHA-1, SHA-256, and SHA-512 cryptographic hashes for data integrity verification."
         },
         "password-generator": {
             "title": "Generator Password",
-            "desc": "Free tool for generator password fast and easy."
+            "desc": "Generate strong, secure, unhackable passwords with custom length, numbers, and special symbols."
         },
         "color-picker": {
             "title": "Color Picker",
-            "desc": "Free tool for color picker fast and easy."
+            "desc": "Pick colors from images, convert HEX to RGB and HSL values, and generate harmonious palettes."
         },
         "qr-code-generator": {
             "title": "Generator QR",
-            "desc": "Free tool for generator QR fast and easy."
+            "desc": "Create customizable QR codes for website URLs, Wi-Fi networks, contact vCards, and text."
         },
         "favicon-generator": {
             "title": "Generator Favicon",
-            "desc": "Free tool for generator favicon fast and easy."
+            "desc": "Generate ICO, PNG, and Apple Touch favicon icons in all required dimensions from any logo."
         },
         "lorem-ipsum": {
             "title": "Lorem Ipsum",
-            "desc": "Free tool for lorem ipsum fast and easy."
+            "desc": "Generate customized Lorem Ipsum dummy placeholder text by paragraphs, sentences, or words."
         },
         "screenshot-website": {
             "title": "Screenshot Website",
-            "desc": "Free tool for screenshot website fast and easy."
+            "desc": "Capture full-page pixel-perfect website screenshots from any public URL in PNG or PDF."
         }
     },
     "es": {
         "pdf-to-word": {
             "title": "PDF a WORD",
-            "desc": "Herramienta gratuita para PDF a word de forma rápida y sencilla."
+            "desc": "Converta documentos PDF em ficheiros editáveis DOC e DOCX instantaneamente mantendo todo o formato original."
         },
         "word-to-pdf": {
             "title": "WORD a PDF",
-            "desc": "Herramienta gratuita para word a PDF de forma rápida y sencilla."
+            "desc": "Transforme ficheiros Microsoft Word DOC e DOCX em documentos PDF profissionais prontos para partilhar."
         },
         "youtube-to-mp3": {
             "title": "YouTube a MP3",
-            "desc": "Herramienta gratuita para youtube a MP3 de forma rápida y sencilla."
+            "desc": "Converta vídeos do YouTube em ficheiros de áudio MP3 de alta fidelidade a 320kbps com som cristalino."
         },
         "youtube-downloader": {
             "title": "Descargador YouTube",
-            "desc": "Herramienta gratuita para descargador youtube de forma rápida y sencilla."
+            "desc": "Descarregue vídeos do YouTube em MP4 Full HD 1080p, 4K ou extraia faixas de áudio instantaneamente."
         },
         "merge-pdf": {
             "title": "Unir PDF",
-            "desc": "Herramienta gratuita para unir PDF de forma rápida y sencilla."
+            "desc": "Junte múltiplos ficheiros PDF num único documento organizado na ordem exata que preferir."
         },
         "compress-pdf": {
             "title": "Comprimir PDF",
-            "desc": "Herramienta gratuita para comprimir PDF de forma rápida y sencilla."
+            "desc": "Reduza o tamanho do ficheiro PDF mantendo texto nítido e elevada qualidade de imagem para envio rápido."
         },
         "pdf-to-jpg": {
             "title": "PDF a JPG",
-            "desc": "Herramienta gratuita para PDF a JPG de forma rápida y sencilla."
+            "desc": "Converta todas as páginas do seu documento PDF em imagens JPG de alta resolução com excelente nitidez."
         },
         "jpg-to-pdf": {
             "title": "JPG a PDF",
-            "desc": "Herramienta gratuita para JPG a PDF de forma rápida y sencilla."
+            "desc": "Converta imagens JPG, PNG e WebP num documento PDF limpo e padronizado com margens personalizadas."
         },
         "excel-to-pdf": {
             "title": "EXCEL a PDF",
-            "desc": "Herramienta gratuita para excel a PDF de forma rápida y sencilla."
+            "desc": "Converta folhas de cálculo Excel XLS e XLSX em ficheiros PDF formatados mantendo a estrutura de tabelas."
         },
         "pdf-to-excel": {
             "title": "PDF a EXCEL",
-            "desc": "Herramienta gratuita para PDF a excel de forma rápida y sencilla."
+            "desc": "Extraia tabelas e dados de documentos PDF para folhas de cálculo Excel XLSX editáveis de forma simples."
         },
         "powerpoint-to-pdf": {
             "title": "POWERPOINT a PDF",
-            "desc": "Herramienta gratuita para powerpoint a PDF de forma rápida y sencilla."
+            "desc": "Converta diapositivos de apresentações PowerPoint PPT e PPTX em documentos PDF universais."
         },
         "pdf-to-powerpoint": {
             "title": "PDF a POWERPOINT",
-            "desc": "Herramienta gratuita para PDF a powerpoint de forma rápida y sencilla."
+            "desc": "Converta apresentações PDF em diapositivos editáveis PowerPoint PPTX para fácil edição."
         },
         "edit-pdf": {
             "title": "Editar PDF",
-            "desc": "Herramienta gratuita para editar PDF de forma rápida y sencilla."
+            "desc": "Adicione texto, formas, anotações, imagens e desenhos livres diretamente nas páginas do seu PDF."
         },
         "split-pdf": {
             "title": "Dividir PDF",
-            "desc": "Herramienta gratuita para dividir PDF de forma rápida y sencilla."
+            "desc": "Extraia páginas individuais ou divida PDFs grandes em documentos separados com intervalos personalizados."
         },
         "organize-pdf": {
             "title": "Organize PDF",
-            "desc": "Herramienta gratuita para organize PDF de forma rápida y sencilla."
+            "desc": "Reordene, elimine, rode e reorganize páginas dentro do seu PDF com um editor visual interativo."
         },
         "remove-pages": {
             "title": "Eliminar Páginas de PDF",
@@ -1535,67 +1535,67 @@ const TOOL_TRANSLATIONS = {
         },
         "rotate-pdf": {
             "title": "Rotate PDF",
-            "desc": "Herramienta gratuita para rotate PDF de forma rápida y sencilla."
+            "desc": "Rode páginas específicas ou todas as páginas de um documento PDF em 90, 180 ou 270 graus."
         },
         "add-pdf-page-number": {
             "title": "Add PDF Page Number",
-            "desc": "Herramienta gratuita para add PDF page number de forma rápida y sencilla."
+            "desc": "Insira números de página personalizados, cabeçalhos e rodapés com contagem nas páginas PDF."
         },
         "pdf-add-watermark": {
             "title": "PDF Add Watermark",
-            "desc": "Herramienta gratuita para PDF add watermark de forma rápida y sencilla."
+            "desc": "Adicione marcas d'água de texto ou imagem nas páginas do seu PDF para proteger os seus direitos."
         },
         "protect-pdf": {
             "title": "Protect PDF",
-            "desc": "Herramienta gratuita para protect PDF de forma rápida y sencilla."
+            "desc": "Encripte ficheiros PDF com palavra-passe forte e evite leituras ou cópias não autorizadas."
         },
         "unlock-pdf": {
             "title": "Unlock PDF",
-            "desc": "Herramienta gratuita para unlock PDF de forma rápida y sencilla."
+            "desc": "Remova a proteção por palavra-passe e restrições de permissão de ficheiros PDF para os abrir livremente."
         },
         "ocr-pdf": {
             "title": "OCR PDF",
-            "desc": "Herramienta gratuita para OCR PDF de forma rápida y sencilla."
+            "desc": "Reconheça texto em documentos digitalizados com OCR para tornar o PDF pesquisável e selecionável."
         },
         "pdf-summarize": {
             "title": "PDF Summarize",
-            "desc": "Herramienta gratuita para PDF summarize de forma rápida y sencilla."
+            "desc": "Resuma relatórios e livros PDF extensos com IA para extrair pontos-chave e resumos executivos."
         },
         "scan-pdf": {
             "title": "Scan PDF",
-            "desc": "Herramienta gratuita para scan PDF de forma rápida y sencilla."
+            "desc": ""
         },
         "repair-pdf": {
             "title": "Repair PDF",
-            "desc": "Herramienta gratuita para repair PDF de forma rápida y sencilla."
+            "desc": "Recupere dados de ficheiros PDF corrompidos ou danificados e restaure-os para um estado legível."
         },
         "html-to-pdf": {
             "title": "HTML a PDF",
-            "desc": "Herramienta gratuita para HTML a PDF de forma rápida y sencilla."
+            "desc": "Converta páginas web e códigos HTML em ficheiros PDF de alta qualidade com estilos CSS completos."
         },
         "pdf-to-html": {
             "title": "PDF a HTML",
-            "desc": "Herramienta gratuita para PDF a HTML de forma rápida y sencilla."
+            "desc": "Converta documentos PDF em páginas web HTML responsivas e limpas prontas para publicação."
         },
         "epub-to-pdf": {
             "title": "EPUB a PDF",
-            "desc": "Herramienta gratuita para EPUB a PDF de forma rápida y sencilla."
+            "desc": "Converta e-books EPUB em documentos PDF prontos para impressão com tipografia personalizada."
         },
         "pdf-to-epub": {
             "title": "PDF a EPUB",
-            "desc": "Herramienta gratuita para PDF a EPUB de forma rápida y sencilla."
+            "desc": "Converta livros PDF e manuais no formato ajustável EPUB para uma leitura confortável em e-readers."
         },
         "heic-to-pdf": {
             "title": "HEIC a PDF",
-            "desc": "Herramienta gratuita para HEIC a PDF de forma rápida y sencilla."
+            "desc": "Converta fotos HEIC diretamente em documentos PDF prontos para impressão com layouts limpos."
         },
         "pdf-to-heic": {
             "title": "PDF a HEIC",
-            "desc": "Herramienta gratuita para PDF a HEIC de forma rápida y sencilla."
+            "desc": "Converta documentos PDF em ficheiros de imagem HEIC de alta eficiência para otimizar o armazenamento."
         },
         "convert-pdf-to-pdfa": {
             "title": "CONVERT-PDF a PDFA",
-            "desc": "Herramienta gratuita para convert-PDF a pdfa de forma rápida y sencilla."
+            "desc": "Converta PDFs padrão no formato padronizado ISO PDF/A para arquivamento digital de longo prazo."
         },
         "remove-bg": {
             "title": "Eliminar Fondo de Imagen",
@@ -1603,7 +1603,7 @@ const TOOL_TRANSLATIONS = {
         },
         "upscale-image": {
             "title": "Upscale Image",
-            "desc": "Herramienta gratuita para upscale image de forma rápida y sencilla."
+            "desc": "Amplie e melhore imagens de baixa resolução até 4x mais nitidez com super-resolução por IA."
         },
         "remove-watermark": {
             "title": "Eliminar Marca de Agua",
@@ -1611,267 +1611,267 @@ const TOOL_TRANSLATIONS = {
         },
         "crop-image": {
             "title": "Crop Image",
-            "desc": "Herramienta gratuita para crop image de forma rápida y sencilla."
+            "desc": "Corte bordas de fotos, ajuste proporções e remova margens indesejadas com uma ferramenta visual."
         },
         "resize-image": {
             "title": "Resize Image",
-            "desc": "Herramienta gratuita para resize image de forma rápida y sencilla."
+            "desc": "Altere as dimensões da imagem por pixéis exatos ou percentagem mantendo a proporção correta."
         },
         "rotate-image": {
             "title": "Rotate Image",
-            "desc": "Herramienta gratuita para rotate image de forma rápida y sencilla."
+            "desc": "Rode imagens no sentido dos ponteiros do relógio ou invista fotografias na horizontal e vertical."
         },
         "compress-image": {
             "title": "Comprimir IMAGE",
-            "desc": "Herramienta gratuita para comprimir image de forma rápida y sencilla."
+            "desc": "Comprima imagens JPG, PNG e WebP até 80% sem perder a qualidade visual da fotografia."
         },
         "jpg-to-png": {
             "title": "JPG a PNG",
-            "desc": "Herramienta gratuita para JPG a PNG de forma rápida y sencilla."
+            "desc": "Converta imagens JPG para formato PNG com suporte total a transparência e compressão sem perdas."
         },
         "png-to-jpg": {
             "title": "PNG a JPG",
-            "desc": "Herramienta gratuita para PNG a JPG de forma rápida y sencilla."
+            "desc": "Converta fotografias PNG para formato JPG com fundo de cor personalizada e ajuste de qualidade."
         },
         "heic-to-jpg": {
             "title": "HEIC a JPG",
-            "desc": "Herramienta gratuita para HEIC a JPG de forma rápida y sencilla."
+            "desc": "Converta fotos HEIC do iPhone para o formato JPG compatível com Windows, Android e Web."
         },
         "jpg-to-heic": {
             "title": "JPG a HEIC",
-            "desc": "Herramienta gratuita para JPG a HEIC de forma rápida y sencilla."
+            "desc": "Converta imagens JPG no formato HEIC de alta eficiência para poupar espaço nos dispositivos Apple."
         },
         "heic-to-png": {
             "title": "HEIC a PNG",
-            "desc": "Herramienta gratuita para HEIC a PNG de forma rápida y sencilla."
+            "desc": "Converta fotos HEIC da Apple para o formato PNG com suporte total a fundo transparente."
         },
         "png-to-heic": {
             "title": "PNG a HEIC",
-            "desc": "Herramienta gratuita para PNG a HEIC de forma rápida y sencilla."
+            "desc": "Converta imagens PNG no formato HEIC de alta eficiência mantendo excelente fidelidade de imagem."
         },
         "jpg-to-webp": {
             "title": "JPG a WebP",
-            "desc": "Herramienta gratuita para JPG a webp de forma rápida y sencilla."
+            "desc": "Converta fotos JPG para o formato moderno WebP para reduzir drasticamente o tempo de carregamento."
         },
         "webp-to-jpg": {
             "title": "WebP a JPG",
-            "desc": "Herramienta gratuita para webp a JPG de forma rápida y sencilla."
+            "desc": "Converta imagens WebP modernas para o formato JPG amplamente compatível com programas antigos."
         },
         "png-to-webp": {
             "title": "PNG a WebP",
-            "desc": "Herramienta gratuita para PNG a webp de forma rápida y sencilla."
+            "desc": "Converta gráficos PNG em imagens WebP otimizadas para a web mantendo a transparência alfa."
         },
         "webp-to-png": {
             "title": "WebP a PNG",
-            "desc": "Herramienta gratuita para webp a PNG de forma rápida y sencilla."
+            "desc": "Converta imagens WebP para formato PNG transparente para fácil edição em programas de design."
         },
         "png-to-svg": {
             "title": "PNG a SVG",
-            "desc": "Herramienta gratuita para PNG a SVG de forma rápida y sencilla."
+            "desc": "Converta gráficos PNG no formato vetorial SVG com traçado de linhas nítido e editável."
         },
         "jpg-to-svg": {
             "title": "JPG a SVG",
-            "desc": "Herramienta gratuita para JPG a SVG de forma rápida y sencilla."
+            "desc": "Vetorize imagens JPG em gráficos vetoriais SVG escaláveis ideais para logótipos e ilustrações."
         },
         "webp-to-svg": {
             "title": "WebP a SVG",
-            "desc": "Herramienta gratuita para webp a SVG de forma rápida y sencilla."
+            "desc": "Transforme imagens WebP em ficheiros vetoriais SVG independentes de resolução para design web."
         },
         "youtube-to-wav": {
             "title": "YouTube a WAV",
-            "desc": "Herramienta gratuita para youtube a WAV de forma rápida y sencilla."
+            "desc": "Extraia áudio WAV não comprimido com qualidade de estúdio de vídeos do YouTube para edição."
         },
         "youtube-to-mp4": {
             "title": "YouTube a MP4",
-            "desc": "Herramienta gratuita para youtube a MP4 de forma rápida y sencilla."
+            "desc": "Descarregue vídeos do YouTube no formato MP4 de alta definição para assistir sem internet."
         },
         "tiktok-downloader": {
             "title": "Descargador TikTok",
-            "desc": "Herramienta gratuita para descargador tiktok de forma rápida y sencilla."
+            "desc": "Descarregue vídeos do TikTok sem marca d'água em formato MP4 HD para partilhar e editar."
         },
         "instagram-reels-downloader": {
             "title": "Descargador Instagram Reels",
-            "desc": "Herramienta gratuita para descargador instagram reels de forma rápida y sencilla."
+            "desc": "Descarregue vídeos Instagram Reels em qualidade MP4 Full HD sem marca d'água."
         },
         "instagram-photo-downloader": {
             "title": "Descargador Instagram Photo",
-            "desc": "Herramienta gratuita para descargador instagram photo de forma rápida y sencilla."
+            "desc": "Descarregue fotos originais do Instagram e publicações múltiplas com facilidade."
         },
         "instagram-video-downloader": {
             "title": "Descargador Instagram Video",
-            "desc": "Herramienta gratuita para descargador instagram video de forma rápida y sencilla."
+            "desc": "Garde vídeos do feed do Instagram e clipes do IGTV diretamente como ficheiros MP4."
         },
         "instagram-story-downloader": {
             "title": "Descargador Instagram Story",
-            "desc": "Herramienta gratuita para descargador instagram story de forma rápida y sencilla."
+            "desc": ""
         },
         "instagram-profile-downloader": {
             "title": "Descargador Instagram Profile",
-            "desc": "Herramienta gratuita para descargador instagram profile de forma rápida y sencilla."
+            "desc": "Descarregue fotos de perfil do Instagram em tamanho completo e resolução original."
         },
         "instagram-audio-downloader": {
             "title": "Descargador Instagram Audio",
-            "desc": "Herramienta gratuita para descargador instagram audio de forma rápida y sencilla."
+            "desc": "Extraia o áudio de fundo e músicas populares dos Instagram Reels no formato MP3."
         },
         "spotify-to-mp3": {
             "title": "Spotify a MP3",
-            "desc": "Herramienta gratuita para spotify a MP3 de forma rápida y sencilla."
+            "desc": "Converta faixas de música e listas de reprodução do Spotify em ficheiros MP3 a 320kbps offline."
         },
         "soundcloud-to-mp3": {
             "title": "SoundCloud a MP3",
-            "desc": "Herramienta gratuita para soundcloud a MP3 de forma rápida y sencilla."
+            "desc": "Descarregue faixas de áudio do SoundCloud no formato MP3 de alta qualidade para ouvir offline."
         },
         "wav-to-mp3": {
             "title": "WAV a MP3",
-            "desc": "Herramienta gratuita para WAV a MP3 de forma rápida y sencilla."
+            "desc": "Comprima ficheiros de áudio WAV grandes no formato leve MP3 a 320kbps para poupar espaço."
         },
         "mp3-to-wav": {
             "title": "MP3 a WAV",
-            "desc": "Herramienta gratuita para MP3 a WAV de forma rápida y sencilla."
+            "desc": "Converta ficheiros de áudio MP3 em formato estúdio WAV de 16-bit 44.1kHz não comprimido."
         },
         "wav-to-mp4": {
             "title": "WAV a MP4",
-            "desc": "Herramienta gratuita para WAV a MP4 de forma rápida y sencilla."
+            "desc": "Converta ficheiros de áudio WAV no formato de vídeo MP4 com capa personalizada para o YouTube."
         },
         "mp4-to-wav": {
             "title": "MP4 a WAV",
-            "desc": "Herramienta gratuita para MP4 a WAV de forma rápida y sencilla."
+            "desc": "Extraia áudio WAV não comprimido de vídeos MP4 para edição de som profissional."
         },
         "compress-video": {
             "title": "Comprimir VIDEO",
-            "desc": "Herramienta gratuita para comprimir video de forma rápida y sencilla."
+            "desc": "Comprima vídeos MP4, MOV e AVI até 80% de redução de tamanho mantendo excelente qualidade."
         },
         "video-trimmer": {
             "title": "Video Trimmer",
-            "desc": "Herramienta gratuita para video trimmer de forma rápida y sencilla."
+            "desc": "Corte segmentos de vídeo indesejados, ajuste pontos de início e fim e recorte clipes rapidamente."
         },
         "video-merger": {
             "title": "Unir MERGER",
-            "desc": "Herramienta gratuita para unir merger de forma rápida y sencilla."
+            "desc": "Combine múltiplos clipes de vídeo num único ficheiro contínuo com transições personalizadas."
         },
         "mp4-to-mp3": {
             "title": "MP4 a MP3",
-            "desc": "Herramienta gratuita para MP4 a MP3 de forma rápida y sencilla."
+            "desc": "Extraia a banda sonora MP3 de alta qualidade de ficheiros de vídeo MP4 em escassos segundos."
         },
         "mp3-to-mp4": {
             "title": "MP3 a MP4",
-            "desc": "Herramienta gratuita para MP3 a MP4 de forma rápida y sencilla."
+            "desc": "Junte faixas de áudio MP3 com uma imagem de fundo estática ou visualizador para criar vídeos MP4."
         },
         "mp3-compressor": {
             "title": "MP3 Compressor",
-            "desc": "Herramienta gratuita para MP3 compressor de forma rápida y sencilla."
+            "desc": "Reduza o tamanho de ficheiros de áudio MP3 mantendo voz límpida e fidelidade musical."
         },
         "audio-converter": {
             "title": "Conversor Audio",
-            "desc": "Herramienta gratuita para conversor audio de forma rápida y sencilla."
+            "desc": "Converta ficheiros de áudio entre os formatos MP3, WAV, AAC, FLAC, OGG e M4A sem esforço."
         },
         "speech-to-text": {
             "title": "SPEECH a TEXT",
-            "desc": "Herramienta gratuita para speech a text de forma rápida y sencilla."
+            "desc": "Transcreva gravações de voz e fala do microfone em texto escrito preciso em tempo real."
         },
         "text-to-speech": {
             "title": "TEXT a SPEECH",
-            "desc": "Herramienta gratuita para text a speech de forma rápida y sencilla."
+            "desc": "Converta texto escrito em voz humana natural com múltiplas vozes, idiomas e sotaques."
         },
         "screen-recorder": {
             "title": "Screen Recorder",
-            "desc": "Herramienta gratuita para screen recorder de forma rápida y sencilla."
+            "desc": "Grave o ecrã do computador, câmara web e áudio do microfone diretamente no browser sem instalar nada."
         },
         "video-to-gif": {
             "title": "VIDEO a GIF",
-            "desc": "Herramienta gratuita para video a GIF de forma rápida y sencilla."
+            "desc": "Converta clipes de vídeo MP4, MOV e WebM em GIFs animados com taxa de fotogramas e repetição."
         },
         "mp4-to-gif": {
             "title": "MP4 a GIF",
-            "desc": "Herramienta gratuita para MP4 a GIF de forma rápida y sencilla."
+            "desc": "Transforme vídeos MP4 em GIFs animados leves para redes sociais e aplicações de mensagens."
         },
         "webm-to-gif": {
             "title": "WEBM a GIF",
-            "desc": "Herramienta gratuita para webm a GIF de forma rápida y sencilla."
+            "desc": "Converta clipes de vídeo WebM no formato GIF animado para compatibilidade universal na web."
         },
         "apng-to-gif": {
             "title": "APNG a GIF",
-            "desc": "Herramienta gratuita para apng a GIF de forma rápida y sencilla."
+            "desc": "Converta ficheiros Animated PNG (APNG) no formato universalmente suportado de GIF animado."
         },
         "image-to-gif": {
             "title": "IMAGE a GIF",
-            "desc": "Herramienta gratuita para image a GIF de forma rápida y sencilla."
+            "desc": "Crie GIFs animados a partir de uma sequência de fotos JPG, PNG ou WebP com tempo personalizável."
         },
         "gif-to-mp4": {
             "title": "GIF a MP4",
-            "desc": "Herramienta gratuita para GIF a MP4 de forma rápida y sencilla."
+            "desc": "Converta GIFs animados em vídeos MP4 suaves para reduzir o tamanho e permitir som."
         },
         "gif-to-webm": {
             "title": "GIF a WEBM",
-            "desc": "Herramienta gratuita para GIF a webm de forma rápida y sencilla."
+            "desc": "Converta GIFs animados em ficheiros de vídeo leves WebM para carregamento rápido em sites."
         },
         "gif-to-apng": {
             "title": "GIF a APNG",
-            "desc": "Herramienta gratuita para GIF a apng de forma rápida y sencilla."
+            "desc": "Converta GIFs animados no formato nítido Animated PNG (APNG) com suporte a cor de 24-bit."
         },
         "gif-compressor": {
             "title": "GIF Compressor",
-            "desc": "Herramienta gratuita para GIF compressor de forma rápida y sencilla."
+            "desc": "Comprima ficheiros GIF animados para reduzir o tamanho e permitir um carregamento rápido na web."
         },
         "document-converter": {
             "title": "Conversor Document",
-            "desc": "Herramienta gratuita para conversor document de forma rápida y sencilla."
+            "desc": "Converta documentos entre os formatos Word, PDF, TXT, RTF, HTML e ODT sem perdas."
         },
         "ebook-converter": {
             "title": "Conversor Ebook",
-            "desc": "Herramienta gratuita para conversor ebook de forma rápida y sencilla."
+            "desc": "Converta e-books entre os formatos EPUB, MOBI, AZW3, PDF e TXT para Kindle e Kobo."
         },
         "translate-document": {
             "title": "Translate Document",
-            "desc": "Herramienta gratuita para translate document de forma rápida y sencilla."
+            "desc": "Traduza documentos do Word, Excel e texto para mais de 100 idiomas com formatação intata."
         },
         "translate-word": {
             "title": "Translate Word",
-            "desc": "Herramienta gratuita para translate word de forma rápida y sencilla."
+            "desc": "Traduza ficheiros Microsoft Word DOCX para qualquer idioma mantendo o layout original."
         },
         "json-formatter": {
             "title": "Formateador JSON",
-            "desc": "Herramienta gratuita para formateador JSON de forma rápida y sencilla."
+            "desc": "Formate, valide, embeleze e minifique estruturas de dados JSON com realce de sintaxe."
         },
         "xml-formatter": {
             "title": "Formateador XML",
-            "desc": "Herramienta gratuita para formateador XML de forma rápida y sencilla."
+            "desc": "Formate e organize documentos XML com indentação correta e validação de sintaxe."
         },
         "csv-formatter": {
             "title": "Formateador CSV",
-            "desc": "Herramienta gratuita para formateador CSV de forma rápida y sencilla."
+            "desc": "Formate, limpe e converta ficheiros de dados CSV em tabelas estruturadas, JSON ou TSV."
         },
         "base64-tool": {
             "title": "Base64 Tool",
-            "desc": "Herramienta gratuita para base64 tool de forma rápida y sencilla."
+            "desc": "Codifique texto e ficheiros em cadeias Base64, ou descodifique dados Base64 para o formato original."
         },
         "hash-generator": {
             "title": "Generador Hash",
-            "desc": "Herramienta gratuita para generador hash de forma rápida y sencilla."
+            "desc": "Gere hashes criptográficos MD5, SHA-1, SHA-256 e SHA-512 para verificação de integridade."
         },
         "password-generator": {
             "title": "Generador Password",
-            "desc": "Herramienta gratuita para generador password de forma rápida y sencilla."
+            "desc": "Gere palavras-passe fortes, seguras e inquebráveis com comprimento e símbolos personalizados."
         },
         "color-picker": {
             "title": "Color Picker",
-            "desc": "Herramienta gratuita para color picker de forma rápida y sencilla."
+            "desc": "Extraia cores de imagens, converta valores HEX para RGB/HSL e gere paletas de cores harmoniosas."
         },
         "qr-code-generator": {
             "title": "Generador QR",
-            "desc": "Herramienta gratuita para generador QR de forma rápida y sencilla."
+            "desc": "Crie códigos QR personalizáveis para URLs de sites, redes Wi-Fi, cartões vCard e texto."
         },
         "favicon-generator": {
             "title": "Generador Favicon",
-            "desc": "Herramienta gratuita para generador favicon de forma rápida y sencilla."
+            "desc": "Gere ícones favicon ICO, PNG e Apple Touch em todas as dimensões necessárias a partir de um logótipo."
         },
         "lorem-ipsum": {
             "title": "Lorem Ipsum",
-            "desc": "Herramienta gratuita para lorem ipsum de forma rápida y sencilla."
+            "desc": "Gere texto de preenchimento Lorem Ipsum personalizado por parágrafos, frases ou palavras."
         },
         "screenshot-website": {
             "title": "Screenshot Website",
-            "desc": "Herramienta gratuita para screenshot website de forma rápida y sencilla."
+            "desc": "Capture capturas de ecrã completas e perfeitas de qualquer site público em PNG ou PDF."
         }
     },
     "fr": {
@@ -2237,15 +2237,15 @@ const TOOL_TRANSLATIONS = {
         },
         "json-formatter": {
             "title": "Formateur JSON",
-            "desc": "Outil gratuit pour formateur JSON rapidement et facilement."
+            "desc": "Formate, valide, embeleze e minifique estruturas de dados JSON com realce de sintaxe."
         },
         "xml-formatter": {
             "title": "Formateur XML",
-            "desc": "Outil gratuit pour formateur XML rapidement et facilement."
+            "desc": "Formate e organize documentos XML com indentação correta e validação de sintaxe."
         },
         "csv-formatter": {
             "title": "Formateur CSV",
-            "desc": "Outil gratuit pour formateur CSV rapidement et facilement."
+            "desc": "Formate, limpe e converta ficheiros de dados CSV em tabelas estruturadas, JSON ou TSV."
         },
         "base64-tool": {
             "title": "Base64 Tool",
@@ -2643,15 +2643,15 @@ const TOOL_TRANSLATIONS = {
         },
         "json-formatter": {
             "title": "Formatierer JSON",
-            "desc": "Kostenloses Werkzeug für formatierer JSON schnell und einfach."
+            "desc": "Formate, valide, embeleze e minifique estruturas de dados JSON com realce de sintaxe."
         },
         "xml-formatter": {
             "title": "Formatierer XML",
-            "desc": "Kostenloses Werkzeug für formatierer XML schnell und einfach."
+            "desc": "Formate e organize documentos XML com indentação correta e validação de sintaxe."
         },
         "csv-formatter": {
             "title": "Formatierer CSV",
-            "desc": "Kostenloses Werkzeug für formatierer CSV schnell und einfach."
+            "desc": "Formate, limpe e converta ficheiros de dados CSV em tabelas estruturadas, JSON ou TSV."
         },
         "base64-tool": {
             "title": "Base64 Tool",
@@ -3049,15 +3049,15 @@ const TOOL_TRANSLATIONS = {
         },
         "json-formatter": {
             "title": "Formattatore JSON",
-            "desc": "Strumento gratuito per formattatore JSON in modo rapido e semplice."
+            "desc": "Formate, valide, embeleze e minifique estruturas de dados JSON com realce de sintaxe."
         },
         "xml-formatter": {
             "title": "Formattatore XML",
-            "desc": "Strumento gratuito per formattatore XML in modo rapido e semplice."
+            "desc": "Formate e organize documentos XML com indentação correta e validação de sintaxe."
         },
         "csv-formatter": {
             "title": "Formattatore CSV",
-            "desc": "Strumento gratuito per formattatore CSV in modo rapido e semplice."
+            "desc": "Formate, limpe e converta ficheiros de dados CSV em tabelas estruturadas, JSON ou TSV."
         },
         "base64-tool": {
             "title": "Base64 Tool",
@@ -4267,15 +4267,15 @@ const TOOL_TRANSLATIONS = {
         },
         "json-formatter": {
             "title": "Format JSON",
-            "desc": "Alat gratis untuk format JSON dengan cepat dan mudah."
+            "desc": "Formate, valide, embeleze e minifique estruturas de dados JSON com realce de sintaxe."
         },
         "xml-formatter": {
             "title": "Format XML",
-            "desc": "Alat gratis untuk format XML dengan cepat dan mudah."
+            "desc": "Formate e organize documentos XML com indentação correta e validação de sintaxe."
         },
         "csv-formatter": {
             "title": "Format CSV",
-            "desc": "Alat gratis untuk format CSV dengan cepat dan mudah."
+            "desc": "Formate, limpe e converta ficheiros de dados CSV em tabelas estruturadas, JSON ou TSV."
         },
         "base64-tool": {
             "title": "Base64 Tool",
@@ -4715,6 +4715,1224 @@ const TOOL_TRANSLATIONS = {
             "title": "Screenshot Website",
             "desc": "Công cụ miễn phí để screenshot website một cách nhanh chóng và dễ dàng."
         }
+    },
+    "zh": {
+        "pdf-to-word": {
+            "title": "PDF to WORD",
+            "desc": "Convert PDF documents into editable DOC and DOCX files instantly while preserving all text layout and formatting."
+        },
+        "word-to-pdf": {
+            "title": "WORD to PDF",
+            "desc": "Transform Microsoft Word DOC and DOCX files into professional PDF documents ready for sharing and printing."
+        },
+        "youtube-to-mp3": {
+            "title": "YouTube to MP3",
+            "desc": "Convert YouTube videos into high bitrate 320kbps MP3 audio files with clean sound quality."
+        },
+        "youtube-downloader": {
+            "title": "YouTube Downloader",
+            "desc": "Download YouTube videos in MP4 1080p Full HD, 4K, or extract audio tracks instantly."
+        },
+        "merge-pdf": {
+            "title": "Merge PDF",
+            "desc": "Combine multiple PDF files into a single organized document in your exact preferred page order."
+        },
+        "compress-pdf": {
+            "title": "Compress PDF",
+            "desc": "Reduce PDF file size significantly while retaining crisp text and high image quality for fast email sharing."
+        },
+        "pdf-to-jpg": {
+            "title": "PDF to JPG",
+            "desc": "Convert every page of your PDF document into high-resolution JPG images with pristine visual quality."
+        },
+        "jpg-to-pdf": {
+            "title": "JPG to PDF",
+            "desc": "Convert JPG, PNG, and WebP images into a clean standardized PDF document with custom page margins."
+        },
+        "excel-to-pdf": {
+            "title": "EXCEL to PDF",
+            "desc": "Convert Excel spreadsheets XLS and XLSX into clean formatted PDF files with full table structure intact."
+        },
+        "pdf-to-excel": {
+            "title": "PDF to EXCEL",
+            "desc": "Extract tables and data from PDF documents into editable Excel XLSX spreadsheets for easy analysis."
+        },
+        "powerpoint-to-pdf": {
+            "title": "POWERPOINT to PDF",
+            "desc": "Convert PowerPoint presentation slides PPT and PPTX into universally viewable PDF documents."
+        },
+        "pdf-to-powerpoint": {
+            "title": "PDF to POWERPOINT",
+            "desc": "Convert PDF presentations into editable PowerPoint PPTX slides for easy presentation editing."
+        },
+        "edit-pdf": {
+            "title": "Edit PDF",
+            "desc": "Add text, shapes, annotations, images, and freehand drawings directly onto your PDF pages."
+        },
+        "split-pdf": {
+            "title": "Split PDF",
+            "desc": "Extract individual pages or split large PDF files into separate smaller documents with custom page ranges."
+        },
+        "organize-pdf": {
+            "title": "Organize PDF",
+            "desc": "Reorder, delete, rotate, and rearrange pages within your PDF file using a visual drag-and-drop editor."
+        },
+        "remove-pages": {
+            "title": "Remove PDF Pages",
+            "desc": "Remove unwanted or blank pages from your PDF documents easily with one click."
+        },
+        "rotate-pdf": {
+            "title": "Rotate PDF",
+            "desc": "Rotate specific pages or all pages inside a PDF document by 90, 180, or 270 degrees."
+        },
+        "add-pdf-page-number": {
+            "title": "Add PDF Page Number",
+            "desc": "Insert customizable page numbers, headers, and footers with page counts onto your PDF pages."
+        },
+        "pdf-add-watermark": {
+            "title": "PDF Add Watermark",
+            "desc": "Add text or image watermarks across your PDF pages to protect intellectual property."
+        },
+        "protect-pdf": {
+            "title": "Protect PDF",
+            "desc": "Encrypt PDF files with strong password security and prevent unauthorized reading or copying."
+        },
+        "unlock-pdf": {
+            "title": "Unlock PDF",
+            "desc": "Remove password protection and permissions security from PDF files to open and edit them freely."
+        },
+        "ocr-pdf": {
+            "title": "OCR PDF",
+            "desc": "Recognize scanned document text using optical character recognition to make PDFs searchable and selectable."
+        },
+        "pdf-summarize": {
+            "title": "PDF Summarize",
+            "desc": "Summarize lengthy PDF reports and books using AI to extract key insights and bulleted executive summaries."
+        },
+        "scan-pdf": {
+            "title": "Scan PDF",
+            "desc": "Free tool for scan PDF fast and easy."
+        },
+        "repair-pdf": {
+            "title": "Repair PDF",
+            "desc": "Recover data from corrupted or damaged PDF files and restore them to a readable state."
+        },
+        "html-to-pdf": {
+            "title": "HTML to PDF",
+            "desc": "Convert web pages and HTML code snippets into high-quality PDF files with complete CSS styling."
+        },
+        "pdf-to-html": {
+            "title": "PDF to HTML",
+            "desc": "Convert PDF documents into clean, responsive HTML web pages ready for web publishing."
+        },
+        "epub-to-pdf": {
+            "title": "EPUB to PDF",
+            "desc": "Convert EPUB e-books into printable PDF documents with custom typography and page layouts."
+        },
+        "pdf-to-epub": {
+            "title": "PDF to EPUB",
+            "desc": "Convert PDF eBooks and manuals into reflowable EPUB format for comfortable reading on e-readers."
+        },
+        "heic-to-pdf": {
+            "title": "HEIC to PDF",
+            "desc": "Convert HEIC photos directly into printable PDF documents with custom page layouts."
+        },
+        "pdf-to-heic": {
+            "title": "PDF to HEIC",
+            "desc": "Convert PDF documents into high-efficiency HEIC image files for mobile storage optimization."
+        },
+        "convert-pdf-to-pdfa": {
+            "title": "CONVERT-PDF to PDFA",
+            "desc": "Convert standard PDFs into ISO-compliant PDF/A format for long-term digital archiving."
+        },
+        "remove-bg": {
+            "title": "Remove Image Background",
+            "desc": "Remove image backgrounds automatically in seconds using AI for clean transparent PNG cutouts."
+        },
+        "upscale-image": {
+            "title": "Upscale Image",
+            "desc": "Enlarge and enhance low-resolution images up to 4x clarity using AI deep learning super-resolution."
+        },
+        "remove-watermark": {
+            "title": "Remove Watermark",
+            "desc": "Remove unwanted watermarks, logos, text overlays, and stamps from photos using AI inpainting."
+        },
+        "crop-image": {
+            "title": "Crop Image",
+            "desc": "Crop photo borders, adjust aspect ratios, and trim unwanted edges with a visual cropping tool."
+        },
+        "resize-image": {
+            "title": "Resize Image",
+            "desc": "Change image dimensions by exact pixels or percentages with aspect ratio locking."
+        },
+        "rotate-image": {
+            "title": "Rotate Image",
+            "desc": "Rotate images clockwise or counter-clockwise and flip pictures horizontally or vertically."
+        },
+        "compress-image": {
+            "title": "Compress IMAGE",
+            "desc": "Compress JPG, PNG, and WebP images up to 80% without losing visible picture quality."
+        },
+        "jpg-to-png": {
+            "title": "JPG to PNG",
+            "desc": "Convert JPG images into PNG format with full transparency support and lossless compression."
+        },
+        "png-to-jpg": {
+            "title": "PNG to JPG",
+            "desc": "Convert PNG pictures to JPG format with custom background color fill and quality sliders."
+        },
+        "heic-to-jpg": {
+            "title": "HEIC to JPG",
+            "desc": "Convert iPhone HEIC photos into widely compatible JPG format for Windows and Web."
+        },
+        "jpg-to-heic": {
+            "title": "JPG to HEIC",
+            "desc": "Convert JPG images into high-efficiency HEIC format to save storage space on Apple devices."
+        },
+        "heic-to-png": {
+            "title": "HEIC to PNG",
+            "desc": "Convert Apple HEIC pictures into PNG format with full transparent background support."
+        },
+        "png-to-heic": {
+            "title": "PNG to HEIC",
+            "desc": "Convert PNG images into high-efficiency HEIC format while maintaining high image fidelity."
+        },
+        "jpg-to-webp": {
+            "title": "JPG to WebP",
+            "desc": "Convert JPG photos into modern WebP format to reduce web image load times."
+        },
+        "webp-to-jpg": {
+            "title": "WebP to JPG",
+            "desc": "Convert modern WebP images into universally compatible JPG format for older software."
+        },
+        "png-to-webp": {
+            "title": "PNG to WebP",
+            "desc": "Convert PNG graphics into web-optimized WebP images with alpha channel transparency intact."
+        },
+        "webp-to-png": {
+            "title": "WebP to PNG",
+            "desc": "Convert WebP images into transparent PNG format for easy graphics editing in Photoshop."
+        },
+        "png-to-svg": {
+            "title": "PNG to SVG",
+            "desc": "Convert PNG graphics into crisp vector SVG format with customizable path tracing."
+        },
+        "jpg-to-svg": {
+            "title": "JPG to SVG",
+            "desc": "Vectorize raster JPG images into scalable SVG vector graphics for logos and illustrations."
+        },
+        "webp-to-svg": {
+            "title": "WebP to SVG",
+            "desc": "Transform WebP images into resolution-independent SVG vector files for web design."
+        },
+        "youtube-to-wav": {
+            "title": "YouTube to WAV",
+            "desc": "Extract uncompressed studio quality WAV audio from YouTube videos for music editing."
+        },
+        "youtube-to-mp4": {
+            "title": "YouTube to MP4",
+            "desc": "Download YouTube videos in high definition MP4 format for offline viewing on any device."
+        },
+        "tiktok-downloader": {
+            "title": "TikTok Downloader",
+            "desc": "Download TikTok videos without watermark in HD MP4 format for reposting and editing."
+        },
+        "instagram-reels-downloader": {
+            "title": "Instagram Reels Downloader",
+            "desc": "Download Instagram Reels videos in full HD MP4 quality without watermark."
+        },
+        "instagram-photo-downloader": {
+            "title": "Instagram Photo Downloader",
+            "desc": "Download original quality Instagram photos and multi-photo posts effortlessly."
+        },
+        "instagram-video-downloader": {
+            "title": "Instagram Video Downloader",
+            "desc": "Save Instagram feed videos and IGTV clips directly as MP4 files to your device."
+        },
+        "instagram-story-downloader": {
+            "title": "Instagram Story Downloader",
+            "desc": "Free tool for instagram story downloader fast and easy."
+        },
+        "instagram-profile-downloader": {
+            "title": "Instagram Profile Downloader",
+            "desc": "Download full-size Instagram profile picture photos in original high resolution."
+        },
+        "instagram-audio-downloader": {
+            "title": "Instagram Audio Downloader",
+            "desc": "Extract background audio and trending music from Instagram Reels into MP3 format."
+        },
+        "spotify-to-mp3": {
+            "title": "Spotify to MP3",
+            "desc": "Convert Spotify music tracks and playlists into offline 320kbps MP3 audio files."
+        },
+        "soundcloud-to-mp3": {
+            "title": "SoundCloud to MP3",
+            "desc": "Download audio tracks from SoundCloud in high quality MP3 format for offline listening."
+        },
+        "wav-to-mp3": {
+            "title": "WAV to MP3",
+            "desc": "Compress large WAV audio files into lightweight 320kbps MP3 format to save storage."
+        },
+        "mp3-to-wav": {
+            "title": "MP3 to WAV",
+            "desc": "Convert compressed MP3 audio files into uncompressed 16-bit 44.1kHz WAV studio audio."
+        },
+        "wav-to-mp4": {
+            "title": "WAV to MP4",
+            "desc": "Convert WAV audio files into MP4 video format with custom cover art for uploading to YouTube."
+        },
+        "mp4-to-wav": {
+            "title": "MP4 to WAV",
+            "desc": "Extract uncompressed WAV audio from MP4 videos for professional audio editing."
+        },
+        "compress-video": {
+            "title": "Compress VIDEO",
+            "desc": "Compress MP4, MOV, and AVI videos up to 80% size reduction with minimal quality loss."
+        },
+        "video-trimmer": {
+            "title": "Video Trimmer",
+            "desc": "Trim unwanted video segments, cut start and end points, and clip videos quickly."
+        },
+        "video-merger": {
+            "title": "Merge MERGER",
+            "desc": "Combine multiple video clips into a single seamless video file with custom transitions."
+        },
+        "mp4-to-mp3": {
+            "title": "MP4 to MP3",
+            "desc": "Extract high quality MP3 soundtrack audio from MP4 video files in seconds."
+        },
+        "mp3-to-mp4": {
+            "title": "MP3 to MP4",
+            "desc": "Combine MP3 audio tracks with a static background image or visualizer to create MP4 videos."
+        },
+        "mp3-compressor": {
+            "title": "MP3 Compressor",
+            "desc": "Reduce MP3 audio file size while preserving clear voice and musical instrument fidelity."
+        },
+        "audio-converter": {
+            "title": "Converter Audio",
+            "desc": "Convert audio files between MP3, WAV, AAC, FLAC, OGG, and M4A formats effortlessly."
+        },
+        "speech-to-text": {
+            "title": "SPEECH to TEXT",
+            "desc": "Transcribe voice recordings and microphone speech into accurate written text in real time."
+        },
+        "text-to-speech": {
+            "title": "TEXT to SPEECH",
+            "desc": "Convert written text into natural-sounding human speech audio with multiple voices and accents."
+        },
+        "screen-recorder": {
+            "title": "Screen Recorder",
+            "desc": "Record your computer screen, webcam, and microphone audio directly in your browser without software."
+        },
+        "video-to-gif": {
+            "title": "VIDEO to GIF",
+            "desc": "Convert MP4, MOV, and WebM video clips into animated GIFs with custom frame rate and loop settings."
+        },
+        "mp4-to-gif": {
+            "title": "MP4 to GIF",
+            "desc": "Turn MP4 video clips into lightweight animated GIFs for social media and messaging apps."
+        },
+        "webm-to-gif": {
+            "title": "WEBM to GIF",
+            "desc": "Convert WebM video clips into animated GIF format for universal web compatibility."
+        },
+        "apng-to-gif": {
+            "title": "APNG to GIF",
+            "desc": "Convert Animated PNG (APNG) files into widely supported animated GIF format."
+        },
+        "image-to-gif": {
+            "title": "IMAGE to GIF",
+            "desc": "Create animated GIFs from a sequence of static JPG, PNG, or WebP photos with custom frame delay."
+        },
+        "gif-to-mp4": {
+            "title": "GIF to MP4",
+            "desc": "Convert animated GIFs into smooth MP4 videos to reduce file size and enable audio playback."
+        },
+        "gif-to-webm": {
+            "title": "GIF to WEBM",
+            "desc": "Convert animated GIFs into lightweight WebM video files for fast web animation loading."
+        },
+        "gif-to-apng": {
+            "title": "GIF to APNG",
+            "desc": "Convert animated GIFs into crisp Animated PNG (APNG) format with full 24-bit color support."
+        },
+        "gif-compressor": {
+            "title": "GIF Compressor",
+            "desc": "Compress animated GIF files to reduce file size for fast messaging and web loading."
+        },
+        "document-converter": {
+            "title": "Converter Document",
+            "desc": "Convert documents between Word, PDF, TXT, RTF, HTML, and ODT formats."
+        },
+        "ebook-converter": {
+            "title": "Converter Ebook",
+            "desc": "Convert eBooks between EPUB, MOBI, AZW3, PDF, and TXT formats for Kindle and Kobo."
+        },
+        "translate-document": {
+            "title": "Translate Document",
+            "desc": "Translate Word, Excel, and text documents into over 100 languages with formatting intact."
+        },
+        "translate-word": {
+            "title": "Translate Word",
+            "desc": "Translate Microsoft Word DOCX files into any language while preserving original document layout."
+        },
+        "json-formatter": {
+            "title": "Formatter JSON",
+            "desc": "Format, validate, beautify, and minify JSON data structures with syntax highlighting and error checking."
+        },
+        "xml-formatter": {
+            "title": "Formatter XML",
+            "desc": "Format and prettify XML documents with proper indentation and syntax validation."
+        },
+        "csv-formatter": {
+            "title": "Formatter CSV",
+            "desc": "Format, clean, and convert CSV data files into structured tables, JSON, or TSV format."
+        },
+        "base64-tool": {
+            "title": "Base64 Tool",
+            "desc": "Encode text and files into Base64 strings, or decode Base64 data back into original format."
+        },
+        "hash-generator": {
+            "title": "Generator Hash",
+            "desc": "Generate MD5, SHA-1, SHA-256, and SHA-512 cryptographic hashes for data integrity verification."
+        },
+        "password-generator": {
+            "title": "Generator Password",
+            "desc": "Generate strong, secure, unhackable passwords with custom length, numbers, and special symbols."
+        },
+        "color-picker": {
+            "title": "Color Picker",
+            "desc": "Pick colors from images, convert HEX to RGB and HSL values, and generate harmonious palettes."
+        },
+        "qr-code-generator": {
+            "title": "Generator QR",
+            "desc": "Create customizable QR codes for website URLs, Wi-Fi networks, contact vCards, and text."
+        },
+        "favicon-generator": {
+            "title": "Generator Favicon",
+            "desc": "Generate ICO, PNG, and Apple Touch favicon icons in all required dimensions from any logo."
+        },
+        "lorem-ipsum": {
+            "title": "Lorem Ipsum",
+            "desc": "Generate customized Lorem Ipsum dummy placeholder text by paragraphs, sentences, or words."
+        },
+        "screenshot-website": {
+            "title": "Screenshot Website",
+            "desc": "Capture full-page pixel-perfect website screenshots from any public URL in PNG or PDF."
+        }
+    },
+    "ja": {
+        "pdf-to-word": {
+            "title": "PDF to WORD",
+            "desc": "Convert PDF documents into editable DOC and DOCX files instantly while preserving all text layout and formatting."
+        },
+        "word-to-pdf": {
+            "title": "WORD to PDF",
+            "desc": "Transform Microsoft Word DOC and DOCX files into professional PDF documents ready for sharing and printing."
+        },
+        "youtube-to-mp3": {
+            "title": "YouTube to MP3",
+            "desc": "Convert YouTube videos into high bitrate 320kbps MP3 audio files with clean sound quality."
+        },
+        "youtube-downloader": {
+            "title": "YouTube Downloader",
+            "desc": "Download YouTube videos in MP4 1080p Full HD, 4K, or extract audio tracks instantly."
+        },
+        "merge-pdf": {
+            "title": "Merge PDF",
+            "desc": "Combine multiple PDF files into a single organized document in your exact preferred page order."
+        },
+        "compress-pdf": {
+            "title": "Compress PDF",
+            "desc": "Reduce PDF file size significantly while retaining crisp text and high image quality for fast email sharing."
+        },
+        "pdf-to-jpg": {
+            "title": "PDF to JPG",
+            "desc": "Convert every page of your PDF document into high-resolution JPG images with pristine visual quality."
+        },
+        "jpg-to-pdf": {
+            "title": "JPG to PDF",
+            "desc": "Convert JPG, PNG, and WebP images into a clean standardized PDF document with custom page margins."
+        },
+        "excel-to-pdf": {
+            "title": "EXCEL to PDF",
+            "desc": "Convert Excel spreadsheets XLS and XLSX into clean formatted PDF files with full table structure intact."
+        },
+        "pdf-to-excel": {
+            "title": "PDF to EXCEL",
+            "desc": "Extract tables and data from PDF documents into editable Excel XLSX spreadsheets for easy analysis."
+        },
+        "powerpoint-to-pdf": {
+            "title": "POWERPOINT to PDF",
+            "desc": "Convert PowerPoint presentation slides PPT and PPTX into universally viewable PDF documents."
+        },
+        "pdf-to-powerpoint": {
+            "title": "PDF to POWERPOINT",
+            "desc": "Convert PDF presentations into editable PowerPoint PPTX slides for easy presentation editing."
+        },
+        "edit-pdf": {
+            "title": "Edit PDF",
+            "desc": "Add text, shapes, annotations, images, and freehand drawings directly onto your PDF pages."
+        },
+        "split-pdf": {
+            "title": "Split PDF",
+            "desc": "Extract individual pages or split large PDF files into separate smaller documents with custom page ranges."
+        },
+        "organize-pdf": {
+            "title": "Organize PDF",
+            "desc": "Reorder, delete, rotate, and rearrange pages within your PDF file using a visual drag-and-drop editor."
+        },
+        "remove-pages": {
+            "title": "Remove PDF Pages",
+            "desc": "Remove unwanted or blank pages from your PDF documents easily with one click."
+        },
+        "rotate-pdf": {
+            "title": "Rotate PDF",
+            "desc": "Rotate specific pages or all pages inside a PDF document by 90, 180, or 270 degrees."
+        },
+        "add-pdf-page-number": {
+            "title": "Add PDF Page Number",
+            "desc": "Insert customizable page numbers, headers, and footers with page counts onto your PDF pages."
+        },
+        "pdf-add-watermark": {
+            "title": "PDF Add Watermark",
+            "desc": "Add text or image watermarks across your PDF pages to protect intellectual property."
+        },
+        "protect-pdf": {
+            "title": "Protect PDF",
+            "desc": "Encrypt PDF files with strong password security and prevent unauthorized reading or copying."
+        },
+        "unlock-pdf": {
+            "title": "Unlock PDF",
+            "desc": "Remove password protection and permissions security from PDF files to open and edit them freely."
+        },
+        "ocr-pdf": {
+            "title": "OCR PDF",
+            "desc": "Recognize scanned document text using optical character recognition to make PDFs searchable and selectable."
+        },
+        "pdf-summarize": {
+            "title": "PDF Summarize",
+            "desc": "Summarize lengthy PDF reports and books using AI to extract key insights and bulleted executive summaries."
+        },
+        "scan-pdf": {
+            "title": "Scan PDF",
+            "desc": "Free tool for scan PDF fast and easy."
+        },
+        "repair-pdf": {
+            "title": "Repair PDF",
+            "desc": "Recover data from corrupted or damaged PDF files and restore them to a readable state."
+        },
+        "html-to-pdf": {
+            "title": "HTML to PDF",
+            "desc": "Convert web pages and HTML code snippets into high-quality PDF files with complete CSS styling."
+        },
+        "pdf-to-html": {
+            "title": "PDF to HTML",
+            "desc": "Convert PDF documents into clean, responsive HTML web pages ready for web publishing."
+        },
+        "epub-to-pdf": {
+            "title": "EPUB to PDF",
+            "desc": "Convert EPUB e-books into printable PDF documents with custom typography and page layouts."
+        },
+        "pdf-to-epub": {
+            "title": "PDF to EPUB",
+            "desc": "Convert PDF eBooks and manuals into reflowable EPUB format for comfortable reading on e-readers."
+        },
+        "heic-to-pdf": {
+            "title": "HEIC to PDF",
+            "desc": "Convert HEIC photos directly into printable PDF documents with custom page layouts."
+        },
+        "pdf-to-heic": {
+            "title": "PDF to HEIC",
+            "desc": "Convert PDF documents into high-efficiency HEIC image files for mobile storage optimization."
+        },
+        "convert-pdf-to-pdfa": {
+            "title": "CONVERT-PDF to PDFA",
+            "desc": "Convert standard PDFs into ISO-compliant PDF/A format for long-term digital archiving."
+        },
+        "remove-bg": {
+            "title": "Remove Image Background",
+            "desc": "Remove image backgrounds automatically in seconds using AI for clean transparent PNG cutouts."
+        },
+        "upscale-image": {
+            "title": "Upscale Image",
+            "desc": "Enlarge and enhance low-resolution images up to 4x clarity using AI deep learning super-resolution."
+        },
+        "remove-watermark": {
+            "title": "Remove Watermark",
+            "desc": "Remove unwanted watermarks, logos, text overlays, and stamps from photos using AI inpainting."
+        },
+        "crop-image": {
+            "title": "Crop Image",
+            "desc": "Crop photo borders, adjust aspect ratios, and trim unwanted edges with a visual cropping tool."
+        },
+        "resize-image": {
+            "title": "Resize Image",
+            "desc": "Change image dimensions by exact pixels or percentages with aspect ratio locking."
+        },
+        "rotate-image": {
+            "title": "Rotate Image",
+            "desc": "Rotate images clockwise or counter-clockwise and flip pictures horizontally or vertically."
+        },
+        "compress-image": {
+            "title": "Compress IMAGE",
+            "desc": "Compress JPG, PNG, and WebP images up to 80% without losing visible picture quality."
+        },
+        "jpg-to-png": {
+            "title": "JPG to PNG",
+            "desc": "Convert JPG images into PNG format with full transparency support and lossless compression."
+        },
+        "png-to-jpg": {
+            "title": "PNG to JPG",
+            "desc": "Convert PNG pictures to JPG format with custom background color fill and quality sliders."
+        },
+        "heic-to-jpg": {
+            "title": "HEIC to JPG",
+            "desc": "Convert iPhone HEIC photos into widely compatible JPG format for Windows and Web."
+        },
+        "jpg-to-heic": {
+            "title": "JPG to HEIC",
+            "desc": "Convert JPG images into high-efficiency HEIC format to save storage space on Apple devices."
+        },
+        "heic-to-png": {
+            "title": "HEIC to PNG",
+            "desc": "Convert Apple HEIC pictures into PNG format with full transparent background support."
+        },
+        "png-to-heic": {
+            "title": "PNG to HEIC",
+            "desc": "Convert PNG images into high-efficiency HEIC format while maintaining high image fidelity."
+        },
+        "jpg-to-webp": {
+            "title": "JPG to WebP",
+            "desc": "Convert JPG photos into modern WebP format to reduce web image load times."
+        },
+        "webp-to-jpg": {
+            "title": "WebP to JPG",
+            "desc": "Convert modern WebP images into universally compatible JPG format for older software."
+        },
+        "png-to-webp": {
+            "title": "PNG to WebP",
+            "desc": "Convert PNG graphics into web-optimized WebP images with alpha channel transparency intact."
+        },
+        "webp-to-png": {
+            "title": "WebP to PNG",
+            "desc": "Convert WebP images into transparent PNG format for easy graphics editing in Photoshop."
+        },
+        "png-to-svg": {
+            "title": "PNG to SVG",
+            "desc": "Convert PNG graphics into crisp vector SVG format with customizable path tracing."
+        },
+        "jpg-to-svg": {
+            "title": "JPG to SVG",
+            "desc": "Vectorize raster JPG images into scalable SVG vector graphics for logos and illustrations."
+        },
+        "webp-to-svg": {
+            "title": "WebP to SVG",
+            "desc": "Transform WebP images into resolution-independent SVG vector files for web design."
+        },
+        "youtube-to-wav": {
+            "title": "YouTube to WAV",
+            "desc": "Extract uncompressed studio quality WAV audio from YouTube videos for music editing."
+        },
+        "youtube-to-mp4": {
+            "title": "YouTube to MP4",
+            "desc": "Download YouTube videos in high definition MP4 format for offline viewing on any device."
+        },
+        "tiktok-downloader": {
+            "title": "TikTok Downloader",
+            "desc": "Download TikTok videos without watermark in HD MP4 format for reposting and editing."
+        },
+        "instagram-reels-downloader": {
+            "title": "Instagram Reels Downloader",
+            "desc": "Download Instagram Reels videos in full HD MP4 quality without watermark."
+        },
+        "instagram-photo-downloader": {
+            "title": "Instagram Photo Downloader",
+            "desc": "Download original quality Instagram photos and multi-photo posts effortlessly."
+        },
+        "instagram-video-downloader": {
+            "title": "Instagram Video Downloader",
+            "desc": "Save Instagram feed videos and IGTV clips directly as MP4 files to your device."
+        },
+        "instagram-story-downloader": {
+            "title": "Instagram Story Downloader",
+            "desc": "Free tool for instagram story downloader fast and easy."
+        },
+        "instagram-profile-downloader": {
+            "title": "Instagram Profile Downloader",
+            "desc": "Download full-size Instagram profile picture photos in original high resolution."
+        },
+        "instagram-audio-downloader": {
+            "title": "Instagram Audio Downloader",
+            "desc": "Extract background audio and trending music from Instagram Reels into MP3 format."
+        },
+        "spotify-to-mp3": {
+            "title": "Spotify to MP3",
+            "desc": "Convert Spotify music tracks and playlists into offline 320kbps MP3 audio files."
+        },
+        "soundcloud-to-mp3": {
+            "title": "SoundCloud to MP3",
+            "desc": "Download audio tracks from SoundCloud in high quality MP3 format for offline listening."
+        },
+        "wav-to-mp3": {
+            "title": "WAV to MP3",
+            "desc": "Compress large WAV audio files into lightweight 320kbps MP3 format to save storage."
+        },
+        "mp3-to-wav": {
+            "title": "MP3 to WAV",
+            "desc": "Convert compressed MP3 audio files into uncompressed 16-bit 44.1kHz WAV studio audio."
+        },
+        "wav-to-mp4": {
+            "title": "WAV to MP4",
+            "desc": "Convert WAV audio files into MP4 video format with custom cover art for uploading to YouTube."
+        },
+        "mp4-to-wav": {
+            "title": "MP4 to WAV",
+            "desc": "Extract uncompressed WAV audio from MP4 videos for professional audio editing."
+        },
+        "compress-video": {
+            "title": "Compress VIDEO",
+            "desc": "Compress MP4, MOV, and AVI videos up to 80% size reduction with minimal quality loss."
+        },
+        "video-trimmer": {
+            "title": "Video Trimmer",
+            "desc": "Trim unwanted video segments, cut start and end points, and clip videos quickly."
+        },
+        "video-merger": {
+            "title": "Merge MERGER",
+            "desc": "Combine multiple video clips into a single seamless video file with custom transitions."
+        },
+        "mp4-to-mp3": {
+            "title": "MP4 to MP3",
+            "desc": "Extract high quality MP3 soundtrack audio from MP4 video files in seconds."
+        },
+        "mp3-to-mp4": {
+            "title": "MP3 to MP4",
+            "desc": "Combine MP3 audio tracks with a static background image or visualizer to create MP4 videos."
+        },
+        "mp3-compressor": {
+            "title": "MP3 Compressor",
+            "desc": "Reduce MP3 audio file size while preserving clear voice and musical instrument fidelity."
+        },
+        "audio-converter": {
+            "title": "Converter Audio",
+            "desc": "Convert audio files between MP3, WAV, AAC, FLAC, OGG, and M4A formats effortlessly."
+        },
+        "speech-to-text": {
+            "title": "SPEECH to TEXT",
+            "desc": "Transcribe voice recordings and microphone speech into accurate written text in real time."
+        },
+        "text-to-speech": {
+            "title": "TEXT to SPEECH",
+            "desc": "Convert written text into natural-sounding human speech audio with multiple voices and accents."
+        },
+        "screen-recorder": {
+            "title": "Screen Recorder",
+            "desc": "Record your computer screen, webcam, and microphone audio directly in your browser without software."
+        },
+        "video-to-gif": {
+            "title": "VIDEO to GIF",
+            "desc": "Convert MP4, MOV, and WebM video clips into animated GIFs with custom frame rate and loop settings."
+        },
+        "mp4-to-gif": {
+            "title": "MP4 to GIF",
+            "desc": "Turn MP4 video clips into lightweight animated GIFs for social media and messaging apps."
+        },
+        "webm-to-gif": {
+            "title": "WEBM to GIF",
+            "desc": "Convert WebM video clips into animated GIF format for universal web compatibility."
+        },
+        "apng-to-gif": {
+            "title": "APNG to GIF",
+            "desc": "Convert Animated PNG (APNG) files into widely supported animated GIF format."
+        },
+        "image-to-gif": {
+            "title": "IMAGE to GIF",
+            "desc": "Create animated GIFs from a sequence of static JPG, PNG, or WebP photos with custom frame delay."
+        },
+        "gif-to-mp4": {
+            "title": "GIF to MP4",
+            "desc": "Convert animated GIFs into smooth MP4 videos to reduce file size and enable audio playback."
+        },
+        "gif-to-webm": {
+            "title": "GIF to WEBM",
+            "desc": "Convert animated GIFs into lightweight WebM video files for fast web animation loading."
+        },
+        "gif-to-apng": {
+            "title": "GIF to APNG",
+            "desc": "Convert animated GIFs into crisp Animated PNG (APNG) format with full 24-bit color support."
+        },
+        "gif-compressor": {
+            "title": "GIF Compressor",
+            "desc": "Compress animated GIF files to reduce file size for fast messaging and web loading."
+        },
+        "document-converter": {
+            "title": "Converter Document",
+            "desc": "Convert documents between Word, PDF, TXT, RTF, HTML, and ODT formats."
+        },
+        "ebook-converter": {
+            "title": "Converter Ebook",
+            "desc": "Convert eBooks between EPUB, MOBI, AZW3, PDF, and TXT formats for Kindle and Kobo."
+        },
+        "translate-document": {
+            "title": "Translate Document",
+            "desc": "Translate Word, Excel, and text documents into over 100 languages with formatting intact."
+        },
+        "translate-word": {
+            "title": "Translate Word",
+            "desc": "Translate Microsoft Word DOCX files into any language while preserving original document layout."
+        },
+        "json-formatter": {
+            "title": "Formatter JSON",
+            "desc": "Format, validate, beautify, and minify JSON data structures with syntax highlighting and error checking."
+        },
+        "xml-formatter": {
+            "title": "Formatter XML",
+            "desc": "Format and prettify XML documents with proper indentation and syntax validation."
+        },
+        "csv-formatter": {
+            "title": "Formatter CSV",
+            "desc": "Format, clean, and convert CSV data files into structured tables, JSON, or TSV format."
+        },
+        "base64-tool": {
+            "title": "Base64 Tool",
+            "desc": "Encode text and files into Base64 strings, or decode Base64 data back into original format."
+        },
+        "hash-generator": {
+            "title": "Generator Hash",
+            "desc": "Generate MD5, SHA-1, SHA-256, and SHA-512 cryptographic hashes for data integrity verification."
+        },
+        "password-generator": {
+            "title": "Generator Password",
+            "desc": "Generate strong, secure, unhackable passwords with custom length, numbers, and special symbols."
+        },
+        "color-picker": {
+            "title": "Color Picker",
+            "desc": "Pick colors from images, convert HEX to RGB and HSL values, and generate harmonious palettes."
+        },
+        "qr-code-generator": {
+            "title": "Generator QR",
+            "desc": "Create customizable QR codes for website URLs, Wi-Fi networks, contact vCards, and text."
+        },
+        "favicon-generator": {
+            "title": "Generator Favicon",
+            "desc": "Generate ICO, PNG, and Apple Touch favicon icons in all required dimensions from any logo."
+        },
+        "lorem-ipsum": {
+            "title": "Lorem Ipsum",
+            "desc": "Generate customized Lorem Ipsum dummy placeholder text by paragraphs, sentences, or words."
+        },
+        "screenshot-website": {
+            "title": "Screenshot Website",
+            "desc": "Capture full-page pixel-perfect website screenshots from any public URL in PNG or PDF."
+        }
+    },
+    "ko": {
+        "pdf-to-word": {
+            "title": "PDF to WORD",
+            "desc": "Convert PDF documents into editable DOC and DOCX files instantly while preserving all text layout and formatting."
+        },
+        "word-to-pdf": {
+            "title": "WORD to PDF",
+            "desc": "Transform Microsoft Word DOC and DOCX files into professional PDF documents ready for sharing and printing."
+        },
+        "youtube-to-mp3": {
+            "title": "YouTube to MP3",
+            "desc": "Convert YouTube videos into high bitrate 320kbps MP3 audio files with clean sound quality."
+        },
+        "youtube-downloader": {
+            "title": "YouTube Downloader",
+            "desc": "Download YouTube videos in MP4 1080p Full HD, 4K, or extract audio tracks instantly."
+        },
+        "merge-pdf": {
+            "title": "Merge PDF",
+            "desc": "Combine multiple PDF files into a single organized document in your exact preferred page order."
+        },
+        "compress-pdf": {
+            "title": "Compress PDF",
+            "desc": "Reduce PDF file size significantly while retaining crisp text and high image quality for fast email sharing."
+        },
+        "pdf-to-jpg": {
+            "title": "PDF to JPG",
+            "desc": "Convert every page of your PDF document into high-resolution JPG images with pristine visual quality."
+        },
+        "jpg-to-pdf": {
+            "title": "JPG to PDF",
+            "desc": "Convert JPG, PNG, and WebP images into a clean standardized PDF document with custom page margins."
+        },
+        "excel-to-pdf": {
+            "title": "EXCEL to PDF",
+            "desc": "Convert Excel spreadsheets XLS and XLSX into clean formatted PDF files with full table structure intact."
+        },
+        "pdf-to-excel": {
+            "title": "PDF to EXCEL",
+            "desc": "Extract tables and data from PDF documents into editable Excel XLSX spreadsheets for easy analysis."
+        },
+        "powerpoint-to-pdf": {
+            "title": "POWERPOINT to PDF",
+            "desc": "Convert PowerPoint presentation slides PPT and PPTX into universally viewable PDF documents."
+        },
+        "pdf-to-powerpoint": {
+            "title": "PDF to POWERPOINT",
+            "desc": "Convert PDF presentations into editable PowerPoint PPTX slides for easy presentation editing."
+        },
+        "edit-pdf": {
+            "title": "Edit PDF",
+            "desc": "Add text, shapes, annotations, images, and freehand drawings directly onto your PDF pages."
+        },
+        "split-pdf": {
+            "title": "Split PDF",
+            "desc": "Extract individual pages or split large PDF files into separate smaller documents with custom page ranges."
+        },
+        "organize-pdf": {
+            "title": "Organize PDF",
+            "desc": "Reorder, delete, rotate, and rearrange pages within your PDF file using a visual drag-and-drop editor."
+        },
+        "remove-pages": {
+            "title": "Remove PDF Pages",
+            "desc": "Remove unwanted or blank pages from your PDF documents easily with one click."
+        },
+        "rotate-pdf": {
+            "title": "Rotate PDF",
+            "desc": "Rotate specific pages or all pages inside a PDF document by 90, 180, or 270 degrees."
+        },
+        "add-pdf-page-number": {
+            "title": "Add PDF Page Number",
+            "desc": "Insert customizable page numbers, headers, and footers with page counts onto your PDF pages."
+        },
+        "pdf-add-watermark": {
+            "title": "PDF Add Watermark",
+            "desc": "Add text or image watermarks across your PDF pages to protect intellectual property."
+        },
+        "protect-pdf": {
+            "title": "Protect PDF",
+            "desc": "Encrypt PDF files with strong password security and prevent unauthorized reading or copying."
+        },
+        "unlock-pdf": {
+            "title": "Unlock PDF",
+            "desc": "Remove password protection and permissions security from PDF files to open and edit them freely."
+        },
+        "ocr-pdf": {
+            "title": "OCR PDF",
+            "desc": "Recognize scanned document text using optical character recognition to make PDFs searchable and selectable."
+        },
+        "pdf-summarize": {
+            "title": "PDF Summarize",
+            "desc": "Summarize lengthy PDF reports and books using AI to extract key insights and bulleted executive summaries."
+        },
+        "scan-pdf": {
+            "title": "Scan PDF",
+            "desc": "Free tool for scan PDF fast and easy."
+        },
+        "repair-pdf": {
+            "title": "Repair PDF",
+            "desc": "Recover data from corrupted or damaged PDF files and restore them to a readable state."
+        },
+        "html-to-pdf": {
+            "title": "HTML to PDF",
+            "desc": "Convert web pages and HTML code snippets into high-quality PDF files with complete CSS styling."
+        },
+        "pdf-to-html": {
+            "title": "PDF to HTML",
+            "desc": "Convert PDF documents into clean, responsive HTML web pages ready for web publishing."
+        },
+        "epub-to-pdf": {
+            "title": "EPUB to PDF",
+            "desc": "Convert EPUB e-books into printable PDF documents with custom typography and page layouts."
+        },
+        "pdf-to-epub": {
+            "title": "PDF to EPUB",
+            "desc": "Convert PDF eBooks and manuals into reflowable EPUB format for comfortable reading on e-readers."
+        },
+        "heic-to-pdf": {
+            "title": "HEIC to PDF",
+            "desc": "Convert HEIC photos directly into printable PDF documents with custom page layouts."
+        },
+        "pdf-to-heic": {
+            "title": "PDF to HEIC",
+            "desc": "Convert PDF documents into high-efficiency HEIC image files for mobile storage optimization."
+        },
+        "convert-pdf-to-pdfa": {
+            "title": "CONVERT-PDF to PDFA",
+            "desc": "Convert standard PDFs into ISO-compliant PDF/A format for long-term digital archiving."
+        },
+        "remove-bg": {
+            "title": "Remove Image Background",
+            "desc": "Remove image backgrounds automatically in seconds using AI for clean transparent PNG cutouts."
+        },
+        "upscale-image": {
+            "title": "Upscale Image",
+            "desc": "Enlarge and enhance low-resolution images up to 4x clarity using AI deep learning super-resolution."
+        },
+        "remove-watermark": {
+            "title": "Remove Watermark",
+            "desc": "Remove unwanted watermarks, logos, text overlays, and stamps from photos using AI inpainting."
+        },
+        "crop-image": {
+            "title": "Crop Image",
+            "desc": "Crop photo borders, adjust aspect ratios, and trim unwanted edges with a visual cropping tool."
+        },
+        "resize-image": {
+            "title": "Resize Image",
+            "desc": "Change image dimensions by exact pixels or percentages with aspect ratio locking."
+        },
+        "rotate-image": {
+            "title": "Rotate Image",
+            "desc": "Rotate images clockwise or counter-clockwise and flip pictures horizontally or vertically."
+        },
+        "compress-image": {
+            "title": "Compress IMAGE",
+            "desc": "Compress JPG, PNG, and WebP images up to 80% without losing visible picture quality."
+        },
+        "jpg-to-png": {
+            "title": "JPG to PNG",
+            "desc": "Convert JPG images into PNG format with full transparency support and lossless compression."
+        },
+        "png-to-jpg": {
+            "title": "PNG to JPG",
+            "desc": "Convert PNG pictures to JPG format with custom background color fill and quality sliders."
+        },
+        "heic-to-jpg": {
+            "title": "HEIC to JPG",
+            "desc": "Convert iPhone HEIC photos into widely compatible JPG format for Windows and Web."
+        },
+        "jpg-to-heic": {
+            "title": "JPG to HEIC",
+            "desc": "Convert JPG images into high-efficiency HEIC format to save storage space on Apple devices."
+        },
+        "heic-to-png": {
+            "title": "HEIC to PNG",
+            "desc": "Convert Apple HEIC pictures into PNG format with full transparent background support."
+        },
+        "png-to-heic": {
+            "title": "PNG to HEIC",
+            "desc": "Convert PNG images into high-efficiency HEIC format while maintaining high image fidelity."
+        },
+        "jpg-to-webp": {
+            "title": "JPG to WebP",
+            "desc": "Convert JPG photos into modern WebP format to reduce web image load times."
+        },
+        "webp-to-jpg": {
+            "title": "WebP to JPG",
+            "desc": "Convert modern WebP images into universally compatible JPG format for older software."
+        },
+        "png-to-webp": {
+            "title": "PNG to WebP",
+            "desc": "Convert PNG graphics into web-optimized WebP images with alpha channel transparency intact."
+        },
+        "webp-to-png": {
+            "title": "WebP to PNG",
+            "desc": "Convert WebP images into transparent PNG format for easy graphics editing in Photoshop."
+        },
+        "png-to-svg": {
+            "title": "PNG to SVG",
+            "desc": "Convert PNG graphics into crisp vector SVG format with customizable path tracing."
+        },
+        "jpg-to-svg": {
+            "title": "JPG to SVG",
+            "desc": "Vectorize raster JPG images into scalable SVG vector graphics for logos and illustrations."
+        },
+        "webp-to-svg": {
+            "title": "WebP to SVG",
+            "desc": "Transform WebP images into resolution-independent SVG vector files for web design."
+        },
+        "youtube-to-wav": {
+            "title": "YouTube to WAV",
+            "desc": "Extract uncompressed studio quality WAV audio from YouTube videos for music editing."
+        },
+        "youtube-to-mp4": {
+            "title": "YouTube to MP4",
+            "desc": "Download YouTube videos in high definition MP4 format for offline viewing on any device."
+        },
+        "tiktok-downloader": {
+            "title": "TikTok Downloader",
+            "desc": "Download TikTok videos without watermark in HD MP4 format for reposting and editing."
+        },
+        "instagram-reels-downloader": {
+            "title": "Instagram Reels Downloader",
+            "desc": "Download Instagram Reels videos in full HD MP4 quality without watermark."
+        },
+        "instagram-photo-downloader": {
+            "title": "Instagram Photo Downloader",
+            "desc": "Download original quality Instagram photos and multi-photo posts effortlessly."
+        },
+        "instagram-video-downloader": {
+            "title": "Instagram Video Downloader",
+            "desc": "Save Instagram feed videos and IGTV clips directly as MP4 files to your device."
+        },
+        "instagram-story-downloader": {
+            "title": "Instagram Story Downloader",
+            "desc": "Free tool for instagram story downloader fast and easy."
+        },
+        "instagram-profile-downloader": {
+            "title": "Instagram Profile Downloader",
+            "desc": "Download full-size Instagram profile picture photos in original high resolution."
+        },
+        "instagram-audio-downloader": {
+            "title": "Instagram Audio Downloader",
+            "desc": "Extract background audio and trending music from Instagram Reels into MP3 format."
+        },
+        "spotify-to-mp3": {
+            "title": "Spotify to MP3",
+            "desc": "Convert Spotify music tracks and playlists into offline 320kbps MP3 audio files."
+        },
+        "soundcloud-to-mp3": {
+            "title": "SoundCloud to MP3",
+            "desc": "Download audio tracks from SoundCloud in high quality MP3 format for offline listening."
+        },
+        "wav-to-mp3": {
+            "title": "WAV to MP3",
+            "desc": "Compress large WAV audio files into lightweight 320kbps MP3 format to save storage."
+        },
+        "mp3-to-wav": {
+            "title": "MP3 to WAV",
+            "desc": "Convert compressed MP3 audio files into uncompressed 16-bit 44.1kHz WAV studio audio."
+        },
+        "wav-to-mp4": {
+            "title": "WAV to MP4",
+            "desc": "Convert WAV audio files into MP4 video format with custom cover art for uploading to YouTube."
+        },
+        "mp4-to-wav": {
+            "title": "MP4 to WAV",
+            "desc": "Extract uncompressed WAV audio from MP4 videos for professional audio editing."
+        },
+        "compress-video": {
+            "title": "Compress VIDEO",
+            "desc": "Compress MP4, MOV, and AVI videos up to 80% size reduction with minimal quality loss."
+        },
+        "video-trimmer": {
+            "title": "Video Trimmer",
+            "desc": "Trim unwanted video segments, cut start and end points, and clip videos quickly."
+        },
+        "video-merger": {
+            "title": "Merge MERGER",
+            "desc": "Combine multiple video clips into a single seamless video file with custom transitions."
+        },
+        "mp4-to-mp3": {
+            "title": "MP4 to MP3",
+            "desc": "Extract high quality MP3 soundtrack audio from MP4 video files in seconds."
+        },
+        "mp3-to-mp4": {
+            "title": "MP3 to MP4",
+            "desc": "Combine MP3 audio tracks with a static background image or visualizer to create MP4 videos."
+        },
+        "mp3-compressor": {
+            "title": "MP3 Compressor",
+            "desc": "Reduce MP3 audio file size while preserving clear voice and musical instrument fidelity."
+        },
+        "audio-converter": {
+            "title": "Converter Audio",
+            "desc": "Convert audio files between MP3, WAV, AAC, FLAC, OGG, and M4A formats effortlessly."
+        },
+        "speech-to-text": {
+            "title": "SPEECH to TEXT",
+            "desc": "Transcribe voice recordings and microphone speech into accurate written text in real time."
+        },
+        "text-to-speech": {
+            "title": "TEXT to SPEECH",
+            "desc": "Convert written text into natural-sounding human speech audio with multiple voices and accents."
+        },
+        "screen-recorder": {
+            "title": "Screen Recorder",
+            "desc": "Record your computer screen, webcam, and microphone audio directly in your browser without software."
+        },
+        "video-to-gif": {
+            "title": "VIDEO to GIF",
+            "desc": "Convert MP4, MOV, and WebM video clips into animated GIFs with custom frame rate and loop settings."
+        },
+        "mp4-to-gif": {
+            "title": "MP4 to GIF",
+            "desc": "Turn MP4 video clips into lightweight animated GIFs for social media and messaging apps."
+        },
+        "webm-to-gif": {
+            "title": "WEBM to GIF",
+            "desc": "Convert WebM video clips into animated GIF format for universal web compatibility."
+        },
+        "apng-to-gif": {
+            "title": "APNG to GIF",
+            "desc": "Convert Animated PNG (APNG) files into widely supported animated GIF format."
+        },
+        "image-to-gif": {
+            "title": "IMAGE to GIF",
+            "desc": "Create animated GIFs from a sequence of static JPG, PNG, or WebP photos with custom frame delay."
+        },
+        "gif-to-mp4": {
+            "title": "GIF to MP4",
+            "desc": "Convert animated GIFs into smooth MP4 videos to reduce file size and enable audio playback."
+        },
+        "gif-to-webm": {
+            "title": "GIF to WEBM",
+            "desc": "Convert animated GIFs into lightweight WebM video files for fast web animation loading."
+        },
+        "gif-to-apng": {
+            "title": "GIF to APNG",
+            "desc": "Convert animated GIFs into crisp Animated PNG (APNG) format with full 24-bit color support."
+        },
+        "gif-compressor": {
+            "title": "GIF Compressor",
+            "desc": "Compress animated GIF files to reduce file size for fast messaging and web loading."
+        },
+        "document-converter": {
+            "title": "Converter Document",
+            "desc": "Convert documents between Word, PDF, TXT, RTF, HTML, and ODT formats."
+        },
+        "ebook-converter": {
+            "title": "Converter Ebook",
+            "desc": "Convert eBooks between EPUB, MOBI, AZW3, PDF, and TXT formats for Kindle and Kobo."
+        },
+        "translate-document": {
+            "title": "Translate Document",
+            "desc": "Translate Word, Excel, and text documents into over 100 languages with formatting intact."
+        },
+        "translate-word": {
+            "title": "Translate Word",
+            "desc": "Translate Microsoft Word DOCX files into any language while preserving original document layout."
+        },
+        "json-formatter": {
+            "title": "Formatter JSON",
+            "desc": "Format, validate, beautify, and minify JSON data structures with syntax highlighting and error checking."
+        },
+        "xml-formatter": {
+            "title": "Formatter XML",
+            "desc": "Format and prettify XML documents with proper indentation and syntax validation."
+        },
+        "csv-formatter": {
+            "title": "Formatter CSV",
+            "desc": "Format, clean, and convert CSV data files into structured tables, JSON, or TSV format."
+        },
+        "base64-tool": {
+            "title": "Base64 Tool",
+            "desc": "Encode text and files into Base64 strings, or decode Base64 data back into original format."
+        },
+        "hash-generator": {
+            "title": "Generator Hash",
+            "desc": "Generate MD5, SHA-1, SHA-256, and SHA-512 cryptographic hashes for data integrity verification."
+        },
+        "password-generator": {
+            "title": "Generator Password",
+            "desc": "Generate strong, secure, unhackable passwords with custom length, numbers, and special symbols."
+        },
+        "color-picker": {
+            "title": "Color Picker",
+            "desc": "Pick colors from images, convert HEX to RGB and HSL values, and generate harmonious palettes."
+        },
+        "qr-code-generator": {
+            "title": "Generator QR",
+            "desc": "Create customizable QR codes for website URLs, Wi-Fi networks, contact vCards, and text."
+        },
+        "favicon-generator": {
+            "title": "Generator Favicon",
+            "desc": "Generate ICO, PNG, and Apple Touch favicon icons in all required dimensions from any logo."
+        },
+        "lorem-ipsum": {
+            "title": "Lorem Ipsum",
+            "desc": "Generate customized Lorem Ipsum dummy placeholder text by paragraphs, sentences, or words."
+        },
+        "screenshot-website": {
+            "title": "Screenshot Website",
+            "desc": "Capture full-page pixel-perfect website screenshots from any public URL in PNG or PDF."
+        }
     }
 };
 
@@ -5131,7 +6349,7 @@ window.toggleLangDropdown = toggleLangDropdown;
 const UI_TRANSLATIONS = {
     "en": {
         "badge": "EN",
-        "navPdf": "PDF TOOLS",
+        "navPdf": "PDF & DOCS",
         "navImage": "IMAGE & AI TOOLS",
         "navMedia": "VIDEO & AUDIO",
         "navGif": "GIF TOOLS",
@@ -5140,13 +6358,13 @@ const UI_TRANSLATIONS = {
         "subtitle": "All your essential digital tools at your fingertips. 100% FREE & NO SIGN UP REQUIRED! Convert, compress, edit, upscale, and download PDFs, images, videos, and audio in seconds.",
         "searchPlaceholder": "Search 85+ tools (e.g. compress video, PDF to word, remove background, youtube)...",
         "allTools": "All Tools",
-        "pdfTools": "📄 PDF Tools",
+        "pdfTools": "📄 PDF & DOCs",
         "imageTools": "🖼️ Image & AI",
         "mediaTools": "🎬 Video & Audio",
         "gifTools": "🎞️ GIF Tools",
         "devTools": "🛠️ Dev & Utilities",
         "popularTitle": "🔥 Most Popular Tools",
-        "pdfSuiteTitle": "📄 PDF Tools & Document Suite",
+        "pdfSuiteTitle": "📄 PDF & Document Tools",
         "imageSuiteTitle": "🖼️ Image Tools & AI Suite",
         "mediaSuiteTitle": "🎬 Video & Audio Converters",
         "gifSuiteTitle": "🎞️ GIF & Animation Tools",
@@ -5167,7 +6385,7 @@ const UI_TRANSLATIONS = {
     },
     "es": {
         "badge": "ES",
-        "navPdf": "HERRAMIENTAS PDF",
+        "navPdf": "PDF & DOCS",
         "navImage": "IMAGEN E IA",
         "navMedia": "VÍDEO Y AUDIO",
         "navGif": "HERRAMIENTAS GIF",
@@ -5176,13 +6394,13 @@ const UI_TRANSLATIONS = {
         "subtitle": "Todas tus herramientas digitales esenciales al alcance de tu mano. ¡100% GRATIS Y SIN REGISTRO! Convierte, comprime, edita y descarga en segundos.",
         "searchPlaceholder": "Buscar en más de 85 herramientas...",
         "allTools": "Todas las herramientas",
-        "pdfTools": "📄 Herramientas PDF",
+        "pdfTools": "📄 PDF & DOCs",
         "imageTools": "🖼️ Imagen e IA",
         "mediaTools": "🎬 Vídeo y Audio",
         "gifTools": "🎞️ Herramientas GIF",
         "devTools": "🛠️ Utilidades",
         "popularTitle": "🔥 Herramientas más populares",
-        "pdfSuiteTitle": "📄 Suite de Documentos y PDF",
+        "pdfSuiteTitle": "📄 Herramientas PDF y Documentos",
         "imageSuiteTitle": "🖼️ Edición de Imagen e IA",
         "mediaSuiteTitle": "🎬 Convertidores de Vídeo y Audio",
         "gifSuiteTitle": "🎞️ Herramientas GIF y Animación",
@@ -5203,7 +6421,7 @@ const UI_TRANSLATIONS = {
     },
     "fr": {
         "badge": "FR",
-        "navPdf": "OUTILS PDF",
+        "navPdf": "PDF & DOCS",
         "navImage": "IMAGE & IA",
         "navMedia": "VIDÉO & AUDIO",
         "navGif": "OUTILS GIF",
@@ -5212,13 +6430,13 @@ const UI_TRANSLATIONS = {
         "subtitle": "Tous vos outils numériques essentiels à portée de main. 100% GRATUIT ET SANS INSCRIPTION ! Convertissez, compressez et téléchargez en quelques secondes.",
         "searchPlaceholder": "Rechercher parmi 85+ outils...",
         "allTools": "Tous les outils",
-        "pdfTools": "📄 Outils PDF",
+        "pdfTools": "📄 PDF & DOCs",
         "imageTools": "🖼️ Image & IA",
         "mediaTools": "🎬 Vidéo & Audio",
         "gifTools": "🎞️ Outils GIF",
         "devTools": "🛠️ Utilitaires",
         "popularTitle": "🔥 Outils les plus populaires",
-        "pdfSuiteTitle": "📄 Suite PDF et Documents",
+        "pdfSuiteTitle": "📄 Outils PDF et Documents",
         "imageSuiteTitle": "🖼️ Traitement d'image & IA",
         "mediaSuiteTitle": "🎬 Convertisseurs Vidéo & Audio",
         "gifSuiteTitle": "🎞️ Outils GIF & Animation",
@@ -5239,7 +6457,7 @@ const UI_TRANSLATIONS = {
     },
     "ar": {
         "badge": "AR",
-        "navPdf": "أدوات PDF",
+        "navPdf": "PDF & DOCS",
         "navImage": "الصور والذكاء الاصطناعي",
         "navMedia": "الفيديو والصوت",
         "navGif": "أدوات GIF",
@@ -5248,13 +6466,13 @@ const UI_TRANSLATIONS = {
         "subtitle": "جميع أدواتك الرقمية الأساسية في متناول يدك. مجاني 100% وبدون تسجيل! قم بتحويل وضغط وتحرير وتنزيل الملفات في ثوانٍ.",
         "searchPlaceholder": "ابحث في أكثر من 85 أداة...",
         "allTools": "جميع الأدوات",
-        "pdfTools": "📄 أدوات PDF",
+        "pdfTools": "📄 PDF & DOCs",
         "imageTools": "🖼️ الصور والذكاء الاصطناعي",
         "mediaTools": "🎬 الفيديو والصوت",
         "gifTools": "🎞️ أدوات GIF",
         "devTools": "🛠️ أدوات مساعدة",
         "popularTitle": "🔥 الأدوات الأكثر شعبية",
-        "pdfSuiteTitle": "📄 أدوات مستندات PDF",
+        "pdfSuiteTitle": "📄 أدوات PDF والمستندات",
         "imageSuiteTitle": "🖼️ تحسين الصور والذكاء الاصطناعي",
         "mediaSuiteTitle": "🎬 محولات الفيديو والصوت",
         "gifSuiteTitle": "🎞️ أدوات GIF والتحريك",
@@ -5275,7 +6493,7 @@ const UI_TRANSLATIONS = {
     },
     "pt": {
         "badge": "PT",
-        "navPdf": "FERRAMENTAS PDF",
+        "navPdf": "PDF & DOCS",
         "navImage": "IMAGEM E IA",
         "navMedia": "VÍDEO E ÁUDIO",
         "navGif": "FERRAMENTAS GIF",
@@ -5284,13 +6502,13 @@ const UI_TRANSLATIONS = {
         "subtitle": "Todas as suas ferramentas digitais essenciais ao seu alcance. 100% GRÁTIS E SEM REGISTO! Converta, comprima, edite e descarregue em segundos.",
         "searchPlaceholder": "Pesquise mais de 85 ferramentas...",
         "allTools": "Todas as Ferramentas",
-        "pdfTools": "📄 Ferramentas PDF",
+        "pdfTools": "📄 PDF & DOCs",
         "imageTools": "🖼️ Imagem e IA",
         "mediaTools": "🎬 Vídeo e Áudio",
         "gifTools": "🎞️ Ferramentas GIF",
         "devTools": "🛠️ Utilitários",
         "popularTitle": "🔥 Ferramentas Mais Populares",
-        "pdfSuiteTitle": "📄 Suíte de Documentos e PDF",
+        "pdfSuiteTitle": "📄 Ferramentas PDF e Documentos",
         "imageSuiteTitle": "🖼️ Edição de Imagem e IA",
         "mediaSuiteTitle": "🎬 Conversores de Vídeo e Áudio",
         "gifSuiteTitle": "🎞️ Ferramentas GIF e Animação",
@@ -5311,7 +6529,7 @@ const UI_TRANSLATIONS = {
     },
     "ru": {
         "badge": "RU",
-        "navPdf": "PDF ИНСТРУМЕНТЫ",
+        "navPdf": "PDF & DOCS",
         "navImage": "ИЗОБРАЖЕНИЯ И ИИ",
         "navMedia": "ВИДЕО И АУДИО",
         "navGif": "GIF ИНСТРУМЕНТЫ",
@@ -5320,13 +6538,13 @@ const UI_TRANSLATIONS = {
         "subtitle": "Все необходимые цифровые инструменты у вас под рукой. 100% БЕСПЛАТНО И БЕЗ РЕГИСТРАЦИИ! Конвертируйте, сжимайте и скачивайте за секунды.",
         "searchPlaceholder": "Поиск среди 85+ инструментов...",
         "allTools": "Все инструменты",
-        "pdfTools": "📄 PDF Инструменты",
+        "pdfTools": "📄 PDF & DOCs",
         "imageTools": "🖼️ Изображения и ИИ",
         "mediaTools": "🎬 Видео и Аудио",
         "gifTools": "🎞️ GIF Инструменты",
         "devTools": "🛠️ Утилиты",
         "popularTitle": "🔥 Самые популярные инструменты",
-        "pdfSuiteTitle": "📄 Документы и PDF",
+        "pdfSuiteTitle": "📄 Инструменты PDF и Документов",
         "imageSuiteTitle": "🖼️ Обработка изображений и ИИ",
         "mediaSuiteTitle": "🎬 Конвертеры видео и аудио",
         "gifSuiteTitle": "🎞️ GIF и Анимация",
@@ -5347,7 +6565,7 @@ const UI_TRANSLATIONS = {
     },
     "id": {
         "badge": "ID",
-        "navPdf": "ALAT PDF",
+        "navPdf": "PDF & DOCS",
         "navImage": "GAMBAR & AI",
         "navMedia": "VIDEO & AUDIO",
         "navGif": "ALAT GIF",
@@ -5356,13 +6574,13 @@ const UI_TRANSLATIONS = {
         "subtitle": "Semua alat digital penting dalam jangkauan Anda. 100% GRATIS & TANPA DAFTAR! Konversi, kompres, edit, dan unduh dalam hitungan detik.",
         "searchPlaceholder": "Cari 85+ alat...",
         "allTools": "Semua Alat",
-        "pdfTools": "📄 Alat PDF",
+        "pdfTools": "📄 PDF & DOCs",
         "imageTools": "🖼️ Gambar & AI",
         "mediaTools": "🎬 Video & Audio",
         "gifTools": "🎞️ Alat GIF",
         "devTools": "🛠️ Utilitas",
         "popularTitle": "🔥 Alat Paling Populer",
-        "pdfSuiteTitle": "📄 Suite Dokumen & PDF",
+        "pdfSuiteTitle": "📄 Alat PDF & Dokumen",
         "imageSuiteTitle": "🖼️ Pengedit Gambar & AI",
         "mediaSuiteTitle": "🎬 Konverter Video & Audio",
         "gifSuiteTitle": "🎞️ Alat GIF & Animasi",
@@ -5383,7 +6601,7 @@ const UI_TRANSLATIONS = {
     },
     "de": {
         "badge": "DE",
-        "navPdf": "PDF-WERKZEUGE",
+        "navPdf": "PDF & DOCS",
         "navImage": "BILD & KI",
         "navMedia": "VIDEO & AUDIO",
         "navGif": "GIF-TOOLS",
@@ -5392,13 +6610,13 @@ const UI_TRANSLATIONS = {
         "subtitle": "Alle wichtigen digitalen Tools zur Hand. 100% KOSTENLOS & OHNE ANMELDUNG! Konvertieren, komprimieren, bearbeiten und herunterladen in Sekunden.",
         "searchPlaceholder": "Über 85+ Tools durchsuchen...",
         "allTools": "Alle Tools",
-        "pdfTools": "📄 PDF-Werkzeuge",
+        "pdfTools": "📄 PDF & DOCs",
         "imageTools": "🖼️ Bild & KI",
         "mediaTools": "🎬 Video & Audio",
         "gifTools": "🎞️ GIF-Tools",
         "devTools": "🛠️ Dienstprogramme",
         "popularTitle": "🔥 Beliebteste Werkzeuge",
-        "pdfSuiteTitle": "📄 PDF & Dokumenten-Suite",
+        "pdfSuiteTitle": "📄 PDF & Dokument-Werkzeuge",
         "imageSuiteTitle": "🖼️ Bildbearbeitung & KI",
         "mediaSuiteTitle": "🎬 Video- & Audio-Konverter",
         "gifSuiteTitle": "🎞️ GIF & Animations-Tools",
@@ -5419,7 +6637,7 @@ const UI_TRANSLATIONS = {
     },
     "it": {
         "badge": "IT",
-        "navPdf": "STRUMENTI PDF",
+        "navPdf": "PDF & DOCS",
         "navImage": "IMMAGINI E IA",
         "navMedia": "VIDEO E AUDIO",
         "navGif": "STRUMENTI GIF",
@@ -5428,13 +6646,13 @@ const UI_TRANSLATIONS = {
         "subtitle": "Tutti i tuoi strumenti digitali essenziali a portata di mano. 100% GRATUITO E SENZA REGISTRAZIONE! Converti, comprimi, modifica e scarica in pochi secondi.",
         "searchPlaceholder": "Cerca tra 85+ strumenti...",
         "allTools": "Tutti gli strumenti",
-        "pdfTools": "📄 Strumenti PDF",
+        "pdfTools": "📄 PDF & DOCs",
         "imageTools": "🖼️ Immagini e IA",
         "mediaTools": "🎬 Video e Audio",
         "gifTools": "🎞️ Strumenti GIF",
         "devTools": "🛠️ Utilità",
         "popularTitle": "🔥 Strumenti Più Popolari",
-        "pdfSuiteTitle": "📄 Suite PDF e Documenti",
+        "pdfSuiteTitle": "📄 Strumenti PDF e Documenti",
         "imageSuiteTitle": "🖼️ Strumenti Immagine e IA",
         "mediaSuiteTitle": "🎬 Convertitori Video e Audio",
         "gifSuiteTitle": "🎞️ Strumenti GIF e Animazioni",
@@ -5455,7 +6673,7 @@ const UI_TRANSLATIONS = {
     },
     "vi": {
         "badge": "VI",
-        "navPdf": "CÔNG CỤ PDF",
+        "navPdf": "PDF & DOCS",
         "navImage": "HÌNH ẢNH & AI",
         "navMedia": "VIDEO & ÂM THANH",
         "navGif": "CÔNG CỤ GIF",
@@ -5464,7 +6682,7 @@ const UI_TRANSLATIONS = {
         "subtitle": "Tất cả các công cụ kỹ thuật số thiết yếu trong tầm tay bạn. MIỄN PHÍ 100% & KHÔNG CẦN ĐĂNG KÝ! Chuyển đổi, nén và tải xuống trong vài giây.",
         "searchPlaceholder": "Tìm kiếm hơn 85+ công cụ...",
         "allTools": "Tất cả công cụ",
-        "pdfTools": "📄 Công cụ PDF",
+        "pdfTools": "📄 PDF & DOCs",
         "imageTools": "🖼️ Hình ảnh & AI",
         "mediaTools": "🎬 Video & Âm thanh",
         "gifTools": "🎞️ Công cụ GIF",
@@ -5488,6 +6706,96 @@ const UI_TRANSLATIONS = {
         "megaDocumentsEbooks": "Tài liệu & Ebook",
         "megaCodeFormatters": "Định dạng Mã",
         "megaSecurityText": "Bảo mật & Văn bản"
+    },
+    "zh": {
+        "badge": "ZH",
+        "navPdf": "PDF & DOCS",
+        "navImage": "图片 & AI",
+        "navMedia": "视频 & 音频",
+        "navGif": "GIF 工具",
+        "navDev": "开发者工具",
+        "title": "在一个地方处理 PDF、图片、视频和音频所需的所有工具",
+        "subtitle": "触手可及的所有必需数字工具。100% 免费，无需注册！在几秒钟内转换、压缩、编辑、放大和下载 PDF、图片、视频和音频。",
+        "searchPlaceholder": "搜索 85+ 工具 (如 压缩视频, PDF转Word, 抠图, youtube)...",
+        "allTools": "所有工具",
+        "pdfTools": "📄 PDF & DOCs",
+        "imageTools": "🖼️ 图片 & AI",
+        "mediaTools": "🎬 视频 & 音频",
+        "gifTools": "🎞️ GIF 工具",
+        "devTools": "🛠️ 开发者工具",
+        "popularTitle": "🔥 最受欢迎的工具",
+        "pdfSuiteTitle": "📄 PDF & Document Tools",
+        "imageSuiteTitle": "🖼️ 图片工具 & AI 套装",
+        "mediaSuiteTitle": "🎬 视频 & 音频转换器",
+        "gifSuiteTitle": "🎞️ GIF & 动画工具",
+        "devSuiteTitle": "🛠️ 开发者实用工具",
+        "backBtn": "返回所有工具",
+        "selectBtn": "选择文件",
+        "dropHint": "或将文件拖放到此处",
+        "megaConvertToPdf": "转换为 PDF",
+        "megaConvertFromPdf": "从 PDF 转换",
+        "megaEditSecurity": "编辑 & 安全",
+        "megaAiEditing": "AI & 编辑"
+    },
+    "ja": {
+        "badge": "JA",
+        "navPdf": "PDF & DOCS",
+        "navImage": "画像 & AI ツール",
+        "navMedia": "動画 & 音声",
+        "navGif": "GIF ツール",
+        "navDev": "開発者ツール",
+        "title": "PDF、画像、動画、音声に必要なすべてのツールが1か所に",
+        "subtitle": "必要なすべてのデジタルツールが指先に。100% 無料、登録不要！PDF、画像、動画、音声を数秒で変換、圧縮、編集、高画質化、ダウンロード。",
+        "searchPlaceholder": "85以上のツールを検索 (例: 動画圧縮, PDF Word 変換, 背景削除, youtube)...",
+        "allTools": "すべてのツール",
+        "pdfTools": "📄 PDF & DOCs",
+        "imageTools": "🖼️ 画像 & AI",
+        "mediaTools": "🎬 動画 & 音声",
+        "gifTools": "🎞️ GIF ツール",
+        "devTools": "🛠️ 開発者ツール",
+        "popularTitle": "🔥 最も人気のツール",
+        "pdfSuiteTitle": "📄 PDF & Document Tools",
+        "imageSuiteTitle": "🖼️ 画像ツール & AI スイート",
+        "mediaSuiteTitle": "🎬 動画 & 音声コンバーター",
+        "gifSuiteTitle": "🎞️ GIF & アニメーションツール",
+        "devSuiteTitle": "🛠️ 開発者ユーティリティ",
+        "backBtn": "すべてのツールに戻る",
+        "selectBtn": "ファイルを選択",
+        "dropHint": "またはここにファイルをドロップ",
+        "megaConvertToPdf": "PDFに変換",
+        "megaConvertFromPdf": "PDFから変換",
+        "megaEditSecurity": "編集 & セキュリティ",
+        "megaAiEditing": "AI & 編集"
+    },
+    "ko": {
+        "badge": "KO",
+        "navPdf": "PDF & DOCS",
+        "navImage": "이미지 & AI 도구",
+        "navMedia": "비디오 & 오디오",
+        "navGif": "GIF 도구",
+        "navDev": "개발자 도구",
+        "title": "PDF, 이미지, 비디오 및 오디오에 필요한 모든 도구를 한 곳에서",
+        "subtitle": "필요한 모든 디지털 도구를 손끝에서 이용하세요. 100% 무료, 가입 불필요! 몇 초 만에 PDF, 이미지, 비디오, 오디오를 변환, 압축, 편집, 화질 향상, 다운로드하세요.",
+        "searchPlaceholder": "85개 이상의 도구 검색 (예: 비디오 압축, PDF Word 변환, 배경 제거, youtube)...",
+        "allTools": "모든 도구",
+        "pdfTools": "📄 PDF & DOCs",
+        "imageTools": "🖼️ 이미지 & AI",
+        "mediaTools": "🎬 비디오 & 오디오",
+        "gifTools": "🎞️ GIF 도구",
+        "devTools": "🛠️ 개발자 도구",
+        "popularTitle": "🔥 가장 인기 있는 도구",
+        "pdfSuiteTitle": "📄 PDF & Document Tools",
+        "imageSuiteTitle": "🖼️ 이미지 도구 & AI 스위트",
+        "mediaSuiteTitle": "🎬 비디오 & 오디오 변환기",
+        "gifSuiteTitle": "🎞️ GIF & 애니메이션 도구",
+        "devSuiteTitle": "🛠️ 개발자 유틸리티",
+        "backBtn": "모든 도구로 돌아가기",
+        "selectBtn": "파일 선택",
+        "dropHint": "또는 여기에 파일 드롭",
+        "megaConvertToPdf": "PDF로 변환",
+        "megaConvertFromPdf": "PDF에서 변환",
+        "megaEditSecurity": "편집 & 보안",
+        "megaAiEditing": "AI & 편집"
     }
 };
 
