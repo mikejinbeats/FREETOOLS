@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://freetoools.com/sitemap.xml

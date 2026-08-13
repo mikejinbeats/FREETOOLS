@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Homepage -->
+    <url>
+        <loc>https://freetoools.com/</loc>
+        <lastmod>2026-08-13</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Top Core PDF Tools -->
+    <url><loc>https://freetoools.com/#pdf-to-word</loc><lastmod>2026-08-13</lastmod><priority>0.9</priority></url>
+    <url><loc>https://freetoools.com/#word-to-pdf</loc><lastmod>2026-08-13</lastmod><priority>0.9</priority></url>
+    <url><loc>https://freetoools.com/#merge_pdf</loc><lastmod>2026-08-13</lastmod><priority>0.9</priority></url>
+    <url><loc>https://freetoools.com/#compress_pdf</loc><lastmod>2026-08-13</lastmod><priority>0.9</priority></url>
+    <url><loc>https://freetoools.com/#pdf-to-jpg</loc><lastmod>2026-08-13</lastmod><priority>0.9</priority></url>
+    <url><loc>https://freetoools.com/#jpg-to-pdf</loc><lastmod>2026-08-13</lastmod><priority>0.9</priority></url>
+    <url><loc>https://freetoools.com/#split_pdf</loc><lastmod>2026-08-13</lastmod><priority>0.8</priority></url>
+    <url><loc>https://freetoools.com/#edit-pdf</loc><lastmod>2026-08-13</lastmod><priority>0.8</priority></url>
+    <url><loc>https://freetoools.com/#protect-pdf</loc><lastmod>2026-08-13</lastmod><priority>0.8</priority></url>
+    <url><loc>https://freetoools.com/#unlock_pdf</loc><lastmod>2026-08-13</lastmod><priority>0.8</priority></url>
+
+    <!-- High Volume Audio & Video Tools -->
+    <url><loc>https://freetoools.com/#mp4-to-mp3</loc><lastmod>2026-08-13</lastmod><priority>0.95</priority></url>
+    <url><loc>https://freetoools.com/#mp3-to-mp4</loc><lastmod>2026-08-13</lastmod><priority>0.9</priority></url>
+    <url><loc>https://freetoools.com/#wav-to-mp3</loc><lastmod>2026-08-13</lastmod><priority>0.9</priority></url>
+    <url><loc>https://freetoools.com/#mp3-to-wav</loc><lastmod>2026-08-13</lastmod><priority>0.9</priority></url>
+    <url><loc>https://freetoools.com/#wav-to-mp4</loc><lastmod>2026-08-13</lastmod><priority>0.85</priority></url>
+    <url><loc>https://freetoools.com/#mp4-to-wav</loc><lastmod>2026-08-13</lastmod><priority>0.85</priority></url>
+    <url><loc>https://freetoools.com/#youtube-downloader</loc><lastmod>2026-08-13</lastmod><priority>0.95</priority></url>
+    <url><loc>https://freetoools.com/#youtube-to-mp3</loc><lastmod>2026-08-13</lastmod><priority>0.95</priority></url>
+    <url><loc>https://freetoools.com/#youtube-to-wav</loc><lastmod>2026-08-13</lastmod><priority>0.9</priority></url>
+    <url><loc>https://freetoools.com/#youtube-to-mp4</loc><lastmod>2026-08-13</lastmod><priority>0.9</priority></url>
+
+    <!-- Instagram & Social Media Suite -->
+    <url><loc>https://freetoools.com/#instagram-reels-downloader</loc><lastmod>2026-08-13</lastmod><priority>0.95</priority></url>
+    <url><loc>https://freetoools.com/#instagram-photo-downloader</loc><lastmod>2026-08-13</lastmod><priority>0.9</priority></url>
+    <url><loc>https://freetoools.com/#instagram-video-downloader</loc><lastmod>2026-08-13</lastmod><priority>0.9</priority></url>
+    <url><loc>https://freetoools.com/#instagram-story-downloader</loc><lastmod>2026-08-13</lastmod><priority>0.85</priority></url>
+    <url><loc>https://freetoools.com/#instagram-profile-downloader</loc><lastmod>2026-08-13</lastmod><priority>0.85</priority></url>
+    <url><loc>https://freetoools.com/#instagram-audio-downloader</loc><lastmod>2026-08-13</lastmod><priority>0.85</priority></url>
+    <url><loc>https://freetoools.com/#tiktok-downloader</loc><lastmod>2026-08-13</lastmod><priority>0.9</priority></url>
+    <url><loc>https://freetoools.com/#spotify-to-mp3</loc><lastmod>2026-08-13</lastmod><priority>0.9</priority></url>
+    <url><loc>https://freetoools.com/#soundcloud-to-mp3</loc><lastmod>2026-08-13</lastmod><priority>0.85</priority></url>
+
+    <!-- Image & AI Suite -->
+    <url><loc>https://freetoools.com/#remove-bg</loc><lastmod>2026-08-13</lastmod><priority>0.9</priority></url>
+    <url><loc>https://freetoools.com/#upscale-image</loc><lastmod>2026-08-13</lastmod><priority>0.85</priority></url>
+    <url><loc>https://freetoools.com/#jpg-to-png</loc><lastmod>2026-08-13</lastmod><priority>0.85</priority></url>
+    <url><loc>https://freetoools.com/#png-to-jpg</loc><lastmod>2026-08-13</lastmod><priority>0.85</priority></url>
+    <url><loc>https://freetoools.com/#jpg-to-webp</loc><lastmod>2026-08-13</lastmod><priority>0.85</priority></url>
+    <url><loc>https://freetoools.com/#webp-to-jpg</loc><lastmod>2026-08-13</lastmod><priority>0.85</priority></url>
+    <url><loc>https://freetoools.com/#png-to-webp</loc><lastmod>2026-08-13</lastmod><priority>0.85</priority></url>
+    <url><loc>https://freetoools.com/#webp-to-png</loc><lastmod>2026-08-13</lastmod><priority>0.85</priority></url>
+    <url><loc>https://freetoools.com/#heic-to-jpg</loc><lastmod>2026-08-13</lastmod><priority>0.85</priority></url>
+    <url><loc>https://freetoools.com/#jpg-to-heic</loc><lastmod>2026-08-13</lastmod><priority>0.85</priority></url>
+    <url><loc>https://freetoools.com/#heic-to-png</loc><lastmod>2026-08-13</lastmod><priority>0.85</priority></url>
+    <url><loc>https://freetoools.com/#png-to-heic</loc><lastmod>2026-08-13</lastmod><priority>0.85</priority></url>
+
+    <!-- GIF & Animation Suite -->
+    <url><loc>https://freetoools.com/#mp4-to-gif</loc><lastmod>2026-08-13</lastmod><priority>0.85</priority></url>
+    <url><loc>https://freetoools.com/#gif-to-mp4</loc><lastmod>2026-08-13</lastmod><priority>0.85</priority></url>
+    <url><loc>https://freetoools.com/#webm-to-gif</loc><lastmod>2026-08-13</lastmod><priority>0.8</priority></url>
+    <url><loc>https://freetoools.com/#gif-to-webm</loc><lastmod>2026-08-13</lastmod><priority>0.8</priority></url>
+    <url><loc>https://freetoools.com/#apng-to-gif</loc><lastmod>2026-08-13</lastmod><priority>0.8</priority></url>
+    <url><loc>https://freetoools.com/#gif-to-apng</loc><lastmod>2026-08-13</lastmod><priority>0.8</priority></url>
+</urlset>

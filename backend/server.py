@@ -32,7 +32,7 @@ def normalize_image_to_rgb(content_bytes: bytes) -> Image.Image:
     return img
 
 
-app = FastAPI(title="iLovePDF Alternative Backend API", version="1.0.0")
+app = FastAPI(title="FreeTools Alternative Backend API", version="1.0.0")
 
 app.add_middleware(
     CORSMiddleware,
@@ -44,7 +44,7 @@ app.add_middleware(
 
 @app.get("/")
 def read_root():
-    return {"status": "ok", "message": "iLovePDF Engine API is running with 31 endpoints"}
+    return {"status": "ok", "message": "FreeTools Engine API is running with 31 endpoints"}
 
 # 1. MERGE PDF
 @app.post("/api/merge")
@@ -58,7 +58,7 @@ async def merge_pdfs(files: List[UploadFile] = File(...)):
     output = io.BytesIO()
     writer.write(output)
     output.seek(0)
-    return StreamingResponse(output, media_type="application/pdf", headers={"Content-Disposition": "attachment; filename=ilovepdf_merged.pdf"})
+    return StreamingResponse(output, media_type="application/pdf", headers={"Content-Disposition": "attachment; filename=freetools_merged.pdf"})
 
 # 2. SPLIT PDF
 @app.post("/api/split")
@@ -75,7 +75,7 @@ async def split_pdf(file: UploadFile = File(...)):
             page_output.seek(0)
             zip_file.writestr(f"page_{idx + 1}.pdf", page_output.getvalue())
     zip_buffer.seek(0)
-    return StreamingResponse(zip_buffer, media_type="application/zip", headers={"Content-Disposition": "attachment; filename=ilovepdf_split_pages.zip"})
+    return StreamingResponse(zip_buffer, media_type="application/zip", headers={"Content-Disposition": "attachment; filename=freetools_split_pages.zip"})
 
 # 3. COMPRESS PDF
 @app.post("/api/compress")
@@ -89,7 +89,7 @@ async def compress_pdf(file: UploadFile = File(...)):
     output = io.BytesIO()
     writer.write(output)
     output.seek(0)
-    return StreamingResponse(output, media_type="application/pdf", headers={"Content-Disposition": "attachment; filename=ilovepdf_compressed.pdf"})
+    return StreamingResponse(output, media_type="application/pdf", headers={"Content-Disposition": "attachment; filename=freetools_compressed.pdf"})
 
 # 4. PDF TO WORD (DOCX)
 @app.post("/api/pdf-to-word")
@@ -103,7 +103,7 @@ async def pdf_to_word(file: UploadFile = File(...)):
         cv.close()
         with open(temp_docx, "rb") as f: docx_data = f.read()
         output = io.BytesIO(docx_data)
-        return StreamingResponse(output, media_type="application/vnd.openxmlformats-officedocument.wordprocessingml.document", headers={"Content-Disposition": "attachment; filename=ilovepdf_converted.docx"})
+        return StreamingResponse(output, media_type="application/vnd.openxmlformats-officedocument.wordprocessingml.document", headers={"Content-Disposition": "attachment; filename=freetools_converted.docx"})
     finally:
         if os.path.exists(temp_pdf): os.remove(temp_pdf)
         if os.path.exists(temp_docx): os.remove(temp_docx)
@@ -119,7 +119,7 @@ async def pdf_to_powerpoint(file: UploadFile = File(...)):
             pix = page.get_pixmap(dpi=150)
             zip_file.writestr(f"slide_{idx + 1}.png", pix.tobytes("png"))
     zip_buffer.seek(0)
-    return StreamingResponse(zip_buffer, media_type="application/zip", headers={"Content-Disposition": "attachment; filename=ilovepdf_slides.zip"})
+    return StreamingResponse(zip_buffer, media_type="application/zip", headers={"Content-Disposition": "attachment; filename=freetools_slides.zip"})
 
 # 6. PDF TO EXCEL (CSV/XLSX)
 @app.post("/api/pdf-to-excel")
@@ -134,7 +134,7 @@ async def pdf_to_excel(file: UploadFile = File(...)):
                 for row in table:
                     csv_text += ",".join([f'"{cell}"' if cell else '""' for cell in row]) + "\n"
     output = io.BytesIO(csv_text.encode("utf-8"))
-    return StreamingResponse(output, media_type="text/csv", headers={"Content-Disposition": "attachment; filename=ilovepdf_extracted_tables.csv"})
+    return StreamingResponse(output, media_type="text/csv", headers={"Content-Disposition": "attachment; filename=freetools_extracted_tables.csv"})
 
 # 7. WORD TO PDF
 @app.post("/api/word-to-pdf")
@@ -144,7 +144,7 @@ async def word_to_pdf(files: List[UploadFile] = File(...)):
     output = io.BytesIO()
     writer.write(output)
     output.seek(0)
-    return StreamingResponse(output, media_type="application/pdf", headers={"Content-Disposition": "attachment; filename=ilovepdf_converted.pdf"})
+    return StreamingResponse(output, media_type="application/pdf", headers={"Content-Disposition": "attachment; filename=freetools_converted.pdf"})
 
 # 8. POWERPOINT TO PDF
 @app.post("/api/powerpoint-to-pdf")
@@ -161,7 +161,7 @@ async def excel_to_pdf(files: List[UploadFile] = File(...)):
 async def edit_pdf(file: UploadFile = File(...)):
     content = await file.read()
     output = io.BytesIO(content)
-    return StreamingResponse(output, media_type="application/pdf", headers={"Content-Disposition": "attachment; filename=ilovepdf_edited.pdf"})
+    return StreamingResponse(output, media_type="application/pdf", headers={"Content-Disposition": "attachment; filename=freetools_edited.pdf"})
 
 # 11. PDF TO JPG
 @app.post("/api/pdf-to-jpg")
@@ -174,7 +174,7 @@ async def pdf_to_jpg(file: UploadFile = File(...)):
             pix = page.get_pixmap(dpi=150)
             zip_file.writestr(f"page_{idx + 1}.jpg", pix.tobytes("jpg"))
     zip_buffer.seek(0)
-    return StreamingResponse(zip_buffer, media_type="application/zip", headers={"Content-Disposition": "attachment; filename=ilovepdf_images.zip"})
+    return StreamingResponse(zip_buffer, media_type="application/zip", headers={"Content-Disposition": "attachment; filename=freetools_images.zip"})
 
 # 12. JPG TO PDF
 @app.post("/api/jpg-to-pdf")
@@ -185,21 +185,21 @@ async def jpg_to_pdf(files: List[UploadFile] = File(...)):
         image_bytes_list.append(content)
     pdf_bytes = img2pdf.convert(image_bytes_list)
     output = io.BytesIO(pdf_bytes)
-    return StreamingResponse(output, media_type="application/pdf", headers={"Content-Disposition": "attachment; filename=ilovepdf_converted.pdf"})
+    return StreamingResponse(output, media_type="application/pdf", headers={"Content-Disposition": "attachment; filename=freetools_converted.pdf"})
 
 # 13. SIGN PDF
 @app.post("/api/sign-pdf")
 async def sign_pdf(file: UploadFile = File(...)):
     content = await file.read()
     output = io.BytesIO(content)
-    return StreamingResponse(output, media_type="application/pdf", headers={"Content-Disposition": "attachment; filename=ilovepdf_signed.pdf"})
+    return StreamingResponse(output, media_type="application/pdf", headers={"Content-Disposition": "attachment; filename=freetools_signed.pdf"})
 
 # 14. WATERMARK PDF
 @app.post("/api/watermark")
-async def watermark_pdf(file: UploadFile = File(...), text: str = Form("iLovePDF")):
+async def watermark_pdf(file: UploadFile = File(...), text: str = Form("FreeTools")):
     content = await file.read()
     output = io.BytesIO(content)
-    return StreamingResponse(output, media_type="application/pdf", headers={"Content-Disposition": "attachment; filename=ilovepdf_watermarked.pdf"})
+    return StreamingResponse(output, media_type="application/pdf", headers={"Content-Disposition": "attachment; filename=freetools_watermarked.pdf"})
 
 # 15. ROTATE PDF
 @app.post("/api/rotate")
@@ -213,7 +213,7 @@ async def rotate_pdf(file: UploadFile = File(...), angle: int = Form(90)):
     output = io.BytesIO()
     writer.write(output)
     output.seek(0)
-    return StreamingResponse(output, media_type="application/pdf", headers={"Content-Disposition": "attachment; filename=ilovepdf_rotated.pdf"})
+    return StreamingResponse(output, media_type="application/pdf", headers={"Content-Disposition": "attachment; filename=freetools_rotated.pdf"})
 
 # 16. HTML TO PDF
 @app.post("/api/html-to-pdf")
@@ -223,7 +223,7 @@ async def html_to_pdf(file: Optional[UploadFile] = None, url: Optional[str] = Fo
     output = io.BytesIO()
     writer.write(output)
     output.seek(0)
-    return StreamingResponse(output, media_type="application/pdf", headers={"Content-Disposition": "attachment; filename=ilovepdf_webpage.pdf"})
+    return StreamingResponse(output, media_type="application/pdf", headers={"Content-Disposition": "attachment; filename=freetools_webpage.pdf"})
 
 @app.post("/api/pdf-to-html")
 async def pdf_to_html(file: UploadFile = File(...)):
@@ -235,10 +235,10 @@ async def pdf_to_html(file: UploadFile = File(...)):
             html_str += page.get_text("html")
         html_str += "</body></html>"
         output = io.BytesIO(html_str.encode("utf-8"))
-        return StreamingResponse(output, media_type="text/html", headers={"Content-Disposition": "attachment; filename=ilovepdf_converted.html"})
+        return StreamingResponse(output, media_type="text/html", headers={"Content-Disposition": "attachment; filename=freetools_converted.html"})
     except Exception as e:
         output = io.BytesIO(b"<html><body><h1>PDF Converted</h1><p>Converted via FREETOOLS engine.</p></body></html>")
-        return StreamingResponse(output, media_type="text/html", headers={"Content-Disposition": "attachment; filename=ilovepdf_converted.html"})
+        return StreamingResponse(output, media_type="text/html", headers={"Content-Disposition": "attachment; filename=freetools_converted.html"})
 
 # 17. UNLOCK PDF (pikepdf Engine)
 @app.post("/api/unlock")
@@ -280,21 +280,21 @@ async def protect_pdf(file: UploadFile = File(...), password: str = Form(...)):
     output = io.BytesIO()
     writer.write(output)
     output.seek(0)
-    return StreamingResponse(output, media_type="application/pdf", headers={"Content-Disposition": "attachment; filename=ilovepdf_protected.pdf"})
+    return StreamingResponse(output, media_type="application/pdf", headers={"Content-Disposition": "attachment; filename=freetools_protected.pdf"})
 
 # 19. ORGANIZE PDF
 @app.post("/api/organize")
 async def organize_pdf(file: UploadFile = File(...)):
     content = await file.read()
     output = io.BytesIO(content)
-    return StreamingResponse(output, media_type="application/pdf", headers={"Content-Disposition": "attachment; filename=ilovepdf_organized.pdf"})
+    return StreamingResponse(output, media_type="application/pdf", headers={"Content-Disposition": "attachment; filename=freetools_organized.pdf"})
 
 # 20. PDF TO PDF/A
 @app.post("/api/convert-pdf-to-pdfa")
 async def pdf_to_pdfa(file: UploadFile = File(...)):
     content = await file.read()
     output = io.BytesIO(content)
-    return StreamingResponse(output, media_type="application/pdf", headers={"Content-Disposition": "attachment; filename=ilovepdf_pdfa.pdf"})
+    return StreamingResponse(output, media_type="application/pdf", headers={"Content-Disposition": "attachment; filename=freetools_pdfa.pdf"})
 
 # 21. REPAIR PDF
 @app.post("/api/repair")
@@ -306,7 +306,7 @@ async def repair_pdf(file: UploadFile = File(...)):
     output = io.BytesIO()
     writer.write(output)
     output.seek(0)
-    return StreamingResponse(output, media_type="application/pdf", headers={"Content-Disposition": "attachment; filename=ilovepdf_repaired.pdf"})
+    return StreamingResponse(output, media_type="application/pdf", headers={"Content-Disposition": "attachment; filename=freetools_repaired.pdf"})
 
 # 22. PAGE NUMBERS
 @app.post("/api/add-page-numbers")
@@ -314,7 +314,7 @@ async def repair_pdf(file: UploadFile = File(...)):
 async def add_page_numbers(file: UploadFile = File(...)):
     content = await file.read()
     output = io.BytesIO(content)
-    return StreamingResponse(output, media_type="application/pdf", headers={"Content-Disposition": "attachment; filename=ilovepdf_numbered.pdf"})
+    return StreamingResponse(output, media_type="application/pdf", headers={"Content-Disposition": "attachment; filename=freetools_numbered.pdf"})
 
 # 23. SCAN TO PDF
 @app.post("/api/scan-to-pdf")
@@ -331,28 +331,28 @@ async def ocr_pdf(file: UploadFile = File(...)):
 async def compare_pdf(files: List[UploadFile] = File(...)):
     content = await files[0].read()
     output = io.BytesIO(content)
-    return StreamingResponse(output, media_type="application/pdf", headers={"Content-Disposition": "attachment; filename=ilovepdf_comparison.pdf"})
+    return StreamingResponse(output, media_type="application/pdf", headers={"Content-Disposition": "attachment; filename=freetools_comparison.pdf"})
 
 # 26. REDACT PDF
 @app.post("/api/redact")
 async def redact_pdf(file: UploadFile = File(...)):
     content = await file.read()
     output = io.BytesIO(content)
-    return StreamingResponse(output, media_type="application/pdf", headers={"Content-Disposition": "attachment; filename=ilovepdf_redacted.pdf"})
+    return StreamingResponse(output, media_type="application/pdf", headers={"Content-Disposition": "attachment; filename=freetools_redacted.pdf"})
 
 # 27. CROP PDF
 @app.post("/api/crop")
 async def crop_pdf(file: UploadFile = File(...)):
     content = await file.read()
     output = io.BytesIO(content)
-    return StreamingResponse(output, media_type="application/pdf", headers={"Content-Disposition": "attachment; filename=ilovepdf_cropped.pdf"})
+    return StreamingResponse(output, media_type="application/pdf", headers={"Content-Disposition": "attachment; filename=freetools_cropped.pdf"})
 
 # 28. PDF FORMS
 @app.post("/api/forms")
 async def pdf_forms(file: UploadFile = File(...)):
     content = await file.read()
     output = io.BytesIO(content)
-    return StreamingResponse(output, media_type="application/pdf", headers={"Content-Disposition": "attachment; filename=ilovepdf_forms.pdf"})
+    return StreamingResponse(output, media_type="application/pdf", headers={"Content-Disposition": "attachment; filename=freetools_forms.pdf"})
 
 # 29, 30, 31. EXTRACT TEXT / SUMMARIZE / TRANSLATE / MARKDOWN
 @app.post("/api/extract-text")
@@ -374,7 +374,7 @@ async def extract_text(file: UploadFile = File(...), mode: str = Form("markdown"
         
     output = io.BytesIO(text.encode("utf-8"))
     ext = "md" if mode == "markdown" else "txt"
-    return StreamingResponse(output, media_type="text/plain", headers={"Content-Disposition": f"attachment; filename=ilovepdf_extracted.{ext}"})
+    return StreamingResponse(output, media_type="text/plain", headers={"Content-Disposition": f"attachment; filename=freetools_extracted.{ext}"})
 
 @app.post("/api/translate")
 async def translate_pdf(file: UploadFile = File(...), lang: str = Form("pt")):

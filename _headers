@@ -1,0 +1,19 @@
+# ============================================================
+# CLOUDFLARE PAGES ULTRA SECURITY HARDENING HEADERS
+# ============================================================
+
+/*
+  # XSS & Framing Protection
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  X-XSS-Protection: 1; mode=block
+  Referrer-Policy: strict-origin-when-cross-origin
+
+  # Strict Transport Security (HSTS 1-Year Preload)
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+  # Device Hardware Restrictions
+  Permissions-Policy: geolocation=(), camera=(), microphone=(), payment=*, display-capture=()
+
+  # Content Security Policy (CSP)
+  Content-Security-Policy: default-src 'self'; img-src 'self' data: blob: https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; style-src 'self' 'unsafe-inline' https:; font-src 'self' data: https:; connect-src 'self' https: wss: https://*.supabase.co; frame-ancestors 'self'; object-src 'none'; base-uri 'self';
