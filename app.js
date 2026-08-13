@@ -76,8 +76,10 @@ const TOOLS_DB = {
     'translate-document': { title: 'Translate Document', subtitle: 'Translate PDF, DOCX, XLSX, and text documents into 100+ languages for FREE.', btnText: 'Select Document', dropText: 'or drop document here', actionBtnText: 'Translate Document', multiple: false, accept: '.pdf,.doc,.docx,.txt', endpoint: '/api/translate-document' },
     'translate_document': { title: 'Translate Document', subtitle: 'Translate PDF, DOCX, XLSX, and text documents into 100+ languages for FREE.', btnText: 'Select Document', dropText: 'or drop document here', actionBtnText: 'Translate Document', multiple: false, accept: '.pdf,.doc,.docx,.txt', endpoint: '/api/translate-document' },
 
-    'video-to-audio': { title: 'Video to Audio Converter', subtitle: 'Extract MP3, WAV or AAC audio from local MP4, MKV, AVI, and MOV video files.', btnText: 'Select Video files', dropText: 'or drop Video files here', actionBtnText: 'Extract Audio', multiple: true, accept: 'video/*', endpoint: '/api/video-to-mp3' },
-    'video_to_audio': { title: 'Video to Audio Converter', subtitle: 'Extract MP3, WAV or AAC audio from local MP4, MKV, AVI, and MOV video files.', btnText: 'Select Video files', dropText: 'or drop Video files here', actionBtnText: 'Extract Audio', multiple: true, accept: 'video/*', endpoint: '/api/video-to-mp3' },
+    'mp4-to-mp3': { title: 'MP4 to MP3 Converter', subtitle: 'Extract high quality MP3 audio streams from local MP4, MKV, AVI, and MOV video files.', btnText: 'Select MP4 Video', dropText: 'or drop MP4 video here', actionBtnText: 'Convert to MP3', multiple: true, accept: 'video/*', endpoint: '/api/video-to-mp3' },
+    'mp4_to_mp3': { title: 'MP4 to MP3 Converter', subtitle: 'Extract high quality MP3 audio streams from local MP4, MKV, AVI, and MOV video files.', btnText: 'Select MP4 Video', dropText: 'or drop MP4 video here', actionBtnText: 'Convert to MP3', multiple: true, accept: 'video/*', endpoint: '/api/video-to-mp3' },
+    'video-to-audio': { title: 'MP4 to MP3 Converter', subtitle: 'Extract high quality MP3 audio streams from local MP4, MKV, AVI, and MOV video files.', btnText: 'Select MP4 Video', dropText: 'or drop MP4 video here', actionBtnText: 'Convert to MP3', multiple: true, accept: 'video/*', endpoint: '/api/video-to-mp3' },
+    'video_to_audio': { title: 'MP4 to MP3 Converter', subtitle: 'Extract high quality MP3 audio streams from local MP4, MKV, AVI, and MOV video files.', btnText: 'Select MP4 Video', dropText: 'or drop MP4 video here', actionBtnText: 'Convert to MP3', multiple: true, accept: 'video/*', endpoint: '/api/video-to-mp3' },
 
     // Vice-Versa Pair Additions
     'jpg-to-heic': { title: 'Convert JPG to HEIC', subtitle: 'Convert JPG images to high efficiency Apple HEIC photo format.', btnText: 'Select JPG images', dropText: 'or drop JPG images here', actionBtnText: 'Convert to HEIC', multiple: true, accept: 'image/jpeg,.jpg,.jpeg', endpoint: '/api/image/jpg-to-heic' },
@@ -86,8 +88,10 @@ const TOOLS_DB = {
     'png_to_heic': { title: 'Convert PNG to HEIC', subtitle: 'Convert PNG images to high efficiency Apple HEIC photo format.', btnText: 'Select PNG images', dropText: 'or drop PNG images here', actionBtnText: 'Convert to HEIC', multiple: true, accept: 'image/png,.png', endpoint: '/api/image/jpg-to-heic' },
     'pdf-to-heic': { title: 'Convert PDF to HEIC', subtitle: 'Convert PDF document pages into compressed Apple HEIC photos.', btnText: 'Select PDF file', dropText: 'or drop PDF file here', actionBtnText: 'Convert to HEIC', multiple: false, accept: 'application/pdf,.pdf', endpoint: '/api/pdf-to-heic' },
     'pdf_to_heic': { title: 'Convert PDF to HEIC', subtitle: 'Convert PDF document pages into compressed Apple HEIC photos.', btnText: 'Select PDF file', dropText: 'or drop PDF file here', actionBtnText: 'Convert to HEIC', multiple: false, accept: 'application/pdf,.pdf', endpoint: '/api/pdf-to-heic' },
-    'audio-to-video': { title: 'Audio to Video Converter', subtitle: 'Convert MP3, WAV, AAC audio into MP4 video with cover background.', btnText: 'Select Audio file', dropText: 'or drop Audio file here', actionBtnText: 'Convert to Video', multiple: false, accept: 'audio/*', endpoint: '/api/audio-to-video' },
-    'audio_to_video': { title: 'Audio to Video Converter', subtitle: 'Convert MP3, WAV, AAC audio into MP4 video with cover background.', btnText: 'Select Audio file', dropText: 'or drop Audio file here', actionBtnText: 'Convert to Video', multiple: false, accept: 'audio/*', endpoint: '/api/audio-to-video' },
+    'mp3-to-mp4': { title: 'MP3 to MP4 Converter', subtitle: 'Convert MP3 audio into MP4 video with a custom cover background for YouTube.', btnText: 'Select MP3 Audio', dropText: 'or drop MP3 audio here', actionBtnText: 'Convert to MP4', multiple: false, accept: 'audio/*', endpoint: '/api/audio-to-video' },
+    'mp3_to_mp4': { title: 'MP3 to MP4 Converter', subtitle: 'Convert MP3 audio into MP4 video with a custom cover background for YouTube.', btnText: 'Select MP3 Audio', dropText: 'or drop MP3 audio here', actionBtnText: 'Convert to MP4', multiple: false, accept: 'audio/*', endpoint: '/api/audio-to-video' },
+    'audio-to-video': { title: 'MP3 to MP4 Converter', subtitle: 'Convert MP3 audio into MP4 video with a custom cover background for YouTube.', btnText: 'Select MP3 Audio', dropText: 'or drop MP3 audio here', actionBtnText: 'Convert to MP4', multiple: false, accept: 'audio/*', endpoint: '/api/audio-to-video' },
+    'audio_to_video': { title: 'MP3 to MP4 Converter', subtitle: 'Convert MP3 audio into MP4 video with a custom cover background for YouTube.', btnText: 'Select MP3 Audio', dropText: 'or drop MP3 audio here', actionBtnText: 'Convert to MP4', multiple: false, accept: 'audio/*', endpoint: '/api/audio-to-video' },
 
     // Advanced Image Tools (rembg, upscale, crop, rotate, watermark)
     'remove-bg': { title: 'Remove Background', subtitle: 'Automatically remove image background using AI with transparent PNG output.', btnText: 'Select Image', dropText: 'or drop image here', actionBtnText: 'Remove Background', multiple: false, accept: 'image/*', endpoint: '/api/image/remove-bg' },
@@ -595,6 +599,8 @@ const TOOLS_DB = {
 
     // 2. Media & Social Tools
     'youtube-to-mp3': { title: 'YouTube to MP3 Converter', subtitle: 'Convert and download YouTube videos to MP3 audio in 320kbps for FREE.', isYoutube: true, type: 'mp3', defaultQuality: '320k' },
+    'youtube-to-wav': { title: 'YouTube to WAV Converter', subtitle: 'Extract uncompressed studio quality 16-bit PCM WAV audio from any YouTube video.', isYoutube: true, type: 'wav', defaultQuality: 'wav' },
+    'youtube_to_wav': { title: 'YouTube to WAV Converter', subtitle: 'Extract uncompressed studio quality 16-bit PCM WAV audio from any YouTube video.', isYoutube: true, type: 'wav', defaultQuality: 'wav' },
     'youtube-to-mp4': { title: 'YouTube to MP4 Converter', subtitle: 'Convert and download YouTube videos in 1080p Full HD, 720p, 480p, 360p, 2K and 4K MP4 format.', isYoutube: true, type: 'mp4', defaultQuality: '1080p' },
     'youtube-shorts-downloader': { title: 'YouTube Shorts Downloader', subtitle: 'Download YouTube Shorts videos in MP4 HD or convert to MP3 audio in 1-click.', isYoutube: true, type: 'mp4', defaultQuality: '1080p' },
     'youtube-shorts-to-mp3': { title: 'YouTube Shorts to MP3 Converter', subtitle: 'Extract high quality MP3 audio from YouTube Shorts.', isYoutube: true, type: 'mp3', defaultQuality: '320k' },
@@ -602,10 +608,30 @@ const TOOLS_DB = {
     'spotify-to-mp3': { title: 'Spotify to MP3 Converter', subtitle: 'Convert and download Spotify tracks, albums, and playlists to MP3 in 320kbps for FREE.', isYoutube: true, type: 'mp3', defaultQuality: '320k' },
     'tiktok-downloader': { title: 'TikTok Video Downloader', subtitle: 'Download TikTok videos without watermark in HD MP4 or convert to MP3 audio.', isYoutube: true, type: 'mp4', defaultQuality: '1080p' },
     'tiktok-mp3-mp4': { title: 'TikTok HD Video & MP3 Downloader', subtitle: 'Download TikTok videos without watermark in HD MP4 or extract MP3 audio.', isYoutube: true, type: 'mp4', defaultQuality: '1080p' },
+    'instagram-reels-downloader': { title: 'Instagram Reels Downloader', subtitle: 'Download Instagram Reels videos in Full HD MP4 format for FREE.', isYoutube: true, type: 'mp4', defaultQuality: '1080p' },
+    'instagram_reels_downloader': { title: 'Instagram Reels Downloader', subtitle: 'Download Instagram Reels videos in Full HD MP4 format for FREE.', isYoutube: true, type: 'mp4', defaultQuality: '1080p' },
+    'instagram-photo-downloader': { title: 'Instagram Photo & Carousel Downloader', subtitle: 'Download Instagram single photos and multi-photo album carousels in HD JPG.', isYoutube: true, type: 'mp4', defaultQuality: '1080p' },
+    'instagram_photo_downloader': { title: 'Instagram Photo & Carousel Downloader', subtitle: 'Download Instagram single photos and multi-photo album carousels in HD JPG.', isYoutube: true, type: 'mp4', defaultQuality: '1080p' },
+    'instagram-video-downloader': { title: 'Instagram Video Downloader', subtitle: 'Download Instagram feed videos, posts, and IGTV clips in MP4 HD.', isYoutube: true, type: 'mp4', defaultQuality: '1080p' },
+    'instagram_video_downloader': { title: 'Instagram Video Downloader', subtitle: 'Download Instagram feed videos, posts, and IGTV clips in MP4 HD.', isYoutube: true, type: 'mp4', defaultQuality: '1080p' },
+    'instagram-story-downloader': { title: 'Instagram Stories & Highlights Downloader', subtitle: 'Download public Instagram 24h stories and saved highlights in HD.', isYoutube: true, type: 'mp4', defaultQuality: '1080p' },
+    'instagram_story_downloader': { title: 'Instagram Stories & Highlights Downloader', subtitle: 'Download public Instagram 24h stories and saved highlights in HD.', isYoutube: true, type: 'mp4', defaultQuality: '1080p' },
+    'instagram-profile-downloader': { title: 'Instagram Profile Picture (DP) Downloader', subtitle: 'Download full resolution HD profile picture avatars from any public Instagram account.', isYoutube: true, type: 'mp4', defaultQuality: '1080p' },
+    'instagram_profile_downloader': { title: 'Instagram Profile Picture (DP) Downloader', subtitle: 'Download full resolution HD profile picture avatars from any public Instagram account.', isYoutube: true, type: 'mp4', defaultQuality: '1080p' },
+    'instagram-audio-downloader': { title: 'Instagram Audio & Music Extractor', subtitle: 'Extract background audio and music tracks from Instagram Reels into MP3 audio.', isYoutube: true, type: 'mp3', defaultQuality: '320k' },
+    'instagram_audio_downloader': { title: 'Instagram Audio & Music Extractor', subtitle: 'Extract background audio and music tracks from Instagram Reels into MP3 audio.', isYoutube: true, type: 'mp3', defaultQuality: '320k' },
     'instagram-downloader': { title: 'Instagram Video & Reels Downloader', subtitle: 'Download Instagram Reels, IGTV videos and posts in high quality MP4 format.', isYoutube: true, type: 'mp4', defaultQuality: '1080p' },
     'instagram-photos': { title: 'Instagram Photos & Carousel Downloader', subtitle: 'Download Instagram photos, carousels, and multi-image posts in original HD resolution.', isYoutube: true, type: 'mp4', defaultQuality: '1080p' },
     'instagram-stories': { title: 'Instagram Stories & Highlights Downloader', subtitle: 'Download Instagram Stories, Highlights, and profiles anonymously.', isYoutube: true, type: 'mp4', defaultQuality: '1080p' },
     'soundcloud-to-mp3': { title: 'SoundCloud to MP3 Downloader', subtitle: 'Download SoundCloud tracks and playlists to high quality 320kbps MP3 audio.', isYoutube: true, type: 'mp3', defaultQuality: '320k' },
+    'wav-to-mp3': { title: 'WAV to MP3 Converter', subtitle: 'Convert uncompressed WAV audio files to high quality 320kbps MP3 audio.', btnText: 'Select WAV file', dropText: 'or drop WAV file here', actionBtnText: 'Convert to MP3', multiple: true, accept: 'audio/wav,.wav', endpoint: '/api/audio-converter' },
+    'wav_to_mp3': { title: 'WAV to MP3 Converter', subtitle: 'Convert uncompressed WAV audio files to high quality 320kbps MP3 audio.', btnText: 'Select WAV file', dropText: 'or drop WAV file here', actionBtnText: 'Convert to MP3', multiple: true, accept: 'audio/wav,.wav', endpoint: '/api/audio-converter' },
+    'mp3-to-wav': { title: 'MP3 to WAV Converter', subtitle: 'Convert compressed MP3 audio files into uncompressed 16-bit studio quality WAV.', btnText: 'Select MP3 file', dropText: 'or drop MP3 file here', actionBtnText: 'Convert to WAV', multiple: true, accept: 'audio/mpeg,.mp3', endpoint: '/api/audio-converter' },
+    'mp3_to_wav': { title: 'MP3 to WAV Converter', subtitle: 'Convert compressed MP3 audio files into uncompressed 16-bit studio quality WAV.', btnText: 'Select MP3 file', dropText: 'or drop MP3 file here', actionBtnText: 'Convert to WAV', multiple: true, accept: 'audio/mpeg,.mp3', endpoint: '/api/audio-converter' },
+    'wav-to-mp4': { title: 'WAV to MP4 Converter', subtitle: 'Convert WAV audio files into MP4 video with custom image background for YouTube.', btnText: 'Select WAV file', dropText: 'or drop WAV file here', actionBtnText: 'Convert to MP4', multiple: false, accept: 'audio/*', endpoint: '/api/audio-to-video' },
+    'wav_to_mp4': { title: 'WAV to MP4 Converter', subtitle: 'Convert WAV audio files into MP4 video with custom image background for YouTube.', btnText: 'Select WAV file', dropText: 'or drop WAV file here', actionBtnText: 'Convert to MP4', multiple: false, accept: 'audio/*', endpoint: '/api/audio-to-video' },
+    'mp4-to-wav': { title: 'MP4 to WAV Converter', subtitle: 'Extract uncompressed high-fidelity 16-bit WAV audio from MP4 video files.', btnText: 'Select MP4 Video', dropText: 'or drop MP4 video here', actionBtnText: 'Extract WAV Audio', multiple: true, accept: 'video/*', endpoint: '/api/video-to-mp3' },
+    'mp4_to_wav': { title: 'MP4 to WAV Converter', subtitle: 'Extract uncompressed high-fidelity 16-bit WAV audio from MP4 video files.', btnText: 'Select MP4 Video', dropText: 'or drop MP4 video here', actionBtnText: 'Extract WAV Audio', multiple: true, accept: 'video/*', endpoint: '/api/video-to-mp3' },
     'vimeo-downloader': { title: 'Vimeo Video Downloader', subtitle: 'Download Vimeo videos in 1080p Full HD, 720p, 480p MP4 format.', isYoutube: true, type: 'mp4', defaultQuality: '1080p' },
     'video-to-mp3': { title: 'Video to MP3 Converter', subtitle: 'Upload local MP4, MKV, AVI, MOV videos and convert them to MP3 audio.', btnText: 'Select Video files', dropText: 'or drop Video files here', actionBtnText: 'Convert to MP3', multiple: true, accept: 'video/*', endpoint: '/api/video-to-mp3' },
     'video_to_mp3': { title: 'Video to MP3 Converter', subtitle: 'Upload local MP4, MKV, AVI, MOV videos and convert them to MP3 audio.', btnText: 'Select Video files', dropText: 'or drop Video files here', actionBtnText: 'Convert to MP3', multiple: true, accept: 'video/*', endpoint: '/api/video-to-mp3' },
@@ -613,7 +639,7 @@ const TOOLS_DB = {
     'compress_video': { title: 'Compress Video', subtitle: 'Reduce MP4 video size while preserving visual quality.', btnText: 'Select Video file', dropText: 'or drop Video file here', actionBtnText: 'Compress Video', multiple: false, accept: 'video/*', isCompress: true, endpoint: '/api/compress-video' },
     'audio-converter': { title: 'Audio Converter', subtitle: 'Convert audio files between MP3, WAV, AAC, M4A, FLAC, and OGG formats.', btnText: 'Select Audio files', dropText: 'or drop Audio files here', actionBtnText: 'Convert Audio', multiple: true, accept: 'audio/*', endpoint: '/api/audio-converter' },
     'audio_converter': { title: 'Audio Converter', subtitle: 'Convert audio files between MP3, WAV, AAC, M4A, FLAC, and OGG formats.', btnText: 'Select Audio files', dropText: 'or drop Audio files here', actionBtnText: 'Convert Audio', multiple: true, accept: 'audio/*', endpoint: '/api/audio-converter' },
-    'youtube-downloader': { title: 'YouTube Video Downloader', subtitle: 'Download YouTube videos, shorts, and playlists in any format and quality.', isYoutube: true, type: 'mp4', defaultQuality: '720p' },
+    'youtube-downloader': { title: 'YouTube Video Downloader', subtitle: 'Download YouTube videos, shorts, and playlists in MP4 video or MP3 audio quality.', isYoutube: true, type: 'all', defaultQuality: '1080p' },
     'youtube-audio': { title: 'YouTube Audio Extractor', subtitle: 'Extract high quality audio streams from YouTube music, podcasts and lectures.', isYoutube: true, type: 'mp3', defaultQuality: '320k' }
 };
 
@@ -891,10 +917,72 @@ function openToolView(toolId) {
         `;
 
         mainContainer.appendChild(toolViewEl);
-        initQrCodeBuilderLogic();
         return;
     }
 
+function getToolRuleBadge(toolId) {
+    const t = (toolId || '').toLowerCase().replace(/_/g, '-');
+
+    // 1. Social Media Downloaders (YouTube, TikTok, Instagram, Spotify, SoundCloud)
+    if (t.includes('youtube') || t.includes('tiktok') || t.includes('instagram') || t.includes('spotify') || t.includes('soundcloud') || t.includes('twitter') || t.includes('facebook') || t.includes('pinterest')) {
+        return `
+            <div class="tool-rule-badge" style="margin-top: 18px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; background: #FFF1F0; border: 1.5px solid #FFCCC7; color: #E5322D; padding: 10px 20px; border-radius: 30px; font-weight: 600; font-size: 13.5px; box-shadow: 0 2px 10px rgba(229,50,45,0.06);">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+                <span><b>Fair-Use Rules:</b> Max video duration 30 mins • Up to 1080p Full HD • 5 downloads / 5 mins • 100% FREE & No Signup</span>
+            </div>`;
+    }
+
+    // 2. Video & Audio Tools (Compress Video, Video Trimmer, Video Merger, Video to Audio, Audio to Video, MP3 Compressor)
+    if (t.includes('video') || t.includes('audio') || t.includes('mp3') || t.includes('wav')) {
+        return `
+            <div class="tool-rule-badge" style="margin-top: 18px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; background: #EFF6FF; border: 1.5px solid #BFDBFE; color: #1D4ED8; padding: 10px 20px; border-radius: 30px; font-weight: 600; font-size: 13.5px; box-shadow: 0 2px 10px rgba(37,99,235,0.06);">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+                <span><b>Fair-Use Rules:</b> Max file size 100 MB • Max duration 10 mins • Up to 3 files per merge • 100% FREE & No Signup</span>
+            </div>`;
+    }
+
+    // 3. AI & Smart Image Tools (Remove BG, Image Upscaler, Remove Watermark)
+    if (t.includes('remove-bg') || t.includes('upscale') || t.includes('watermark')) {
+        return `
+            <div class="tool-rule-badge" style="margin-top: 18px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; background: #F3E8FF; border: 1.5px solid #DDD6FE; color: #6D28D9; padding: 10px 20px; border-radius: 30px; font-weight: 600; font-size: 13.5px; box-shadow: 0 2px 10px rgba(124,58,237,0.06);">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+                <span><b>Fair-Use Rules:</b> Max file size 15 MB • Max resolution 4096x4096px • 5 AI requests / 3 mins • 100% FREE & No Signup</span>
+            </div>`;
+    }
+
+    // 4. Document Conversions & OCR (PDF to Word, Word/Excel/PPT to PDF, EPUB, OCR, Summarizer, Document Translate)
+    if (t.includes('pdf') || t.includes('word') || t.includes('excel') || t.includes('powerpoint') || t.includes('epub') || t.includes('ocr') || t.includes('document') || t.includes('html')) {
+        if (['merge-pdf', 'split-pdf', 'remove-pages', 'organize-pdf', 'scan-pdf', 'rotate-pdf', 'add-pdf-page-number'].includes(t)) {
+            return `
+                <div class="tool-rule-badge" style="margin-top: 18px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; background: #ECFDF5; border: 1.5px solid #A7F3D0; color: #047857; padding: 10px 20px; border-radius: 30px; font-weight: 600; font-size: 13.5px; box-shadow: 0 2px 10px rgba(16,185,129,0.06);">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    <span><b>Browser Client-Side Tool:</b> Processed 100% on your device • Unlimited file size • 100% FREE & No Signup</span>
+                </div>`;
+        }
+
+        return `
+            <div class="tool-rule-badge" style="margin-top: 18px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; background: #FFF1F0; border: 1.5px solid #FFCCC7; color: #E5322D; padding: 10px 20px; border-radius: 30px; font-weight: 600; font-size: 13.5px; box-shadow: 0 2px 10px rgba(229,50,45,0.06);">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+                <span><b>Fair-Use Rules:</b> Max document size 25 MB • Max 50 pages for OCR/AI • 10 conversions / 5 mins • 100% FREE & No Signup</span>
+            </div>`;
+    }
+
+    // 5. GIF Tools (Video to GIF, GIF Converters & Compressor)
+    if (t.includes('gif')) {
+        return `
+            <div class="tool-rule-badge" style="margin-top: 18px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; background: #FEF3C7; border: 1.5px solid #FDE68A; color: #B45309; padding: 10px 20px; border-radius: 30px; font-weight: 600; font-size: 13.5px; box-shadow: 0 2px 10px rgba(217,119,6,0.06);">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+                <span><b>Fair-Use Rules:</b> Max video size 50 MB • Max GIF duration 15s • 100% FREE & No Signup</span>
+            </div>`;
+    }
+
+    // 6. General Client-Side Utilities
+    return `
+        <div class="tool-rule-badge" style="margin-top: 18px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; background: #ECFDF5; border: 1.5px solid #A7F3D0; color: #047857; padding: 10px 20px; border-radius: 30px; font-weight: 600; font-size: 13.5px; box-shadow: 0 2px 10px rgba(16,185,129,0.06);">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <span><b>Browser Client-Side Tool:</b> Processed 100% on your device • Unlimited file size • 100% FREE & No Signup</span>
+        </div>`;
+}
 
     // YouTube / Media Specific Workspace
     if (toolConfig.isYoutube) {
@@ -907,7 +995,8 @@ function openToolView(toolId) {
                 <input type="url" id="yt-url-input" class="yt-url-input" placeholder="Paste YouTube link here (e.g. https://www.youtube.com/watch?v=...)">
                 <button class="btn-select-files" id="btn-yt-start" style="font-size:16px; padding:12px 24px;">Start / Convert</button>
             </div>
-            <div id="yt-card-container" style="width:100%; display:flex; justify-content:center;"></div>
+            ${getToolRuleBadge(toolId)}
+            <div id="yt-card-container" style="width:100%; display:flex; justify-content:center; margin-top:20px;"></div>
             <div id="workspace-content" style="width:100%; margin-top:24px;"></div>
         `;
 
@@ -929,19 +1018,48 @@ function openToolView(toolId) {
                 const data = await res.json();
 
                 const container = document.getElementById('yt-card-container');
-                const isMp3 = toolConfig.type === 'mp3';
-                const optionsHTML = isMp3 ? `
-                    <option value="320k">MP3 320 kbps (Best Quality)</option>
-                    <option value="256k">MP3 256 kbps (High Quality)</option>
-                    <option value="192k">MP3 192 kbps (Standard Quality)</option>
-                    <option value="128k">MP3 128 kbps (Basic Quality)</option>
-                ` : `
-                    <option value="1080p">MP4 1080p (Full HD)</option>
-                    <option value="720p">MP4 720p (HD)</option>
-                    <option value="480p">MP4 480p (SD)</option>
-                    <option value="360p">MP4 360p (Small)</option>
-                    <option value="2160p (4K)">MP4 2160p (4K Ultra HD)</option>
-                `;
+                let optionsHTML = '';
+
+                if (toolConfig.type === 'wav') {
+                    optionsHTML = `
+                        <option value="wav" data-type="wav">🎵 WAV Uncompressed Audio (PCM 16-bit Studio)</option>
+                    `;
+                } else if (toolConfig.type === 'mp3') {
+                    optionsHTML = `
+                        <option value="320k" data-type="mp3">🎵 MP3 320 kbps (Best Quality)</option>
+                        <option value="256k" data-type="mp3">🎵 MP3 256 kbps (High Quality)</option>
+                        <option value="192k" data-type="mp3">🎵 MP3 192 kbps (Standard Quality)</option>
+                        <option value="128k" data-type="mp3">🎵 MP3 128 kbps (Basic Quality)</option>
+                    `;
+                } else if (toolConfig.type === 'mp4') {
+                    optionsHTML = `
+                        <option value="1080p" data-type="mp4">📹 MP4 1080p (Full HD)</option>
+                        <option value="720p" data-type="mp4">📹 MP4 720p (HD)</option>
+                        <option value="480p" data-type="mp4">📹 MP4 480p (SD)</option>
+                        <option value="360p" data-type="mp4">📹 MP4 360p (Small)</option>
+                        <option value="2160p (4K)" data-type="mp4">📹 MP4 2160p (4K Ultra HD)</option>
+                    `;
+                } else {
+                    // Universal Downloader (Allows 1. Vídeo MP4, 2. Áudio MP3, 3. Áudio WAV)
+                    optionsHTML = `
+                        <optgroup label="📹 1. Vídeo MP4">
+                            <option value="1080p" data-type="mp4" selected>MP4 1080p (Full HD Video)</option>
+                            <option value="720p" data-type="mp4">MP4 720p (HD Video)</option>
+                            <option value="480p" data-type="mp4">MP4 480p (SD Video)</option>
+                            <option value="360p" data-type="mp4">MP4 360p (Small Video)</option>
+                            <option value="2160p (4K)" data-type="mp4">MP4 2160p (4K Ultra HD)</option>
+                        </optgroup>
+                        <optgroup label="🎵 2. Áudio MP3">
+                            <option value="320k" data-type="mp3">MP3 320 kbps (Melhor Qualidade)</option>
+                            <option value="256k" data-type="mp3">MP3 256 kbps (Alta Qualidade)</option>
+                            <option value="192k" data-type="mp3">MP3 192 kbps (Padrão)</option>
+                            <option value="128k" data-type="mp3">MP3 128 kbps (Básica)</option>
+                        </optgroup>
+                        <optgroup label="🎼 3. Áudio WAV">
+                            <option value="wav" data-type="wav">WAV Audio Uncompressed (16-bit Studio PCM)</option>
+                        </optgroup>
+                    `;
+                }
 
                 container.innerHTML = `
                     <div class="yt-video-card">
@@ -951,25 +1069,29 @@ function openToolView(toolId) {
                             ${optionsHTML}
                         </select>
                         <button class="btn-select-files" id="btn-yt-download-now" style="width:100%;">
-                            Download ${isMp3 ? 'MP3 Audio' : 'MP4 Video'}
+                            Download Selected Format
                         </button>
                     </div>
                 `;
 
                 document.getElementById('btn-yt-download-now').addEventListener('click', async () => {
-                    const selectedQuality = document.getElementById('yt-quality-select').value;
-                    showProcessing(`Converting and downloading YouTube video in ${selectedQuality}...`);
+                    const selectEl = document.getElementById('yt-quality-select');
+                    const selectedOption = selectEl.options[selectEl.selectedIndex];
+                    const selectedQuality = selectEl.value;
+                    const selectedType = selectedOption.getAttribute('data-type') || (selectedQuality.endsWith('k') ? 'mp3' : 'mp4');
+
+                    showProcessing(`Converting and downloading YouTube video as ${selectedType.toUpperCase()} (${selectedQuality})...`);
                     try {
                         const formData = new FormData();
                         formData.append('url', urlInput);
-                        formData.append('format_type', toolConfig.type);
+                        formData.append('format_type', selectedType);
                         formData.append('quality', selectedQuality);
 
                         const dlRes = await fetch('http://localhost:5000/api/youtube/download', { method: 'POST', body: formData });
                         if (!dlRes.ok) throw new Error('Download failed');
                         const blob = await dlRes.blob();
-                        const ext = isMp3 ? 'mp3' : 'mp4';
-                        showResultScreen(blob, `youtube_converted.${ext}`, `YouTube video converted to ${ext.toUpperCase()} (${selectedQuality})!`);
+                        const ext = selectedType === 'wav' ? 'wav' : (selectedType === 'mp3' ? 'mp3' : 'mp4');
+                        showResultScreen(blob, `youtube_download.${ext}`, `YouTube video converted to ${ext.toUpperCase()} (${selectedQuality})!`);
                     } catch(err) {
                         hideProcessing();
                         alert('Error converting YouTube video. Please try again.');
@@ -985,6 +1107,121 @@ function openToolView(toolId) {
         return;
     }
 
+const VICE_VERSA_PAIRS = {
+    'pdf_to_word': 'word_to_pdf',
+    'pdf-to-word': 'word_to_pdf',
+    'word_to_pdf': 'pdf_to_word',
+    'word-to-pdf': 'pdf_to_word',
+
+    'pdf_to_excel': 'excel_to_pdf',
+    'pdf-to-excel': 'excel_to_pdf',
+    'excel_to_pdf': 'pdf_to_excel',
+    'excel-to-pdf': 'pdf_to_excel',
+
+    'pdf_to_powerpoint': 'powerpoint_to_pdf',
+    'pdf-to-powerpoint': 'powerpoint_to_pdf',
+    'powerpoint_to_pdf': 'pdf_to_powerpoint',
+    'powerpoint-to-pdf': 'pdf_to_powerpoint',
+
+    'pdf_to_jpg': 'jpg_to_pdf',
+    'pdf-to-jpg': 'jpg_to_pdf',
+    'jpg_to_pdf': 'pdf_to_jpg',
+    'jpg-to-pdf': 'pdf_to_jpg',
+
+    'pdf-to-html': 'html-to-pdf',
+    'pdf_to_html': 'html-to-pdf',
+    'html-to-pdf': 'pdf-to-html',
+    'html_to_pdf': 'pdf-to-html',
+
+    'pdf-to-epub': 'epub-to-pdf',
+    'pdf_to_epub': 'epub-to-pdf',
+    'epub-to-pdf': 'pdf-to-epub',
+    'epub_to_pdf': 'pdf-to-epub',
+
+    'pdf-to-heic': 'heic-to-pdf',
+    'pdf_to_heic': 'heic-to-pdf',
+    'heic-to-pdf': 'pdf-to-heic',
+    'heic_to_pdf': 'pdf-to-heic',
+
+    'protect-pdf': 'unlock_pdf',
+    'protect_pdf': 'unlock_pdf',
+    'unlock_pdf': 'protect-pdf',
+    'unlock-pdf': 'protect-pdf',
+
+    'jpg-to-png': 'png-to-jpg',
+    'jpg_to_png': 'png-to-jpg',
+    'png-to-jpg': 'jpg-to-png',
+    'png_to_jpg': 'jpg-to-png',
+
+    'jpg-to-webp': 'webp-to-jpg',
+    'jpg_to_webp': 'webp-to-jpg',
+    'webp-to-jpg': 'jpg-to-webp',
+    'webp_to_jpg': 'jpg-to-webp',
+
+    'png-to-webp': 'webp-to-png',
+    'png_to_webp': 'webp-to-png',
+    'webp-to-png': 'png-to-webp',
+    'webp_to_png': 'png-to-webp',
+
+    'heic-to-jpg': 'jpg-to-heic',
+    'heic_to_jpg': 'jpg-to-heic',
+    'jpg-to-heic': 'heic-to-jpg',
+    'jpg_to_heic': 'heic-to-jpg',
+
+    'heic-to-png': 'png-to-heic',
+    'heic_to_png': 'png-to-heic',
+    'png-to-heic': 'heic-to-png',
+    'png_to_heic': 'heic-to-png',
+
+    'mp4-to-mp3': 'mp3-to-mp4',
+    'mp4_to_mp3': 'mp3-to-mp4',
+    'mp3-to-mp4': 'mp4-to-mp3',
+    'mp3_to_mp4': 'mp4-to-mp3',
+
+    'wav-to-mp3': 'mp3-to-wav',
+    'wav_to_mp3': 'mp3-to-wav',
+    'mp3-to-wav': 'wav-to-mp3',
+    'mp3_to_wav': 'wav-to-mp3',
+
+    'wav-to-mp4': 'mp4-to-wav',
+    'wav_to_mp4': 'mp4-to-wav',
+    'mp4-to-wav': 'wav-to-mp4',
+    'mp4_to_wav': 'wav-to-mp4',
+    'video-to-audio': 'mp3-to-mp4',
+    'video_to_audio': 'mp3-to-mp4',
+    'audio-to-video': 'mp4-to-mp3',
+    'audio_to_video': 'mp4-to-mp3',
+
+    'mp4-to-gif': 'gif-to-mp4',
+    'mp4_to_gif': 'gif-to-mp4',
+    'gif-to-mp4': 'mp4-to-gif',
+    'gif_to_mp4': 'mp4-to-gif',
+
+    'webm-to-gif': 'gif-to-webm',
+    'webm_to_gif': 'gif-to-webm',
+    'gif-to-webm': 'webm-to-gif',
+    'gif_to_webm': 'webm-to-gif',
+
+    'apng-to-gif': 'gif-to-apng',
+    'apng_to_gif': 'gif-to-apng',
+    'gif-to-apng': 'apng-to-gif',
+    'gif_to_apng': 'apng-to-gif'
+};
+
+function getViceVersaSwapButton(toolId) {
+    const oppId = VICE_VERSA_PAIRS[toolId];
+    if (!oppId || !TOOLS_DB[oppId]) return '';
+    const oppConfig = TOOLS_DB[oppId];
+    return `
+        <div style="margin-top: 14px; display: flex; justify-content: center;">
+            <button onclick="openToolView('${oppId}')" class="vice-versa-swap-btn" style="display: inline-flex; align-items: center; gap: 8px; background: #ffffff; border: 1.5px solid #2563eb; color: #2563eb; padding: 8px 18px; border-radius: 30px; font-weight: 600; font-size: 13.5px; cursor: pointer; transition: all 0.2s ease; box-shadow: 0 2px 8px rgba(37,99,235,0.08);" onmouseover="this.style.background='#2563eb'; this.style.color='#ffffff';" onmouseout="this.style.background='#ffffff'; this.style.color='#2563eb';">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 16V4M7 4L3 8M7 4L11 8M17 8V20M17 20L21 16M17 20L13 16"/></svg>
+                <span>Switch to <b>${oppConfig.title}</b> 🔄</span>
+            </button>
+        </div>
+    `;
+}
+
     // Create Tool View Workspace
     toolViewEl = document.createElement('div');
     toolViewEl.id = 'dynamic-tool-view';
@@ -994,6 +1231,7 @@ function openToolView(toolId) {
         <div class="tool-view-header">
             <h1>${toolConfig.title}</h1>
             <p>${toolConfig.subtitle}</p>
+            ${getViceVersaSwapButton(toolId)}
         </div>
         <div class="tool-upload-box" id="upload-box">
             <div class="upload-button-wrapper">
@@ -1011,6 +1249,7 @@ function openToolView(toolId) {
                 </div>
             </div>
             <div class="dropzone-text">${toolConfig.dropText || "or drop file here"}</div>
+            ${getToolRuleBadge(toolId)}
         </div>
         <div id="workspace-content" style="width:100%; display:none;"></div>
     `;

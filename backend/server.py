@@ -465,6 +465,17 @@ async def download_youtube(url: str = Form(...), format_type: str = Form("mp3"),
             'outtmpl': out_template,
             'quiet': True
         }
+    elif format_type == "wav":
+        ydl_opts = {
+            'format': 'bestaudio/best',
+            'ffmpeg_location': FFMPEG_PATH,
+            'postprocessors': [{
+                'key': 'FFmpegExtractAudio',
+                'preferredcodec': 'wav',
+            }],
+            'outtmpl': out_template,
+            'quiet': True
+        }
     else:
         # MP4 Resolution Selection
         height_map = {"360p": 360, "480p": 480, "720p": 720, "1080p": 1080, "2160p (4K)": 2160}
@@ -483,13 +494,13 @@ async def download_youtube(url: str = Form(...), format_type: str = Form("mp3"),
             info = ydl.extract_info(url, download=True)
             video_title = info.get('title', 'downloaded_media')
             
-            ext = "mp3" if format_type == "mp3" else "mp4"
+            ext = format_type if format_type in ["mp3", "wav"] else "mp4"
             filename = os.path.join(output_dir, f"{unique_prefix}.{ext}")
             
             if not os.path.exists(filename):
                 # Search output_dir for created file matching unique_prefix
                 for f in os.listdir(output_dir):
-                    if unique_prefix in f and (f.endswith('.mp3') or f.endswith('.mp4')):
+                    if unique_prefix in f and (f.endswith('.mp3') or f.endswith('.wav') or f.endswith('.mp4')):
                         filename = os.path.join(output_dir, f)
                         break
 
@@ -504,7 +515,7 @@ async def download_youtube(url: str = Form(...), format_type: str = Form("mp3"),
             except:
                 pass
 
-            media_type = "audio/mpeg" if format_type == "mp3" else "video/mp4"
+            media_type = "audio/wav" if format_type == "wav" else ("audio/mpeg" if format_type == "mp3" else "video/mp4")
             clean_title = re.sub(r'[^a-zA-Z0-9_\-\.]', '_', video_title)
             safe_name = f"{clean_title}.{ext}"
 
